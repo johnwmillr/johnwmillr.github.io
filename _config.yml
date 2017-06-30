@@ -1,0 +1,17 @@
+# Setup
+title:        John W. Miller
+tagline:      Everything you never knew you needed to know about John.
+baseurl:      ""
+paginate:     1
+
+# About/contact
+author:
+  name:       John W. Miller
+  url:        http://johnwmillr.com
+
+# Gems
+plugins:
+  - jekyll-paginate
+
+#Others
+markdown: kramdown
