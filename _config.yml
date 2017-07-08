@@ -15,3 +15,5 @@ plugins:
 
 #Others
 markdown: kramdown
+
+permalink: '/:title/' # From github.com/adueck/cayman-blog

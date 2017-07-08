@@ -1,3 +1,3 @@
 # John's website.
 
-[Check it out](www.johnwmillr.com).
+[Check it out](http://www.johnwmillr.com).
