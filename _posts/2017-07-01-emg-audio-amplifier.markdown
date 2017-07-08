@@ -1,8 +1,7 @@
 ---
-layout: default
 title:  "EMG audio amplifier"
 date:   2017-07-01 09:07:00
-categories: main
+categories: main Instructables neuroscience electronics
 ---
 
 The world of web design is completely new to me. So far it's been fun! Although installing dependencies for Jekyll and Ruby was actually kind of annoying... But I think I've got it figured out now! Anyway, given my limited design capabilities, these posts will be a bit of a learning process for me.

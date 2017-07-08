@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title:  "First post!"
 date:   2017-06-30 17:35:00
 categories: main
