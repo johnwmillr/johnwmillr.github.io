@@ -18,6 +18,6 @@ A couple days after posting my Instructable, I found out it had been [featured o
 From their article:
 > This isn’t the first EMG rig we’ve seen, but John does a nice job of explaining why such a special amplifier is used and how it works. He also provides a lot of pointers to more detailed information, including a paper that covers the safety aspects of hooking yourself — or anyone — up to electronics.
 
-How kind of them! I'm glad they appreciated my two passions: explaining complicated concepts and promoting safety. :smiley:
+How kind of them! I'm glad they appreciated my two passions: explaining complicated concepts and promoting safety. :)
 
 Head over to my [Instructables profile](https://www.instructables.com/member/johnwmillr/) to see some of the other projects I've worked on.
