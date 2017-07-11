@@ -153,7 +153,7 @@ a:hover { text-decoration: underline; }
 
 /*I added this. It lets you make the title into a hyperlink while keeping it the desired color. John.*/
 .header-link { color: white; text-decoration: none}
-.header-link:hover { color: white; text-decoration: none}
+.header-link:hover { color: white; text-decoration: none; color:rgba(255, 255, 255, 0.8);}
 
 .project-tagline { margin-bottom: 2rem; font-weight: normal; opacity: 0.7; }
 @media screen and (min-width: 64em) { .project-tagline { font-size: 1.25rem; } }
