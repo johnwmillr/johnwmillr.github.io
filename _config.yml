@@ -12,6 +12,7 @@ author:
 # Gems
 plugins:
   - jekyll-paginate
+  - jemoji
 
 # Others
 markdown: kramdown
