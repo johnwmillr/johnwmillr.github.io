@@ -20,7 +20,7 @@ gems:
 markdown: kramdown
 
 # Default post values
-permalink: "/:year/:title"
+permalink: "/blog/:year/:title"
 
 # https://jekyllrb.com/docs/configuration/#front-matter-defaults
 defaults:
