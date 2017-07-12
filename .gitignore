@@ -3,3 +3,6 @@
 
 # Don't publish works in progress
 _drafts/
+
+# Don't publish the site that Jekyll generates
+_site/
