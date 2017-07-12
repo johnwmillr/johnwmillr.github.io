@@ -2,7 +2,7 @@
 title:        johnwmillr
 tagline:      Everything you never knew you needed to know about John.
 baseurl:      ""
-paginate:     1
+paginate:     5
 
 # About/contact
 author:
@@ -10,16 +10,18 @@ author:
   url:        http://johnwmillr.com
 
 # Gems
-plugins:
-  - jekyll-paginate
+plugins_dir:
+  
+gems:
   - jemoji
+  - jekyll-paginate
 
 # Others
 markdown: kramdown
 
-permalink: '/:title/' # From github.com/adueck/cayman-blog
-
 # Default post values
+permalink: "/:year/:title"
+
 # https://jekyllrb.com/docs/configuration/#front-matter-defaults
 defaults:
   -
