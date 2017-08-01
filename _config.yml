@@ -16,6 +16,9 @@ gems:
   - jemoji
   - jekyll-paginate
 
+# Google services
+google_analytics: UA-103816553-1
+
 # Others
 markdown: kramdown
 
