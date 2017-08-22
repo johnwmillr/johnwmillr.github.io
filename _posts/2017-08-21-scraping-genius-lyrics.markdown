@@ -94,10 +94,29 @@ The *response* key contains a *hits* key which is a list of all search results. 
 
 If you have an artist or song ID, you can access that entry directly by reformatting the request URL.
 
-```python
+<!-- ```python
 >>> song_id = 2345
 >>> querystring = "https://api.genius.com/songs/" + str(song_id)
 >>> request = urllib2.Request(querystring)
+```
+ -->
+```python
+# If you have an artist or song ID, you can access that entry 
+# directly by reformatting the request URL.
+song_id = 82926
+querystring = "https://api.genius.com/songs/" + str(song_id)
+request = urllib2.Request(querystring)
+request.add_header("Authorization", "Bearer " + client_access_token)
+request.add_header("User-Agent", "")
+response = urllib2.urlopen(request, timeout=3)
+raw = response.read()
+json_obj = json.loads(raw)['response']['song']
+```
+
+```python
+# Print the song title and artist name
+>>> print((json_obj['title'], json_obj['primary_artist']['name']))
+(u'All I Want', u'Joni Mitchell')
 ```
 
 So that's how you access the API.
@@ -175,6 +194,6 @@ View song lyrics
     He st...
 ```
 
-So there you go. There's plenty I still want to add to my wrapper (save lyrics to file, natural language processing, etc.) so head to my GitHub repository for the latest version of the code. 
+So there you go. There's still plenty I plan to add to my code (save lyrics to file, natural language processing, etc.) so check out my GitHub for the latest version of the code. 
 
-Let me know what you think! I'd be happy for suggestions and collaborators.
+Let me know what you think!
