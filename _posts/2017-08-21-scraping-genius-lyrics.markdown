@@ -145,11 +145,8 @@ Oh fools, the magician bends the rules
 As the crowd watches his every..."
 ```
 
-
-
-
 ### Python wrapper ###
-I decided to write a python interface for the Genius API to make it a bit easier to grab data from the database. Clone the repository from [GitHub](www.github.com/johnwmillr/GeniusAPI) to start using the code:
+I decided to write a python interface for the Genius API to make it a bit easier to grab data from the database. Clone the repository from [GitHub](https://www.github.com/johnwmillr/GeniusAPI) to start using the code:
 
 ```$ git clone https://johnwmillr/GeniusAPI.git```
 
