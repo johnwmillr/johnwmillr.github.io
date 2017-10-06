@@ -11,8 +11,8 @@ author:
 
 # Gems
 plugins_dir:
-  
-gems:
+
+plugins:
   - jemoji
   - jekyll-paginate
 
