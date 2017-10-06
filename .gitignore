@@ -1,8 +1,7 @@
-# OS X
-*.DS_Store
-
-# Don't publish works in progress
+.DS_Store
 _drafts/
-
-# Don't publish the site that Jekyll generates
 _site/
+
+# From the Indigo theme
+.sass-cache
+Gemfile.lock
