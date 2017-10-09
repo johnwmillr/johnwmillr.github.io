@@ -1,6 +1,7 @@
 .DS_Store
 _drafts/
 _site/
+*.ai
 
 # From the Indigo theme
 .sass-cache
