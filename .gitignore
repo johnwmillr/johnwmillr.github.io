@@ -6,3 +6,5 @@ _site/
 # From the Indigo theme
 .sass-cache
 Gemfile.lock
+
+.ruby-version
