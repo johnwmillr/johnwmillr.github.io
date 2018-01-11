@@ -1,6 +1,6 @@
 # main text of home
 name: John W. Miller
-bio: Everything you never knew you needed to know about John.
+bio: I for one welcome our new computer overlords.
 
 # twitter summary info
 description: My personal musings.
@@ -32,6 +32,7 @@ disqus:
 github: johnwmillr
 linkedin: johnwmillr
 instructables: johnwmillr
+googlescholar: eGVw-FAAAAAJ&hl=en
 twitter: johnwmillr
 # facebook: 
 # youtube: 
@@ -43,7 +44,7 @@ twitter: johnwmillr
 authors:
     john:
         name: John 
-        bio: I for one welcome our computer overlords.
+        bio: I for one welcome our new computer overlords.
         external-image: false
         picture: assets/images/pies.jpg
         twitter: johnwmillr

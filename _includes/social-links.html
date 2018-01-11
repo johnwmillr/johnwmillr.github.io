@@ -1,6 +1,6 @@
 <div class="social-links">
     {% if site.github %}
-        <a class="link" data-title="github.com/{{ site.github }}" href="https://github.com/{{ site.github }}" target="_blank">
+        <a class="link" data-title="GitHub" href="https://github.com/{{ site.github }}" target="_blank">
             <svg class="icon icon-github"><use xlink:href="#icon-github"></use></svg>
         </a>
     {% endif %}
@@ -12,13 +12,19 @@
     {% endif %}
 
     {% if site.instructables %}
-        <a class="link" data-title="instructables.com/member/{{ site.instructables }}" href="https://www.instructables.com/member/{{ site.instructables }}" target="_blank">
+        <a class="link" data-title="Instructables" href="https://www.instructables.com/member/{{ site.instructables }}" target="_blank">
             <svg class="icon icon-instructables"><use xlink:href="#icon-instructables"></use></svg>
         </a>
     {% endif %}
 
+    {% if site.googlescholar %}
+        <a class="link" data-title="Scholar" href="https://scholar.google.com/citations?user={{ site.googlescholar }}" target="_blank">
+            <svg class="icon icon-googlescholar"><use xlink:href="#icon-googlescholar"></use></svg>
+        </a>
+    {% endif %}
+
     {% if site.twitter %}
-        <a class="link" data-title="twitter.com/{{ site.twitter }}" href="http://twitter.com/{{ site.twitter }}" target="_blank">
+        <a class="link" data-title="Twitter" href="http://twitter.com/{{ site.twitter }}" target="_blank">
             <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
         </a>
     {% endif %}
@@ -42,7 +48,7 @@
     {% endif %}
 
     {% if site.linkedin %}
-        <a class="link" data-title="linkedin.com/in/{{ site.linkedin }}" href="http://linkedin.com/in/{{ site.linkedin }}" target="_blank">
+        <a class="link" data-title="LinkedIn" href="http://linkedin.com/in/{{ site.linkedin }}" target="_blank">
             <svg class="icon icon-linkedin"><use xlink:href="#icon-linkedin"></use></svg>
         </a>
     {% endif %}
