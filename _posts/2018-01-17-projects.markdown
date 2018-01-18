@@ -14,7 +14,7 @@ author: john
 description: Projects I've worked on
 ---
 
-You can find most of my work either on [GitHub](https://github.com/johnwmillr) or [Instructables](https://www.instructables.com/member/johnwmillr/).
+You can find most of my work on either [GitHub](https://github.com/johnwmillr) or [Instructables](https://www.instructables.com/member/johnwmillr/).
 
 Please feel free to leave a comment below, I'd love to have your feedback!
 
