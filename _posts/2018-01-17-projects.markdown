@@ -9,7 +9,7 @@ tag:
 - instructables
 - music
 - python
-category: projects
+category: project
 author: john
 description: Projects I've worked on
 ---
