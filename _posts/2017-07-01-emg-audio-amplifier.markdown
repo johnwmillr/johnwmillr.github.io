@@ -3,7 +3,7 @@ title:  "EMG audio amplifier"
 date:   2017-07-01
 layout: post
 tag:
-- Instructables
+- instructables
 - neuroscience
 - electronics
 category: blog
