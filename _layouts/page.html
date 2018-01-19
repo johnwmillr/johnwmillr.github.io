@@ -5,4 +5,8 @@ layout: default
 
 {{content}}
 
+{% if page.category == "project" %}
+    {% include disqus.html %}
+{% endif %}
+
 {% include footer.html %}

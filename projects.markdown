@@ -1,22 +1,20 @@
 ---
-title:  "Projects"
-date:   2018-01-17
-layout: post
-tag:
-- image processing
-- neuroscience
-- electronics
-- instructables
-- music
-- python
+layout: page
+title: Projects
 category: project
-author: john
-description: Projects I've worked on
 ---
+
+<h1 class="title">{{ page.title }}</h1>
+
+<section class="list">
+
+</section>
 
 You can find most of my work on either [GitHub](https://github.com/johnwmillr) or [Instructables](https://www.instructables.com/member/johnwmillr/).
 
 Please feel free to leave a comment below, I'd love to have your feedback!
+
+---
 
 ## [Python wrapper for Genius.com](http://www.johnwmillr.com/scraping-genius-lyrics/) -- **Fall 2017**
 [![GeniusLogo](https://t2.genius.com/unsafe/220x0/https%3A%2F%2Fimages.rapgenius.com%2F716fe1fbbf4817447e21dd2f9aca0354.999x1000x1.png){:class="img-responsive" height="20%" width="20%"}](http://www.johnwmillr.com/scraping-genius-lyrics/)
@@ -47,3 +45,6 @@ For Halloween 2016 I designed and built a MIDI drum machine costume. The costume
 [![Guthman](https://www.goshen.edu/wp-content/uploads/sites/2/2012/02/Guthman2012.jpg){:class="img-responsive" height="22%" width="22%"}](https://www.goshen.edu/academics/2012/02/29/miller-and-buschert-finalists-in-guthman-competition/)
 
 During the summer of 2011 I worked on the "Musician Maker" project as part of Goshen College's [Maple Scholars Program](https://www.goshen.edu/academics/maple-scholars/). Musician Maker is an intuitive, computer-controlled system of novel instruments that allows non-musicians to improvise expressive music. During the winter of 2012 my advisor, John Buschert, and I competed and were selected as finalists in the [2012 Guthman New Musical Instrument Competition](https://www.youtube.com/watch?v=5YQF2KTMRPs) hosted at Georgia Tech.
+
+
+---
