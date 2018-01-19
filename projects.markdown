@@ -4,11 +4,6 @@ title: Projects
 category: project
 ---
 
-<meta property="og:title" content="John's projects">
-<meta property="og:description" content="John W. Miller projects.">
-<meta property="og:image" content="http://johnwmillr.github.io/assets/images/pies.jpg">
-<meta property="og:url" content="http://www.johnwmillr.com/projects/">
-
 <h1 class="title">{{ page.title }}</h1>
 
 <section class="list">
