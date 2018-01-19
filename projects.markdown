@@ -2,6 +2,8 @@
 layout: page
 title: Projects
 category: project
+headerImage: false
+image: assets/images/pies.jpg
 ---
 
 <h1 class="title">{{ page.title }}</h1>
