@@ -17,7 +17,7 @@ description: trying to get the post to show up.
 It turns out it's not too difficult to start pulling data from the Genius website. Genius provides an API that allows nerds to programatically access song and artist data from their website. What the Genius API *doesn't* provide, however, is a way to download the lyrics themselves. With a little help from [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/) though, we're able to grab the song lyrics without too much more work.
 
 
-Let's get started. You can download [this Jupyter notebook]({{site.url}}/assets/code/scraping-genius-lyrics.ipynb) to follow along with the code in this post. You can also head over to my [GeniusAPI repository](https://github.com/johnwmillr/geniusapi) to check out the full python package.
+Let's get started. You can download [this Jupyter notebook]({{site.url}}/assets/code/scraping-genius-lyrics.ipynb) to follow along with the code in this post. You can also head over to my [GeniusLyrics repository](https://github.com/johnwmillr/GeniusLyrics) to check out the full python package.
 
 
 ### The Genius API ###
@@ -148,11 +148,11 @@ As the crowd watches his every..."
 ```
 
 ### Python wrapper ###
-I decided to write a python interface for the Genius API to make it a bit easier to grab data from the database. Clone the repository from [GitHub](https://www.github.com/johnwmillr/GeniusAPI) to start using the code:
+I decided to write a python interface for the Genius API to make it a bit easier to grab data from the database. Clone the repository from [GitHub](https://www.github.com/johnwmillr/GeniusLyrics) to start using the code:
 
-```$ git clone https://johnwmillr/GeniusAPI.git```
+```$ git clone https://johnwmillr/GeniusLyrics.git```
 
-Once you've cloned the repo, ```cd``` into the ```GeniusAPI``` directory, fire up ```python``` and start playing with the code.
+Once you've cloned the repo, ```cd``` into the ```GeniusLyrics``` directory, fire up ```python``` and start playing with the code.
 
 ```python
 >>> import genius
