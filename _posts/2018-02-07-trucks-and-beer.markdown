@@ -25,7 +25,13 @@ Should be a fun project!
 
 ---
 ### Visualizations
-Here's a preliminary plot to get the ball rolling...
+Here's a preliminary plot to get the ball rolling. Each point on the plot represents one of the top fifty country artists from Billboard's 2017 list. The values for each point were calculated as a simple percentage of times the given artist mentions a particular term. For example, Cole Swindell had 46 total songs and mentioned beer in 24 of them, arriving at a mention percentage of 52%.
+
 ![beer_and_trucks]({{site.url}}/assets/images/FreqPlot_beer_and_truck.png)
 
-Each point on the plot represents one of the top fifty country artists from Billboard's 2017 list. The values for each point were calculated as a simple percentage of times the given artist mentions a particular term. For example, Cole Swindell had 46 total songs and mentioned beer in 24 of them, arriving at a mention percentage of 52%. I've also added the artist's gender to the plot. Not enough women were represented in Billboard's Top 50 chart, so I'm currently downloading lyrics from additional female country artists. But even with this small sample size, there does appear to be an interaction between gender and one's likelihood to sing about trucks and beer...
+I've also added the artist's gender to the plot. Not enough women were represented in Billboard's Top 50 chart, so I'm downloaded lyrics from additional female country artists using a [Ranker list](https://www.ranker.com/crowdranked-list/top-female-country-singers). Further analysis is needed, but there does appear to be an interaction between gender and one's likelihood to sing about trucks and beer. I haven't found a good way to display this yet, 50% of the female artists are actually stacked on top of each other at the origin, meaning they didn't mention beer or trucks in any of their songs.
+
+
+I also took a look at the relationship between an artist's use of the words "girl" and "love". There appears to be an interaction with gender here too. A male country singer is less likely to mention love the more often he uses the word "girl" in his songs. Interesting.
+
+![girl_and_love]({{site.url}}/assets/images/FreqPlot_girl_and_love.png)
