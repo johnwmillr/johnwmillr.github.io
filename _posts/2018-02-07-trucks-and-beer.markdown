@@ -42,9 +42,11 @@ I also took a look at the relationship between an artist's use of the words "gir
 ![girl_and_love]({{site.url}}/assets/images/FreqPlot_girl_and_love.png)
 
 ### Vocabulary over time
-I also wanted to look at how vocabulary changes over time for all country artists. I was curious to see how certain terms become more and less popular over time. The plot below displays the percentage of songs mentioning a given term for each year. Years with less than ten songs in my database were excluded. It looks like it's becoming less common for country artists to mention love in their songs. While still about 50% of country songs from 2017 mention love, roughly 75% of country songs in the 1960's mention love. As love gets mentioned less frequently, it's becoming more common for country songs to include the word "girl".
+I also wanted to look at how vocabulary changes over time for all country artists. We know from the plot above that male country artists are less likely to sing about love and more likely to sing about girls. That plot combined songs from all years -- I wonder how the effect changes if we take time into account?
+
+I was curious to see how certain terms become more and less popular over time. The plot below displays the percentage of songs mentioning a given term for each year. Years with less than ten songs in my database were excluded. It looks like it's becoming less common for country artists to mention love in their songs. While still about 50% of country songs from 2017 mention love, roughly 75% of country songs in the 1960's mention love. As love gets mentioned less frequently, it's becoming more common for country songs to include the word "girl".
 
 ![vocab_over_time]({{site.url}}/assets/images/TimePlot_girl_boy_love.png)
 
-We know from the plot above that male country artists are less likely to sing about love and more likely to sing about girls. That plot combined songs from all years -- I wonder how the effect changes if we take time into account?
+
 
