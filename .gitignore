@@ -3,6 +3,11 @@ _drafts/
 _site/
 *.ai
 
+# Media
+*.png
+*.jpg
+*.gif
+
 # From the Indigo theme
 .sass-cache
 Gemfile.lock
