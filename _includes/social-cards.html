@@ -1,11 +1,4 @@
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:site" content="@flickr" />
-<meta name="twitter:title" content="Small Island Developing States Photo Submission" />
-<meta name="twitter:description" content="View the album on Flickr." />
-<meta name="twitter:image" content="https://farm6.staticflickr.com/5510/14338202952_93595258ff_z.jpg" />
-
-<div class="social-links">
-  <!-- http://www.brianbunke.com/blog/2017/09/06/twitter-cards-on-jekyll/ -->
+<div class="social-cards">
   <meta property="og:url" content="http://www.johnwmillr.com/index.html">
 
   <meta name="twitter:site"    content="@{{ site.twitter }}">
@@ -33,11 +26,11 @@
 
   {% if post.image %}
       <meta name="twitter:card"  content="summary_large_image">
-      <meta name="twitter:image" content="http://johnwmillr.github.io/assets/images/FreqPlot_beer_and_truck.png">    
+      <meta name="twitter:image" content="{{ site.url }}/{{ post.image }}">    
       <meta property="og:image"  content="{{ site.url }}/{{ post.image }}">    
   {% else %}
       <meta name="twitter:card"  content="summary">
-      <meta name="twitter:image" content="http://johnwmillr.github.io/assets/images/FreqPlot_beer_and_truck.png">    
+      <meta name="twitter:image" content="{{ site.url }}/{{ site.image }}">    
       <meta property="og:image"  content="{{ site.url }}/{{ site.image }}">        
   {% endif %}    
 </div>
