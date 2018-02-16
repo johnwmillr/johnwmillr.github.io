@@ -8,6 +8,7 @@ tag:
 - lyrics
 category: blog
 author: john
+image: /assets/images/FreqPlot_beer_and_truck.png
 description: Analyzing country music lyrics
 ---
 
