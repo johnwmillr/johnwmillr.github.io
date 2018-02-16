@@ -48,7 +48,7 @@ I was curious to see how certain terms become more and less popular over time. T
 
 ![vocab_over_time]({{site.url}}/assets/images/TimePlot_girl_boy_love.png){: .center-image }
 
-I also found it funny that as love gets mentioned less frequently, it's becoming more common for country songs to include the word girl. And if we remember from the plot of "girl" vs. "love" above, we know it's primarily men who are driving the rise in popularity of this term. The popularity of the word "boy" hasn't changed much of time, appearing in about 12% of songs each year.
+I also found it funny that as love gets mentioned less frequently, it's becoming more common for country songs to include the word girl. And if we remember from the plot of "girl" vs. "love" above, we know it's primarily men who are driving the rise in popularity of this term. The popularity of the word "boy" hasn't changed much over time, appearing in about 12% of songs each year.
 
 
 ## Country music is getting more repetitive
