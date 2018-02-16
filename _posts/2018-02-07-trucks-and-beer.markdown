@@ -18,7 +18,7 @@ More specifically, I scraped Ranker.com for a list of the top female and male co
 Some pertinent questions:
   - Which artist mentions trucks in their songs most often?
   - Does an artist's affinity for trucks predict any other features? Their gender for example? Or their thirst for beer?
-  - How does the mention of trucks vary with time? Each song item contains its publishing date.
+  - How does the mention of trucks vary with time?
   - Of the fifty artists, whose language is most unique? Whose is most generic?
 
 You can find my code for this project [on GitHub](https://www.github.com/johnwmillr/song-lyrics-analysis).  
@@ -26,7 +26,7 @@ You can find my code for this project [on GitHub](https://www.github.com/johnwmi
 ---
 # Analysis
 
-## If you like trucks, you also like...
+## If you like beer, you may also like...
 I'm interested in whether an artist's tendency to use certain terms correlate together. For example, if an artist is more likely to mention beer in their songs, are they more likely to also mention trucks? It turns out that yes, they are.
 
 
@@ -34,35 +34,38 @@ Each point on the word-frequency plots represents a single artist. The values fo
 
 ![beer_and_trucks]({{site.url}}/assets/images/FreqPlot_beer_and_truck.png){: .center-image }
 
-I've also added the artist's gender to the plot. Further analysis is needed, but there does appear to be an interaction between gender and one's likelihood to sing about trucks and beer. I haven't found a good way to display this yet, 50% of the female artists are actually stacked on top of each other at the origin, meaning they didn't mention beer or trucks in any of their songs.
+I've also added the artist's gender to the plot. Further analysis is needed, but there does appear to be an interaction between gender and one's likelihood to sing about trucks and beer. I haven't found a good way to display this yet, but roughly 50% of the female artists are actually stacked on top of each other at the origin, meaning they didn't mention beer or trucks in any of their songs.
 
 
-Check out the relationship between an artist's use of the words "girl" and "love". There appears to be an interaction with gender here too. A male country singer is less likely to mention love the more often he uses the word "girl" in his songs. Interesting.
+Check out the relationship between an artist's use of the words "girl" and "love". There's an even more obvious trend with gender here too. The more often a male country singer uses the word girl in his songs, the less likely he is to mention love. Interesting.
 
 ![girl_and_love]({{site.url}}/assets/images/FreqPlot_girl_and_love.png){: .center-image }
 
 ## Love is falling out of fashion
 I also wanted to look at how vocabulary changes over time for all country artists. We know from the plot above that male country artists are less likely to sing about love and more likely to sing about girls. That plot combined songs from all years -- I wonder how the effect changes if we take time into account?
 
-I was curious to see how certain terms become more and less popular over time. The plot below displays the percentage of songs mentioning a given term for each year. Years with less than ten songs in my database were excluded. It looks like it's becoming less common for country artists to mention love in their songs. While still about 50% of country songs from 2017 mention love, roughly 75% of country songs in the 1960's mention love. As love gets mentioned less frequently, it's becoming more common for country songs to include the word "girl".
+I was curious to see how certain terms become more and less popular over time. The plot below displays the percentage of songs mentioning a given term for each year. Years with less than ten songs in my database were excluded. It looks like it's becoming less common for country artists to mention love in their songs. The correlation isn't super strong, but there is a noticeable downward trend.
 
 ![vocab_over_time]({{site.url}}/assets/images/TimePlot_girl_boy_love.png){: .center-image }
 
+I also found it funny that as love gets mentioned less frequently, it's becoming more common for country songs to include the word girl. And if we remember from the plot of "girl" vs. "love" above, we know it's primarily men who are driving the rise in popularity of this term. The popularity of the word "boy" hasn't changed much of time, appearing in about 12% of songs each year.
+
+
 ## Country music is getting more repetitive
 
-After reading Kaylin Walker's excellent post ["50 Years of Pop Music"](http://kaylinwalker.com/50-years-of-pop-music/), I decided to look at how country artists' vocabulary size has changed over time. Similar to the result Kaylin found with the Billboard hits over the last 50 years, it appears that, while the correlation is weak, the average total word count for country songs has increased with time. The average unique word count has also increased with time, but only slightly.
+After reading Kaylin Walker's excellent post "[50 Years of Pop Music](http://kaylinwalker.com/50-years-of-pop-music/)", I decided to look at how country artists' vocabulary size has changed over time. Similar to the result Kaylin found with the Billboard hits over the last 50 years, it appears that, while the correlation is weak, the average total word count for country songs has increased with time. The average unique word count has also increased with time, but only slightly.
 
 
-In other words, country artists have started to repeat themselves more often over time.
+In other words, country lyrics have become more repetitive over the years.
 
 
 [![vocabulary_size]({{site.url}}/assets/images/TimePlot_words_per_song.png){: .center-image }]({{site.url}}/assets/images/TimePlot_words_per_song.png)
 
-To further support this hypothesis, we can take a look at the [lexical diversity](http://www.nltk.org/book/ch01.html) (the ratio of a song's unique words to its total words) of the lyrics over time.
+To dig a little deeper we can take a look at the [lexical diversity](http://www.nltk.org/book/ch01.html) of the lyrics over time. Lexical diversity is a fancy term for a simple concept: what percentage of the words in a body of text are unique? A body of text where each word is only used once would have the highest possible lexical diversity with a value of 1.
 
 ![lexical_diversity]({{site.url}}/assets/images/TimePlot_lexical_diversity.png){:class="center-image" height="80%" width="80%"}
 
-Sure enough, if we look from year 2002 to the present (where the effect is most pronounced), there is a clear downward trend in lexical diversity. Country artists have started repeating themselves. I'm guessing this trend holds for pop music in general, but I'll need to collect lyrics from other genres to confirm that suspicion. Could this be an indication that country music has gotten more poppy over time?
+Sure enough, if we look from year 2002 to the present (where the effect is most pronounced), there is a clear downward trend in lexical diversity. Country lyrics have become more repetitive. I'm guessing this trend holds for pop music in general, but I'll need to collect lyrics from other genres to confirm that suspicion. Might this be an indication that country music has gotten more poppy over time?
 
 
 ## Days of the week
@@ -70,13 +73,8 @@ Sure enough, if we look from year 2002 to the present (where the effect is most 
 
 This one is pretty straightforward. Looks like we're all just livin' for the weekend.
 
+## Making predictions
+So, we've collected a bunch of country lyrics, and we've started to notice some interesting trends in the data. Can the trends we've identified provide any further insight into the data? Might we be able to use the trends we've identified in the lyrics to make inferences about the artists? Could we, for example, given a set of song lyrics guess the gender of the artist who wrote them?
 
-
-
-
-
-
-
-
-
+To make these sorts of predictions and inferences from the lyrics, we'll need to identify useful features and train a classifier, both of which I'll go into detail on in my next post. Stay tuned!
 
