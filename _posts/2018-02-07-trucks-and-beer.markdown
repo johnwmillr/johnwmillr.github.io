@@ -23,7 +23,7 @@ Some pertinent questions:
   - How has the genre's vocabulary changed over time?
   - Of all the artists, whose language is most diverse? Whose is most repetitive?
 
-You can find my code for this project [on GitHub](https://www.github.com/johnwmillr/song-lyrics-analysis).  
+You can find my code for this project [on GitHub](https://www.github.com/johnwmillr/trucks-and-beer).  
 
 ---
 # Analysis
