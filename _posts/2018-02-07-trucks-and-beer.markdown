@@ -35,7 +35,7 @@ It turns out that yes, they are.
 
 Each point on the two plots below represents a single artist. The values for each point were calculated as the percentage of times the given artist mentions a particular term. For example, Cole Swindell had 46 total songs and mentioned beer in 24 of them, arriving at a percentage of 52%.
 
-Think about that. [Cole Swindell](https://genius.com/artists/Cole-swindell) mentions beer in *more than half of his songs*. You can also count on him mentioning trucks once every five songs. [Dustin Lynch](https://genius.com/artists/Dustin-lynch) turned out to be the artist that mentioned trucks most frequently, with the word *truck* appearing in 23.8% of his songs.
+Think about that. [Cole Swindell](https://genius.com/artists/Cole-swindell) mentions beer in *more than half of his songs*. You can also count on him referencing trucks once every five songs. [Dustin Lynch](https://genius.com/artists/Dustin-lynch) turned out to be the artist that sang about trucks most frequently, with the word *truck* appearing in 23.8% of his songs.
 
 ![beer_and_trucks]({{site.url}}/assets/images/FreqPlot_beer_and_truck.png){: .center-image }
 
