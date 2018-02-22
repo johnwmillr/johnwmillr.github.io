@@ -166,6 +166,8 @@ If you'd prefer to clone and install the repository yourself, follow these steps
 3. Install using pip:  
 `$pip install .`
 
+Search for three songs by a single artist
+
 ```python
 >>> import lyricsgenius as genius
 >>> api = genius.Genius()
@@ -207,7 +209,7 @@ View song lyrics
     He st...
 ```
 
-Saving song lyrics to a .json file
+Save song lyrics to a .json file
 
 ```python
 artist.save_lyrics(format='json')
