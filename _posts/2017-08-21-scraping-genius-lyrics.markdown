@@ -14,20 +14,26 @@ description: trying to get the post to show up.
 [Genius.com](https://www.genius.com) is a fun website. If you aren't familiar with it, Genius hosts a bunch of song lyrics and lets users highlight and annotate passages from those lyrics with interpretations, explanations, and references. Originally called RapGenius.com and devoted to lyrics from rap and hip-hop songs, the website now includes lyrics and annotations from most genres of music. You can figure out what ["Words are flowing out like endless rain into a paper cup"](https://genius.com/3287551) from *Across the Universe* really means, or what Nonname was referring to when she said *["Moses wrote my name in gold and Kanye did the eulogy"](https://genius.com/10185147)*.
 
 
-It turns out it's not too difficult to start pulling data from the Genius website. Genius provides an API that allows nerds to programatically access song and artist data from their website. What the Genius API *doesn't* provide, however, is a way to download the lyrics themselves. With a little help from [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/) though, we're able to grab the song lyrics without too much more work.
+It turns out it's not too difficult to start pulling data from the Genius website. Genius provides an API that allows nerds to programmatically access song and artist data from their website. What the Genius API *doesn't* provide, however, is a way to download the lyrics themselves. With a little help from [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/) though, we're able to grab the song lyrics without too much more work.
 
 
-Let's get started. You can download [this Jupyter notebook]({{site.url}}/assets/code/scraping-genius-lyrics.ipynb) to follow along with the code in this post. You can also head over to my [GeniusLyrics repository](https://github.com/johnwmillr/GeniusLyrics) to check out the full python package.
+Let's get started. You can download [this Jupyter notebook]({{site.url}}/assets/code/scraping-genius-lyrics.ipynb) to follow along with the code in this post. You can also head over to my [LyricsGenius repository](https://github.com/johnwmillr/LyricsGenius) to check out the full python package.
 
+### tl;dr ###
+I wrote a Python package that wraps the Genius.com API and makes it easy to download song lyrics.
 
-### The Genius API ###
+Install the package: ```$pip install lyricsgenius```.
+
+Look at the [examples on my GitHub page](https://github.com/johnwmillr/LyricsGenius#usage) to get started using the package. Enjoy!
+
+## The Genius API ##
 Head over to [https://docs.genius.com](https://docs.genius.com) to take a look at the documentation for their API. I would have appreciated having an overview of the Genius API before starting this project, so I'll try to write a bit of one here.
 
-Before you can start making requests to the Genius API, you'll need to [sign up for a (free) account](http://genius.com/api-clients) that authorizes you to access their API. The authoriziation key you're assigned is then incorporated into each request you make to the API.
+Before you can start making requests to the Genius API, you'll need to [sign up for a (free) account](http://genius.com/api-clients) that authorizes you to access their API. The authorization key you're assigned is then incorporated into each request you make to the API.
 
 The documentation is organized by the different sort of requests that can be made to the API. I'm most interested in Search, Song, and Artist requests, so I'll focus on those here. Search requests allow you to search Genius.com for any given string, just like you would in the search box on the website. Song and Artist requests allow you to directly access an item from the Genius database by providing the item's corresponding API ID. After receiving a request, the database returns a JSON object containing search results, song names, etc.
 
-#### Making an API request ####
+### Making an API request ###
 
 Each type of API request has its own URL format. The process of accessing the API database is the same regardless of which type of request the URL is formatted for. Here are the formats:  
   * Songs:   ```https://api.genius.com/songs/[song_api_id]```  
@@ -123,7 +129,7 @@ json_obj = json.loads(raw)['response']['song']
 
 So that's how you access the API.
 
-### Scraping song lyrics ###
+## Scraping song lyrics ##
 As I mentioned above, Genius doesn't actually let you pull lyrics from their API directly. This isn't a big deal, because after finding a song's URL using the search function, we can use the ```BeautifulSoup``` library to scrape the page's HTML for song lyrics.
 
 The actual code for scraping lyrics from a page isn't too complicated:
@@ -147,15 +153,21 @@ Oh fools, the magician bends the rules
 As the crowd watches his every..."
 ```
 
-### Python wrapper ###
-I decided to write a python interface for the Genius API to make it a bit easier to grab data from the database. Clone the repository from [GitHub](https://www.github.com/johnwmillr/GeniusLyrics) to start using the code:
+## *LyricsGenius* ##
+I decided to write a python wrapper for the Genius API to make it a bit easier to grab data from the database. The easiest way to get started with the package is to install it via [PyPI](https://pypi.python.org/pypi/lyricsgenius) using `pip`:
 
-```$ git clone https://johnwmillr/GeniusLyrics.git```
+`$pip install lyricsgenius`
 
-Once you've cloned the repo, ```cd``` into the ```GeniusLyrics``` directory, fire up ```python``` and start playing with the code.
+If you'd prefer to clone and install the repository yourself, follow these steps:
+1. Clone this repo:  
+`$git clone https://github.com/johnwmillr/LyricsGenius.git`
+2. Enter the directory created:  
+`$cd LyricsGenius`
+3. Install using pip:  
+`$pip install .`
 
 ```python
->>> import genius
+>>> import lyricsgenius as genius
 >>> api = genius.Genius()
 >>> artist = api.search_artist('Andy Shauf', max_songs=3)
 Searching for Andy Shauf...
@@ -173,6 +185,7 @@ Done.
 ```
 
 Add a song to the artist object
+
 ```python
 >>> song = api.search_song('Wendell Walker', artist.name)
 Searching for "Wendell Walker" by Andy Shauf...
@@ -183,6 +196,7 @@ Done.
 ```
 
 View song lyrics
+
 ```python
 >>> print(artist.songs[0])
 "Alexander All Alone" by Andy Shauf:
@@ -193,6 +207,12 @@ View song lyrics
     He st...
 ```
 
-So there you go. There's still plenty I plan to add to my code (save lyrics to file, natural language processing, etc.) so check out my GitHub for the latest version of the code. 
+Saving song lyrics to a .json file
+
+```python
+artist.save_lyrics(format='json')
+```
+
+So, there you go. Check out my post on a [textual analysis of country music](http://www.johnwmillr.com/trucks-and-beer/) for an example of this code in action.
 
 Let me know what you think!
