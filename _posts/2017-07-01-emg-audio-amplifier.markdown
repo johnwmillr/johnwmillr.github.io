@@ -13,7 +13,7 @@ description: EMG audio amplifier I built
 
 I recently published [my 5<sup>th</sup> post](http://www.instructables.com/id/Build-a-Muscle-Audio-Amplifier-Electromyography/) on [Instructables.com](https://www.instructables.com/). The Instructable walks through how to build an EMG audio amplifier. Check it out!
 
-[![EMG audio amplifier]({{site.url}}/assets/images/EMG_Cover-01.png)](http://www.instructables.com/id/Build-a-Muscle-Audio-Amplifier-Electromyography/)
+[![EMG audio amplifier]({{site.url}}/assets/images/EMG_Cover-01.png){: .center-image }](http://www.instructables.com/id/Build-a-Muscle-Audio-Amplifier-Electromyography/)
 
 A couple days after posting my Instructable, I found out it had been [featured on the HackADay blog](https://hackaday.com/2017/06/24/listen-to-your-body/)! They even sent the article out to their 114K followers on Twitter. Not bad!
 
