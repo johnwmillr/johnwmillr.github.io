@@ -41,7 +41,7 @@ Think about that. [Cole Swindell](https://genius.com/artists/Cole-swindell) ment
 
 I've also added the artists' genders to the plot. I'll need to do some more analysis, but there does appear to be a relationship between an artist's gender and their tendency to sing about trucks and beer. It's hard to tell in this plot, but roughly 50% of the female artists are actually stacked on top of each other at the origin, meaning they didn't mention beer or trucks in any of their songs.
 
-Check out the relationship between an artist's use of the words *girl* and *love*. There's an even more obvious trend with gender here too. The more often a male country singer uses the word *girl* in his songs, the less likely he is to mention *love*. Interesting.
+Check out the relationship between an artist's use of the words *girl* and *love*. There's an even more obvious trend with gender here. The more often a male country singer uses the word *girl* in his songs, the less likely he is to mention *love*. Interesting.
 
 ![girl_and_love]({{site.url}}/assets/images/FreqPlot_girl_and_love.png){: .center-image }
 
