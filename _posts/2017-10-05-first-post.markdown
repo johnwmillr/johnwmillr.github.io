@@ -3,6 +3,9 @@ title: "First post!"
 date: 2017-06-30
 layout: post
 category: blog
+tag:
+- jekyll
+- music
 author: john
 description: Test post, please ignore.
 ---

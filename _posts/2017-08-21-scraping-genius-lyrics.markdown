@@ -3,9 +3,9 @@ title: "Scraping song lyrics from Genius.com"
 date: 2017-08-21
 layout: post
 tag:
-- music
 - python
-- web-scraping
+- music
+- lyrics
 category: blog
 author: john
 description: trying to get the post to show up.
@@ -24,7 +24,7 @@ I wrote a Python package that wraps the Genius.com API and makes it easy to down
 
 Install the package: ```$pip install lyricsgenius```.
 
-Look at the [examples on my GitHub page](https://github.com/johnwmillr/LyricsGenius#usage) to get started using the package. Enjoy!
+Look at the [examples on my GitHub page](https://github.com/johnwmillr/LyricsGenius#usage) to get started. Enjoy!
 
 ## The Genius API ##
 Head over to [https://docs.genius.com](https://docs.genius.com) to take a look at the documentation for their API. I would have appreciated having an overview of the Genius API before starting this project, so I'll try to write a bit of one here.
