@@ -18,24 +18,24 @@ Please feel free to leave a comment below, I'd love to have your feedback!
 
 ---
 
-## [Python wrapper for Genius.com](http://www.johnwmillr.com/scraping-genius-lyrics/) -- **Fall 2017**
+## [LyricsGenius](http://www.johnwmillr.com/scraping-genius-lyrics/) -- **Fall 2017**
 [![GeniusLogo](https://t2.genius.com/unsafe/220x0/https%3A%2F%2Fimages.rapgenius.com%2F716fe1fbbf4817447e21dd2f9aca0354.999x1000x1.png){:class="img-responsive" height="20%" width="20%"}](http://www.johnwmillr.com/scraping-genius-lyrics/)
 
-[Genius.com](https://genius.com/) allows users to upload song lyrics and collaborate on annotations and interpretations of artists' words. I wanted a simple way to download lots of song lyrics at once, so I thought it'd be fun to write a Python wrapper for the API Genius.com provides. My code works as a simple Python package that users can import into their workspace with minimal configuration. The package allows users to programmatically access lyrics, artist information, and song media. The code is hosted on [GitHub](https://github.com/johnwmillr/GeniusAPI).
+`LyricsGenius` is a Python package I wrote that allows users to programmatically access lyrics, artist information, and song media from [Genius.com](https://genius.com/). Genius is a fun website that allows users to upload song lyrics and collaborate on annotations and interpretations of artists' words. I wanted a simple way to download lots of song lyrics at once, so I thought it'd be fun to write a Python wrapper for the API Genius.com provides. The code is hosted on [GitHub](https://github.com/johnwmillr/GeniusAPI) and can be installed using [`pip`](https://pypi.org/project/lyricsgenius/): `$pip install lyricsgenius`. I used `LyricsGenius` for my [analysis of country song lyrics](http://www.johnwmillr.com/trucks-and-beer/).
 
 ---
 
 ## [Fivecircle](https://fivecircle.herokuapp.com/) -- **Fall 2017**
 [![Fivecircle](https://upload.wikimedia.org/wikipedia/commons/1/13/Zentao.png){:class="img-responsive" height="10%" width="10%"}](https://fivecircle.herokuapp.com/)
 
-[Fivecircle](https://fivecircle.herokuapp.com/) is a geo-based social media platform I built with a five-person team as part of a software engineering course I took in the fall of 2017. The web app lets users post geo-tagged photos and notes for other users to view. We built Fivecircle using Ruby on Rails while following an Agile methodology and maintaining best practices on our [GitHub repository](https://github.com/johnwmillr/Fivecircle). We made use of the Google Maps API for geocoding as well as the devise ruby gem for authentication. [Sign up for an account](https://fivecircle.herokuapp.com/users/sign_up) and start sharing posts!
+Fivecircle is a geo-based social media platform I built with a five-person team as part of a software engineering course I took in the fall of 2017. The web app lets users post geo-tagged photos and notes for other users to view. We built Fivecircle using Ruby on Rails while following an Agile methodology and maintaining best practices on our [GitHub repository](https://github.com/johnwmillr/Fivecircle). We made use of the Google Maps API for geocoding as well as the devise ruby gem for authentication. [Sign up for an account](https://fivecircle.herokuapp.com/users/sign_up) and start sharing posts!
 
 ---
 
 ## [Active shape models for face detection](https://github.com/johnwmillr/ActiveShapeModels) -- **Spring 2017**
 [![Faces](https://raw.githubusercontent.com/johnwmillr/ActiveShapeModels/master/Media/Video/ASM_FaceDetection_24-Jul-2017_MUCT.gif){:class="img-responsive" height="30%" width="30%"}](https://github.com/johnwmillr/ActiveShapeModels)
 
-For the final project in my Advanced Digital Image Processing course, I chose to research and implement active shape models (ASMs), a technique originally developed by [Tim Cootes et al. in 1995](https://www.sciencedirect.com/science/article/pii/S1077314285710041). My Matlab code determines a point distribution model from a manually-labeled face training set and is then able to successfully locate faces in new images using the ASM technique. Check out the GitHub repository for a thorough description of the project.
+For the final project in my Advanced Digital Image Processing course, I chose to research and implement active shape models (ASMs), a technique originally developed by [Tim Cootes et al. in 1995](https://www.sciencedirect.com/science/article/pii/S1077314285710041). My Matlab code determines a point distribution model from a manually-labeled face training set and is then able to successfully locate faces in new images using the ASM technique. Check out the [GitHub repository](https://github.com/johnwmillr/ActiveShapeModels) for a thorough description of the project.
 
 ---
 
