@@ -91,4 +91,3 @@ This one is pretty straightforward. Looks like we're all just livin' for the wee
 So, we've collected a bunch of country lyrics, and we've started to notice some interesting trends in the data. Can the trends we've identified provide any further insight into the genre? Might we be able to use the trends we've identified in the lyrics to make inferences about the artists? Could we, for example, given a set of song lyrics guess the gender of the artist who wrote them?
 
 To make these sorts of predictions and inferences from the lyrics, we'll need to identify useful features and train a classifier, both of which I'll go into detail on in my next post. Stay tuned!
-

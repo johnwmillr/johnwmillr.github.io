@@ -154,7 +154,7 @@ As the crowd watches his every..."
 ```
 
 ## *LyricsGenius* ##
-I decided to write a python wrapper for the Genius API to make it a bit easier to grab data from the database. The easiest way to get started with the package is to install it via [PyPI](https://pypi.python.org/pypi/lyricsgenius) using `pip`:
+I decided to write a python wrapper for the Genius API to make it a bit easier to grab data from the database. The easiest way to get started with the package is to install it via [PyPI](https://pypi.org/project/lyricsgenius/) using `pip`:
 
 `$pip install lyricsgenius`
 
