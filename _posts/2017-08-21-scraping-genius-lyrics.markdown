@@ -11,13 +11,13 @@ author: john
 description: trying to get the post to show up.
 ---
 
-[Genius.com](https://www.genius.com) is a fun website. If you aren't familiar with it, Genius hosts a bunch of song lyrics and lets users highlight and annotate passages from those lyrics with interpretations, explanations, and references. Originally called RapGenius.com and devoted to lyrics from rap and hip-hop songs, the website now includes lyrics and annotations from most genres of music. You can figure out what ["Words are flowing out like endless rain into a paper cup"](https://genius.com/3287551) from *Across the Universe* really means, or what Nonname was referring to when she said *["Moses wrote my name in gold and Kanye did the eulogy"](https://genius.com/10185147)*.
+[Genius.com](https://www.genius.com) is a fun website. If you aren't familiar with it, Genius hosts a bunch of song lyrics and lets users highlight and annotate passages from those lyrics with interpretations, explanations, and references. Originally called RapGenius.com and devoted to lyrics from rap and hip-hop songs, the website now includes lyrics and annotations from most genres of music. You can figure out what "[Words are flowing out like endless rain into a paper cup](https://genius.com/3287551)"" from *Across the Universe* really means, or what Nonname was referring to when she said "[Moses wrote my name in gold and Kanye did the eulogy](https://genius.com/10185147)".
 
 
 It turns out it's not too difficult to start pulling data from the Genius website. Genius provides an API that allows nerds to programmatically access song and artist data from their website. What the Genius API *doesn't* provide, however, is a way to download the lyrics themselves. With a little help from [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/) though, we're able to grab the song lyrics without too much more work.
 
 
-Let's get started. You can download [this Jupyter notebook]({{site.url}}/assets/code/scraping-genius-lyrics.ipynb) to follow along with the code in this post. You can also head over to my [LyricsGenius repository](https://github.com/johnwmillr/LyricsGenius) to check out the full python package.
+You can download [this Jupyter notebook]({{site.url}}/assets/code/scraping-genius-lyrics.ipynb) to follow along with the code in this post. Head over to my [LyricsGenius repository](https://github.com/johnwmillr/LyricsGenius) to check out the full Python package.
 
 ### tl;dr ###
 I wrote a Python package that wraps the Genius.com API and makes it easy to download song lyrics.
@@ -46,7 +46,7 @@ For example, if you wanted to search the database for songs about being stuck in
 https://api.genius.com/search?q=stuck%20%in%20%the%20airport
 ```
 
-The ```%20``` values replace spaces in a URL. You'll need to use the ```quote()``` function from the ```urllib2``` python library to format your search requests.
+The ```%20``` values replace spaces in a URL. You'll need to use the ```quote()``` function from the ```urllib2``` Python library to format your search requests.
 
 
 Let's take a look at how we might search for an artist using the Genius API.
@@ -76,10 +76,10 @@ raw = response.read()
 json_obj = json.loads(raw)
 ```
 
-We use the JSON library to convert the raw text returned from the database into a python dictionary. We can access fields in the JSON object just like we would a normal dictionary:
+We use the JSON library to convert the raw text returned from the database into a Python dictionary. We can access fields in the JSON object just like we would a normal dictionary:
 
 ```python
-# The JSON object is just a normal python dictionary
+# The JSON object is just a normal Python dictionary
 >>> json_obj.viewkeys()
 dict_keys([u'meta', u'response'])
 ```
@@ -154,7 +154,7 @@ As the crowd watches his every..."
 ```
 
 ## *LyricsGenius* ##
-I decided to write a python wrapper for the Genius API to make it a bit easier to grab data from the database. The easiest way to get started with the package is to install it via [PyPI](https://pypi.org/project/lyricsgenius/) using `pip`:
+I decided to write a Python wrapper for the Genius API to make it a bit easier to grab data from the database. The easiest way to get started with the package is to install it via [PyPI](https://pypi.org/project/lyricsgenius/) using `pip`:
 
 `$pip install lyricsgenius`
 
