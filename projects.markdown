@@ -21,7 +21,7 @@ Please feel free to leave a comment below, I'd love to have your feedback!
 ## [LyricsGenius](http://www.johnwmillr.com/scraping-genius-lyrics/) -- **Fall 2017**
 [![GeniusLogo](https://t2.genius.com/unsafe/220x0/https%3A%2F%2Fimages.rapgenius.com%2F716fe1fbbf4817447e21dd2f9aca0354.999x1000x1.png){:class="img-responsive" height="20%" width="20%"}](http://www.johnwmillr.com/scraping-genius-lyrics/)
 
-LyricsGenius is a Python package I wrote that allows users to programmatically access lyrics, artist information, and song media from [Genius.com](https://genius.com/). Genius is a fun website that allows users to upload song lyrics and collaborate on annotations and interpretations of artists' words. I wanted a simple way to download lots of song lyrics at once, so I thought I'd write a Python wrapper for the API Genius provides. The code is hosted on [GitHub](https://github.com/johnwmillr/GeniusAPI) and can be installed via `pip:` `$pip install lyricsgenius`. I used LyricsGenius for my [analysis of country song lyrics](http://www.johnwmillr.com/trucks-and-beer/).
+LyricsGenius is a Python package I wrote that allows users to programmatically access lyrics, artist information, and song media from [Genius.com](https://genius.com/). Genius is a fun website that let users upload song lyrics and collaborate on annotations and interpretations of artists' words. I wanted a simple way to download lots of song lyrics at once, so I thought I'd write a Python wrapper for the API Genius provides. The code is hosted on [GitHub](https://github.com/johnwmillr/GeniusAPI) and can be installed via `pip:` `$pip install lyricsgenius`. I used LyricsGenius for my [analysis of country song lyrics](http://www.johnwmillr.com/trucks-and-beer/).
 
 ---
 
