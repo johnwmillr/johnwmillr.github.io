@@ -9,6 +9,7 @@ tag:
 - apple
 category: blog
 author: john
+image: assets/images/step_counts_monthly.png
 description: Tutorial on exporting data from Apple's Health app
 ---
 
