@@ -4,11 +4,12 @@ date: 2017-08-21
 layout: post
 tag:
 - python
+- tutorial
 - music
 - lyrics
 category: blog
 author: john
-description: trying to get the post to show up.
+description: Tutorial on scraping lyrics from Genius.com
 ---
 
 [Genius.com](https://www.genius.com) is a fun website. If you aren't familiar with it, Genius hosts a bunch of song lyrics and lets users highlight and annotate passages from those lyrics with interpretations, explanations, and references. Originally called RapGenius.com and devoted to lyrics from rap and hip-hop songs, the website now includes lyrics and annotations from most genres of music. You can figure out what "[Words are flowing out like endless rain into a paper cup](https://genius.com/3287551)"" from *Across the Universe* really means, or what Nonname was referring to when she said "[Moses wrote my name in gold and Kanye did the eulogy](https://genius.com/10185147)".
