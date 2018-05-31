@@ -2,6 +2,9 @@
 name: John W. Miller
 bio: I, for one, welcome our new computer overlords.
 
+# Markdown renderer
+markdown: kramdown
+
 # twitter summary info
 description: John's website.
 
