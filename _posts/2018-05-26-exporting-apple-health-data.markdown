@@ -5,7 +5,6 @@ layout: post
 tag:
 - python
 - tutorial
-- data
 - apple
 category: blog
 author: john
