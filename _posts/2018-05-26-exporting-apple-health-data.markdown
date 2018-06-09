@@ -1,5 +1,5 @@
 ---
-title: "Exporting data from Apple's iOS Health app"
+title: "Exporting data from Apple's iOS Health app :iphone:"
 date: 2018-05-26
 layout: post
 tag:

@@ -23,4 +23,4 @@ The plot below compares the relationship between the [lexical diversity](https:/
 
 {% include mpld3_lexdiv_vs_score.html %}
 
-There doesn't seem to be too strong of a correlation between lexical diversity and the Pitchfork score, but I plan to dig deeper into both sets of data to see what relationships there may still be.
+There doesn't seem to be too strong of a correlation between lexical diversity and the Pitchfork scores, but I plan to dig deeper into both sets of data to see what relationships there may still be.

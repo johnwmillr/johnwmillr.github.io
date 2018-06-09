@@ -1,5 +1,5 @@
 ---
-title:  "EMG audio amplifier"
+title:  "EMG audio amplifier :muscle:"
 date:   2017-07-01
 layout: post
 tag:
