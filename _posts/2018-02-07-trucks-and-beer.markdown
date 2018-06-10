@@ -48,12 +48,11 @@ Check out the relationship between an artist's use of the words *girl* and *love
 ## Love is falling out of fashion
 I also wanted to look at how vocabulary changes over time for all country artists. We know from the plot above that male country artists are less likely to sing about love and more likely to sing about girls. The above plots combined songs from all years -- I wonder if we'll see different effects if we separate the songs into the years they were published.
 
-I was curious to see how certain terms become more and less popular over time. The plot below displays the percentage of songs mentioning a given term for each year, excluding years that had less than ten songs in my database. It looks like it's becoming less common for country artists to mention love in their songs. The correlation isn't too strong, but there is a noticeable downward trend 
+The plot below displays the percentage of songs mentioning a given term for each year, excluding years that had less than ten songs in my database. It looks like it's becoming less common for country artists to mention love in their songs. The correlation isn't too strong, but there is a noticeable downward trend.
 
 ![vocab_over_time]({{site.url}}/assets/images/TimePlot_girl_boy_love.png){: .center-image }
 
-I also found it funny that as *love* gets mentioned less frequently, it's becoming more common for country songs to include the word *girl*. And if we remember from the plot of *girl* vs. *love* above, we know it's primarily men who are driving the rise in popularity of this term. The popularity of the word *boy* hasn't changed much over time, appearing in about 12% of songs each year.
-
+I also found it funny that as *love* gets mentioned less frequently, it's becoming more common for country songs to include the word *girl*. And, if we remember from the plot of *girl* vs. *love* above, we know it's primarily men who are driving the rise in popularity of this term. The popularity of the word *boy* hasn't changed much over time, appearing in about 12% of songs each year.
 
 ## Country music is getting more repetitive
 
@@ -67,7 +66,7 @@ To dig a little deeper, I took a look at the [lexical diversity](http://www.nltk
 
 ![lexical_diversity]({{site.url}}/assets/images/TimePlot_lexical_diversity.png){:class="center-image" height="80%" width="80%"}
 
-Sure enough, if we look from year 2002 to the present (where the effect is most pronounced), there is a clear downward trend in lexical diversity. I'm guessing this trend holds for pop music in general, but I'll need to collect lyrics from other genres to confirm that suspicion. Might this be an indication that country music has gotten more poppy over time?
+Sure enough, if we look from year 2002 to the present (where the effect is most pronounced), there is a clear downward trend in lexical diversity. This trend holds for pop music in general, as illustrated by this [excellent post](https://pudding.cool/2017/05/song-repetition/) from The Pudding on the repetitive nature of pop lyrics. Might this be an indication that country music has gotten more poppy over time?
 
 ## And the most repetitive artist is...
 
@@ -79,8 +78,7 @@ So, to answer the question, "whose lyrics are most diverse?", we can just look a
 
 [![word_cloud]({{site.url}}/assets/images/WordCloud_lexical_diversity.png){:class="center-image" height="100%" width="100%"}]({{site.url}}/assets/images/WordCloud_lexical_diversity.png)
 
-We can't draw a whole lot from the word clouds, but it's a fun way to get a quick impression of which words an artist uses most often. Kane Brown's favorite words are *girl*, *back*, *know*, and *yeah*. Kellie Pickler's are *love*, *know*, *want*, and *go*.
-
+It's difficult to draw much from the word clouds by themselves, but it's a fun way to get a quick impression of which words an artist uses most often. Kane Brown's favorite words are *girl*, *back*, *know*, and *yeah*. Kellie Pickler's are *love*, *know*, *want*, and *go*.
 
 ## Days of the week
 [![livin_for_the_weekend]({{site.url}}/assets/images/BarGraph_Weekend.png)]({{site.url}}/assets/images/BarGraph_Weekend.png)
