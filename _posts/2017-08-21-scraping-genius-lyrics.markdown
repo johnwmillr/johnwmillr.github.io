@@ -1,5 +1,5 @@
 ---
-title: "Scraping song lyrics from Genius.com :microphone:"
+title: "Scraping song lyrics from Genius.com"
 date: 2017-08-21
 layout: post
 tag:

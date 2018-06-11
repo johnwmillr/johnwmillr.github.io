@@ -1,5 +1,5 @@
 ---
-title: "Decision trees and random forests :evergreen_tree:"
+title: "Decision trees and random forests"
 date: 2018-05-30
 layout: post
 tag:
