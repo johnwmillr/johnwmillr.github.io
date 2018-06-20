@@ -7,6 +7,7 @@ tag:
 - tutorial
 - music
 - lyrics
+- API
 category: blog
 author: john
 description: Tutorial on scraping lyrics from Genius.com

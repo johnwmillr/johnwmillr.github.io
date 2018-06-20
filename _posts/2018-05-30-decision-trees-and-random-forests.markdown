@@ -4,7 +4,7 @@ date: 2018-05-30
 layout: post
 tag:
 - tutorial
-- machine-learning
+- machine learning
 category: blog
 author: john
 description: Theory behind decision trees and random forests
