@@ -103,7 +103,8 @@ Below are some of the plots I've made using the World Cup data. My post demonstr
 {% include figure_link.html url="/assets/images/nations_by_height.png" href="https://www.reddit.com/r/dataisbeautiful/comments/8s7cso/distributions_of_height_for_each_team_in_the_2018/" caption="Box-whisker plots of player height for each team in the 2018 FIFA World Cup. Box colors correspond to the base color of the team's home jersey." width="100%" %}
 
 ### Distributions of player height sorted by position
-{% include figure_link.html url="/assets/images/height_by_position.png" href="https://www.reddit.com/r/dataisbeautiful/comments/8sg3ok/distributions_of_height_for_the_different/" caption="Box-whisker plots of player height for the four different types of soccer position. Jitter plots indicate raw values for each player (n=735)." width="100%" %}
+This is an interactive plot. Move your mouse over the scatter plot points to see details on each player.
+{% include mpld3_height_by_position.html %}
 
 ### Height vs. weight by player position
 {% include figure_link.html url="/assets/images/height_vs_weight_by_position.png" href="/assets/images/height_vs_weight_by_position.png" caption="Height and weight values for each player in the 2018 FIFA World Cup (n=735)." width="100%" %}
