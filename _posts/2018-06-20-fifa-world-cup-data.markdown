@@ -1,5 +1,5 @@
 ---
-title: "2018 FIFA World Cup"
+title: "2018 FIFA World Cup :soccer:"
 date: 2018-06-20
 layout: post
 tag:
@@ -14,12 +14,15 @@ description: Visualizations of player data from the 2018 FIFA World Cup
 
 We're in the midst of the 2018 FIFA World Cup. I've wanted to play with some sort of sports-related data for a while, so I figured now is as good as a time as any to start.
 
-# Finding the data
+# Collecting the data
 I've been trying to get more practice interfacing with APIs, so I was hoping to find a soccer API rather than simply a precompiled dataset. After doing some Googling for World Cup APIs, I came across the [Sportradar API](https://developer.sportradar.com/io-docs). Sportradar provides 15 APIs for soccer data alone. Luckily, they [provide a free tier](https://developer.sportradar.com/member/register) for the APIs that allows for 1,000 queries each month.
 
-The code below provides a simple interface with the Sportradar Soccer INTL Trial v3 API using the Python `requests` library.
+The code below provides a simple interface with the Sportradar Soccer INTL Trial v3 API using the Python `requests` library. I have started writing a Python package for the Sportradar API which is [available here](https://github.com/johnwmillr/SportradarAPIs).
 
 ```python
+import requests
+import json
+
 class SportRadarAPI(object):
     """Interface with the Sportradar Soccer INTL API"""
     # Really this should be a super class from which the specific INTL API would inherit
@@ -31,7 +34,7 @@ class SportRadarAPI(object):
         self._KEY = api_key
         
     def _make_get_request(self, partial_uri):
-        """Make a GET reuest to the SportRadar API"""
+        """Make a GET request to the SportRadar API"""
         URI = self._BASE_URL + "/" + partial_uri + self._FORMAT
         response = requests.get(URI, params={'api_key': self._KEY})
         assert response.status_code == 200, "Error in API request. Status: {}".format(response.status_code)       
@@ -39,12 +42,11 @@ class SportRadarAPI(object):
     
     def get_tournaments(self):
         """Provides the list of International Soccer tournaments"""
-        URI = "tournaments".format(_id=player_id)
+        URI = "tournaments"
         return self._make_get_request(URI)
     
     def get_tournament_info(self, tournament_id):
         """Provides information for International Soccer tournaments"""
-        # tournament_id is found via get_tournaments and follows the sr:tournament:num format
         URI = "tournaments/{_id}/info".format(_id=tournament_id)
         return self._make_get_request(URI)
     
