@@ -8,7 +8,7 @@ tag:
 - API
 category: blog
 author: john
-image: assets/images/step_counts_monthly.png
+image: assets/images/height_by_position.png
 description: Visualizations of player data from the 2018 FIFA World Cup
 ---
 
@@ -17,7 +17,7 @@ We're in the midst of the 2018 FIFA World Cup. I've wanted to play with some sor
 # Collecting the data
 I've been trying to get more practice interfacing with APIs, so I was hoping to find a soccer API rather than simply a precompiled dataset. After doing some Googling for World Cup APIs, I came across the [Sportradar API](https://developer.sportradar.com/io-docs). Sportradar provides 15 APIs for soccer data alone. Luckily, they provide a [free trial](https://developer.sportradar.com/member/register) for the APIs that allows a total of 1,000 queries.
 
-I wrote a [Python package](https://pypi.org/project/sportradar/) that makes it easy to interface with the Sportradar APIs. The code is available on [GitHub](https://github.com/johnwmillr/SportradarAPI). The easiest way to get started is to install the package using `pip`:
+I wrote a [Python package](https://pypi.org/project/sportradar/) that makes it easy to interface with the Sportradar APIs. The code is available on [GitHub](https://github.com/johnwmillr/SportradarAPIs). The easiest way to get started is to install the package using `pip`:
 
 ```
 $pip install sportradar
@@ -25,10 +25,10 @@ $pip install sportradar
 After `pip` finishes the installation you can use the package to download World Cup data.
 
 ```python
-import sportradar
+from sportradar import Soccer
 
-# Create an instance of the Sportradar API class
-sr = sportradar.API("paste your api key here")
+# Create an instance of the Sportradar Soccer API class
+sr = Soccer.Soccer("paste your api key here")
 
 # Get a list of all tournaments
 tournaments = sr.get_tournaments().json()
