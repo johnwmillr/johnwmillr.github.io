@@ -31,7 +31,7 @@ I am a regular contributor to the data visualization community [/r/DataIsBeautif
 ## [SportradarAPIs](https://github.com/johnwmillr/SportradarAPIs) -- **Summer 2018**
 [![SportradarLogo](https://sportradar.us/wp-content/uploads/2015/12/logo-retina.png){:class="img-responsive" height="30%" width="30%"}](https://github.com/johnwmillr/SportradarAPIs)
 
-Sportradar is a company that provides extensive APIs for a number of professional sports including soccer, basketball, and multiple eSports leagues. I wrote a [Python package](https://github.com/johnwmillr/SportradarAPIs) that makes it easy for users to interface with and download data from the Sportradar APIs. A fun part of the project was writing [a script](/assets/code/scrapeSportradarEndpoints.ipynb) to scrape the Sportradar documentation and automatically generate functional Python code and unit tests for each API endpoint. I describe how to use this package in my post on data from the [2018 FIFA World Cup](/fifa-world-cup-data/).
+[Sportradar](http://sportradar.com/) is a company that provides extensive APIs for a number of professional sports including soccer, basketball, and multiple eSports leagues. I wrote a [Python package](https://github.com/johnwmillr/SportradarAPIs) that makes it easy for users to download data from Sportradar's APIs. A fun part of the project was writing [a script](/assets/code/scrapeSportradarEndpoints.ipynb) to scrape the Sportradar documentation and automatically generate functional Python code and unit tests for each API endpoint. My post on data from the [2018 FIFA World Cup](/fifa-world-cup-data/) provides an example of how to download data using the package.
 
 ---
 
