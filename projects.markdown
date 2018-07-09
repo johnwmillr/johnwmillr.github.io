@@ -12,16 +12,33 @@ image: assets/images/pies.jpg
 
 </section>
 
-You can find most of my work on either [GitHub](https://github.com/johnwmillr) or [Instructables](https://www.instructables.com/member/johnwmillr/).
+You can find most of my work on either [GitHub](https://github.com/johnwmillr), [Instructables](https://www.instructables.com/member/johnwmillr/), or [/r/DataIsBeautiful](https://www.reddit.com/r/dataisbeautiful/search?sort=top&q=author%3A%22textureflow%22+title%3A%5BOC%5D&restrict_sr=on).
 
 Please feel free to leave a comment below, I'd love to have your feedback!
 
 ---
 
-## [LyricsGenius](http://www.johnwmillr.com/scraping-genius-lyrics/) -- **Fall 2017**
-[![GeniusLogo](https://t2.genius.com/unsafe/220x0/https%3A%2F%2Fimages.rapgenius.com%2F716fe1fbbf4817447e21dd2f9aca0354.999x1000x1.png){:class="img-responsive" height="20%" width="20%"}](http://www.johnwmillr.com/scraping-genius-lyrics/)
+## [DataIsBeautiful](https://www.reddit.com/r/dataisbeautiful/search?q=author%3A%22textureflow%22+title%3A%5BOC%5D&sort=new&restrict_sr=on)
+[![dataisbeautiful](https://upload.wikimedia.org/wikipedia/en/thumb/8/82/Reddit_logo_and_wordmark.svg/800px-Reddit_logo_and_wordmark.svg.png){:class="img-responsive" height="20%" width="20%"}](https://www.reddit.com/r/dataisbeautiful/search?sort=top&q=author%3A%22textureflow%22+title%3A%5BOC%5D&restrict_sr=on)
 
-LyricsGenius is a Python package I wrote that allows users to programmatically access lyrics, artist information, and song media from [Genius.com](https://genius.com/). Genius is a fun website that let users upload song lyrics and collaborate on annotations and interpretations of artists' words. I wanted a simple way to download lots of song lyrics at once, so I thought I'd write a Python wrapper for the API Genius provides. The code is hosted on [GitHub](https://github.com/johnwmillr/GeniusAPI) and can be installed via `pip:` `$pip install lyricsgenius`. I used LyricsGenius for my [analysis of country song lyrics](http://www.johnwmillr.com/trucks-and-beer/).
+I am a regular contributor to the data visualization community [/r/DataIsBeautiful](https://www.reddit.com/r/dataisbeautiful/search?sort=top&q=author%3A%22textureflow%22+title%3A%5BOC%5D&restrict_sr=on) on Reddit. A few of my posts have been quite popular on the site, collectively receiving more than a million views. You can take a look at the list of all of [my posts](https://www.reddit.com/r/dataisbeautiful/search?sort=top&q=author%3A%22textureflow%22+title%3A%5BOC%5D&restrict_sr=on) or check out one of the posts below:
+ - [Words per song for rap, rock, and country music](https://www.reddit.com/r/dataisbeautiful/comments/8j1r7b/words_per_song_for_rap_rock_and_country_music_oc/)
+ - [Funding probabilities on Shark Tank, grouped by gender](https://www.reddit.com/r/dataisbeautiful/comments/8wr8ko/funding_probabilities_on_shark_tank_grouped_by/)
+ - [Distributions of height for the different positions in the 2018 FIFA World Cup](https://www.reddit.com/r/dataisbeautiful/comments/8sg3ok/distributions_of_height_for_the_different/)
+
+---
+
+## [SportradarAPIs](https://github.com/johnwmillr/SportradarAPIs) -- **Summer 2018**
+[![SportradarLogo](https://sportradar.us/wp-content/uploads/2015/12/logo-retina.png){:class="img-responsive" height="30%" width="30%"}](https://github.com/johnwmillr/SportradarAPIs)
+
+Sportradar is a company that provides extensive APIs for a number of professional sports including soccer, basketball, and multiple eSports leagues. I wrote a [Python package](https://github.com/johnwmillr/SportradarAPIs) that makes it easy for users to interface with and download data from the Sportradar APIs. A fun part of the project was writing [a script](/assets/code/scrapeSportradarEndpoints.ipynb) to scrape the Sportradar documentation and automatically generate functional Python code and unit tests for each API endpoint. I describe how to use this package in my post on data from the [2018 FIFA World Cup](/fifa-world-cup-data/).
+
+---
+
+## [LyricsGenius](https://github.com/johnwmillr/LyricsGenius) -- **Fall 2017**
+[![GeniusLogo](https://t2.genius.com/unsafe/220x0/https%3A%2F%2Fimages.rapgenius.com%2F716fe1fbbf4817447e21dd2f9aca0354.999x1000x1.png){:class="img-responsive" height="20%" width="20%"}](https://github.com/johnwmillr/LyricsGenius)
+
+LyricsGenius is a Python package I wrote that allows users to programmatically access lyrics, artist information, and song media from [Genius.com](https://genius.com/). Genius is a fun website that let users upload song lyrics and collaborate on annotations and interpretations of artists' words. I wanted a simple way to download lots of song lyrics at once, so I thought I'd write a Python wrapper for the API Genius provides. The code is hosted on [GitHub](https://github.com/johnwmillr/GeniusAPI) and can be installed using from [PyPI](https://pypi.org/project/lyricsgenius/). I used LyricsGenius for my [analysis of country song lyrics](http://www.johnwmillr.com/trucks-and-beer/).
 
 ---
 

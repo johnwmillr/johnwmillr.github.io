@@ -22,11 +22,11 @@ It turns out it's not too difficult to start pulling data from the Genius websit
 You can download [this Jupyter notebook]({{site.url}}/assets/code/scraping-genius-lyrics.ipynb) to follow along with the code in this post. Head over to my [LyricsGenius repository](https://github.com/johnwmillr/LyricsGenius) to check out the full Python package.
 
 ### tl;dr ###
-I wrote a Python package that wraps the Genius.com API and makes it easy to download song lyrics.
+I wrote a [Python package](https://pypi.org/project/lyricsgenius/) that wraps the Genius.com API and makes it easy to download song lyrics.
 
 Install the package: ```$pip install lyricsgenius```.
 
-Look at the [examples on my GitHub page](https://github.com/johnwmillr/LyricsGenius#usage) to get started. Enjoy!
+Look at the [examples](https://github.com/johnwmillr/LyricsGenius#usage) on the GitHub page to get started.
 
 ## The Genius API ##
 Head over to [https://docs.genius.com](https://docs.genius.com) to take a look at the documentation for their API. I would have appreciated having an overview of the Genius API before starting this project, so I'll try to write a bit of one here.
@@ -37,8 +37,8 @@ The documentation is organized by the different sort of requests that can be mad
 
 ### Making an API request ###
 
-Each type of API request has its own URL format. The process of accessing the API database is the same regardless of which type of request the URL is formatted for. Here are the formats:  
-  * Songs:   ```https://api.genius.com/songs/[song_api_id]```  
+Each type of API request has its own URL format. The process of accessing the API database is the same regardless of which type of request the URL is formatted for. Here are the formats:
+  * Songs:   ```https://api.genius.com/songs/[song_api_id]```
   * Artists: ```https://api.genius.com/artists/[artist_api_id]```
   * Search:  ```https://api.genius.com/search?q=[search_term]```
 
@@ -111,7 +111,7 @@ The *response* key contains a *hits* key which is a list of all search results. 
 If you have an artist or song ID, you can access that entry directly by reformatting the request URL.
 
 ```python
-# If you have an artist or song ID, you can access that entry 
+# If you have an artist or song ID, you can access that entry
 # directly by reformatting the request URL.
 song_id = 82926
 querystring = "https://api.genius.com/songs/" + str(song_id)
@@ -139,7 +139,7 @@ The actual code for scraping lyrics from a page isn't too complicated:
 from bs4 import BeautifulSoup
 import re
 URL = 'https://genius.com/Andy-shauf-the-magician-lyrics'
-page = requests.get(URL)    
+page = requests.get(URL)
 html = BeautifulSoup(page.text, "html.parser") # Extract the page's HTML as a string
 
 # Scrape the song lyrics from the HTML
@@ -161,11 +161,11 @@ I decided to write a Python wrapper for the Genius API to make it a bit easier t
 `$pip install lyricsgenius`
 
 If you'd prefer to clone and install the repository yourself, follow these steps:
-1. Clone this repo:  
+1. Clone this repo:
 `$git clone https://github.com/johnwmillr/LyricsGenius.git`
-2. Enter the directory created:  
+2. Enter the directory created:
 `$cd LyricsGenius`
-3. Install using pip:  
+3. Install using pip:
 `$pip install .`
 
 Search for three songs by a single artist
