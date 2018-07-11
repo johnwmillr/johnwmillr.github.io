@@ -1,9 +1,10 @@
 .DS_Store
 _drafts/
 _site/
-*.ai
+*.note
 
 # Media
+*.ai
 *.png
 *.jpg
 *.gif
