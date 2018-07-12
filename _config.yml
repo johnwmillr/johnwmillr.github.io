@@ -1,6 +1,6 @@
 # main text of home
 name: John W. Miller
-bio: I, for one, welcome our new computer overlords.
+bio: I for one welcome our new computer overlords.
 
 # Markdown renderer
 markdown: kramdown
@@ -37,16 +37,16 @@ linkedin: johnwmillr
 instructables: johnwmillr
 googlescholar: eGVw-FAAAAAJ&hl=en
 twitter: johnwmillr
-# facebook: 
-# youtube: 
-# spotify: 
-# stackoverflow: 
-# medium: 
-# email: 
+# facebook:
+# youtube:
+# spotify:
+# stackoverflow:
+# medium:
+# email:
 
 authors:
     john:
-        name: John 
+        name: John
         bio: I, for one, welcome our new computer overlords.
         external-image: false
         picture: assets/images/pies.jpg
