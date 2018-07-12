@@ -1,5 +1,5 @@
 ---
-title:  "Trucks and beer :beer:"
+title:  "Trucks and beer"
 date:   2018-02-07
 layout: post
 tag:
@@ -15,7 +15,7 @@ description: Analyzing country music lyrics
 
 Inspired by a post on [Big-ish Data](https://bigishdata.com/2016/10/25/talkin-bout-trucks-beer-and-love-in-country-songs-analyzing-genius-lyrics/), I've started working on a textual analysis of popular country music.
 
-More specifically, I scraped Ranker.com for a list of the top female and male country artists of the last 100 years and used my [python wrapper](https://github.com/johnwmillr/LyricsGenius) for the Genius API to download the lyrics to each song by every artist on the list. After my script ran for about six hours I was left with the lyrics to 12,446 songs by 83 artists stored in a 105 MB JSON file. As a bit of an outsider to the world of country music, I was curious whether some of the preconceived notions I had about the genre were true. 
+More specifically, I scraped Ranker.com for a list of the top female and male country artists of the last 100 years and used my [python wrapper](https://github.com/johnwmillr/LyricsGenius) for the Genius API to download the lyrics to each song by every artist on the list. After my script ran for about six hours I was left with the lyrics to 12,446 songs by 83 artists stored in a 105 MB JSON file. As a bit of an outsider to the world of country music, I was curious whether some of the preconceived notions I had about the genre were true.
 
 Some pertinent questions:
   - Which artist mentions trucks in their songs most often?
@@ -23,7 +23,7 @@ Some pertinent questions:
   - How has the genre's vocabulary changed over time?
   - Of all the artists, whose language is most diverse? Whose is most repetitive?
 
-You can find my code for this project [on GitHub](https://www.github.com/johnwmillr/trucks-and-beer).  
+You can find my code for this project [on GitHub](https://www.github.com/johnwmillr/trucks-and-beer).
 
 ---
 # Analysis

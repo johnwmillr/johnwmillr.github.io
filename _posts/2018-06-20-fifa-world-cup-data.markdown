@@ -1,5 +1,5 @@
 ---
-title: "2018 FIFA World Cup :soccer:"
+title: "2018 FIFA World Cup"
 date: 2018-06-20
 layout: post
 tag:
