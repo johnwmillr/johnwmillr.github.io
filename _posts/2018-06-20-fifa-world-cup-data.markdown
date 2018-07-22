@@ -74,5 +74,8 @@ This is an interactive plot. Move your mouse over the scatter plot points to see
 
 This plot did [quite well](https://www.reddit.com/r/dataisbeautiful/comments/8sg3ok/distributions_of_height_for_the_different/) on /r/dataisbeautiful, although people were pretty [upset](https://www.reddit.com/r/dataisbeautiful/comments/8sg3ok/distributions_of_height_for_the_different/e0zlvx7/) I didn't use metric units.
 
+### Player heights and goals scored
+{% include figure_link.html url="/assets/images/height_by_position_goals_no_title.png" href="https://www.reddit.com/r/dataisbeautiful/comments/8z7gzy/player_heights_and_number_of_goals_scored_in_the/" caption="Player heights and number of goals scored in the 2018 FIFA World Cup" width="100%" %}
+
 ### Height vs. weight by player position
 {% include figure_link.html url="/assets/images/height_vs_weight_by_position.png" href="/assets/images/height_vs_weight_by_position.png" caption="Height and weight values for each player in the 2018 FIFA World Cup (n=735)." width="100%" %}
