@@ -23,7 +23,7 @@ Some pertinent questions:
   - How has the genre's vocabulary changed over time?
   - Of all the artists, whose language is most diverse? Whose is most repetitive?
 
-You can find my code for this project [on GitHub](https://www.github.com/johnwmillr/trucks-and-beer).
+You can find my code for this project on [GitHub](https://www.github.com/johnwmillr/trucks-and-beer).
 
 ---
 # Analysis
@@ -33,22 +33,22 @@ I'm interested in whether an artist's tendency to use certain terms correlate to
 
 It turns out that yes, they are.
 
-Each point on the two plots below represents a single artist. The values for each point were calculated as the percentage of times the given artist mentions a particular term. For example, Cole Swindell had 46 total songs and mentioned beer in 24 of them, arriving at a percentage of 52%.
+Each point on the two plots below represents a single artist. The values for each point were calculated as the percentage of times the given artist mentions a particular term across all of their songs. For example, Cole Swindell had 46 total songs and mentioned beer in 24 of them, arriving at a percentage of 52%.
 
 Think about that. [Cole Swindell](https://genius.com/artists/Cole-swindell) mentions beer in *more than half of his songs*. You can also count on him referencing trucks once every five songs. [Dustin Lynch](https://genius.com/artists/Dustin-lynch) turned out to be the artist that sang about trucks most frequently, with the word *truck* appearing in 23.8% of his songs.
 
 ![beer_and_trucks]({{site.url}}/assets/images/FreqPlot_beer_and_truck.png){: .center-image }
 
-I've also added the artists' genders to the plot. I'll need to do some more analysis, but there does appear to be a relationship between an artist's gender and their tendency to sing about trucks and beer. It's hard to tell in this plot, but roughly 50% of the female artists are actually stacked on top of each other at the origin, meaning they didn't mention beer or trucks in any of their songs.
+I've also added the artists' genders to the plot. I'll need to do some more analysis, but there does appear to be a relationship between an artist's gender and their tendency to sing about trucks and beer. It's hard to tell from this plot, but roughly half of the female artists in my dataset are actually stacked on top of each other at the origin, meaning they didn't mention beer or trucks in any of their songs.
 
 Check out the relationship between an artist's use of the words *girl* and *love*. There's an even more obvious trend with gender here. The more often a male country singer uses the word *girl* in his songs, the less likely he is to mention *love*. Interesting.
 
 ![girl_and_love]({{site.url}}/assets/images/FreqPlot_girl_and_love.png){: .center-image }
 
 ## Love is falling out of fashion
-I also wanted to look at how vocabulary changes over time for all country artists. We know from the plot above that male country artists are less likely to sing about love and more likely to sing about girls. The above plots combined songs from all years -- I wonder if we'll see different effects if we separate the songs into the years they were published.
+I also wanted to look at how vocabulary changes over time for all country artists. We know from the plot above that male country artists are less likely to sing about love and more likely to sing about girls. The above plots combined songs from all years -- I wonder if we'll see different effects after separating songs into the years they were published.
 
-The plot below displays the percentage of songs mentioning a given term for each year, excluding years that had less than ten songs in my database. It looks like it's becoming less common for country artists to mention love in their songs. The correlation isn't too strong, but there is a noticeable downward trend.
+The plot below displays the percentage of songs mentioning a given term for each year, excluding years that had less than ten songs in my database. It looks like it's becoming less common for country artists to sing about love. The correlation isn't all that strong, but there is a noticeable downward trend.
 
 ![vocab_over_time]({{site.url}}/assets/images/TimePlot_girl_boy_love.png){: .center-image }
 
