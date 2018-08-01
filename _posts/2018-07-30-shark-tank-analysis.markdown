@@ -1,5 +1,5 @@
 ---
-title: "Analyzing data from deals on Shark Tank"
+title: "Swimming in the Shark Tank"
 date: 2018-07-16
 layout: post
 tag:
