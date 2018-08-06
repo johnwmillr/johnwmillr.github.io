@@ -1,5 +1,5 @@
 ---
-title: "Swimming in the Shark Tank"
+title: "Swimming in the Shark Tank… Does gender matter?"
 date: 2018-08-06
 layout: post
 tag:
@@ -8,10 +8,10 @@ tag:
 category: blog
 author: john
 image: assets/images/sharktank_main_graph.png
-description: Examining gender imbalances in deals on Shark Tank
+description: There are gender imbalances in the deals made on Shark Tank, but that doesn’t mean the Sharks are sexist.
 ---
 
-This is a piece I originally wrote for the [Dig3st](https://medium.com/dig3st/about) data science blog on [Medium](https://medium.com/dig3st/swimming-or-sinking-in-the-shark-tank-does-gender-matter-aafa88180f7). It must be at least halfway decent, because [Mark Cuban](https://twitter.com/mcuban) liked my post on Twitter! Still waiting for him to get back to me about a data scientist job with the Mavs...
+This is a piece I originally wrote for the Dig3st data science blog on [Medium](https://medium.com/dig3st/swimming-or-sinking-in-the-shark-tank-does-gender-matter-aafa88180f7). It must be at least halfway decent, because [Mark Cuban](https://twitter.com/mcuban) liked my post on Twitter! Still waiting for him to get back to me about a data scientist job with the Mavs...
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Finished my <a href="https://twitter.com/hashtag/DataVisualization?src=hash&amp;ref_src=twsrc%5Etfw">#DataVisualization</a> post about <a href="https://twitter.com/hashtag/SharkTank?src=hash&amp;ref_src=twsrc%5Etfw">#SharkTank</a>. Looked at each Shark&#39;s funding history, broken down by gender. <a href="https://twitter.com/BarbaraCorcoran?ref_src=twsrc%5Etfw">@BarbaraCorcoran</a> and <a href="https://twitter.com/robertherjavec?ref_src=twsrc%5Etfw">@robertherjavec</a> are the most biased! <a href="https://twitter.com/mcuban?ref_src=twsrc%5Etfw">@mcuban</a> and <a href="https://twitter.com/TheSharkDaymond?ref_src=twsrc%5Etfw">@TheSharkDaymond</a> are pretty fair. <a href="https://twitter.com/hashtag/DataScience?src=hash&amp;ref_src=twsrc%5Etfw">#DataScience</a><a href="https://t.co/G7LbXDmpCy">https://t.co/G7LbXDmpCy</a></p>&mdash; John W. Miller (@johnwmillr) <a href="https://twitter.com/johnwmillr/status/1026359202749526016?ref_src=twsrc%5Etfw">August 6, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
