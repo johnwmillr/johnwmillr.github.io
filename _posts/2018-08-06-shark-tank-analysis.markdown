@@ -1,6 +1,6 @@
 ---
 title: "Swimming in the Shark Tank"
-date: 2018-07-16
+date: 2018-08-06
 layout: post
 tag:
 - python
