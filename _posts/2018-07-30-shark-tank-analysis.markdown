@@ -5,41 +5,35 @@ layout: post
 tag:
 - python
 - data science
-- API
 category: blog
 author: john
 image: assets/images/sharktank_gender.png
-description: Playing with Shark Tank data
+description: Examining gender imbalances in deals on Shark Tank
 ---
 
-## Introduction
-<!-- Intro / interest in Shark Tank / description of show -->
-My brother and I are big fans of [*Shark Tank*](https://abc.go.com/shows/shark-tank). For the uninitiated, *Shark Tank* is a fun show on ABC where hopeful entrepreneurs pitch their business ideas to a panel of "Sharks" (wealthy business magnates) in hopes of receiving making a deal that will allow them to take their business to the next level.
+My brother and I are big fans of [Shark Tank](https://abc.go.com/shows/shark-tank). After we watched a few episodes together on vacation recently, I started to wonder whether it'd be possible to identify any patterns in the way Sharks make deals on the show. For instance&mdash;*are male Sharks more likely to make deals with men than women?* Or, for that matter, *are male entrepreneurs more likely to make it on the show in the first place?* With a few of these questions in mind, I started looking for the data I'd need to come up with answers.
 
-<!-- Pose the problem / question -->
-After my brother and I watched a few episodes together on vacation recently, I started to wonder whether it'd be possible to identify any patterns or biases in the way Sharks make deals on the show. For instance, are male Sharks more likely to make deals with men than women? Or, for that matter, are male entrepreneurs more likely to make it on the show in the first place?
+## Collecting the data
+As I suspected, I wasn't the first to ask these sorts of questions about Shark Tank. In a post on Quora, [Halle Tecco](https://twitter.com/halletecco) described her own [detailed analysis](https://www.quora.com/What-have-you-learned-from-watching-the-television-program-Shark-Tank/answer/Halle-Tecco) of the show. Amongst other insights, Halle found that across the first six seasons of the show, the two female Sharks (Barbara Corcoran and Lori Greiner) made a larger percentage of their deals with women than the male Sharks. Halle made the data she collected available [online](https://docs.google.com/spreadsheets/d/1Lr0gi_QJB_JU0lBMjJ7WiBRxA0loml1FlM-KlmKsaEY/edit#gid=0). Due to a lack of information in my dataset on entrepreneurs with non-binary gender identity, I only used male and female labels in my analysis.
 
-## Collecting the data
-<!-- Describe Tecco's analysis -->
-As I suspected, I wasn't the first to ask these sorts of questions. In a detailed post on Quora, Halle Tecco described her [analysis](https://www.quora.com/What-have-you-learned-from-watching-the-television-program-Shark-Tank/answer/Halle-Tecco) of the show. Amongst other insights, Halle found that across the first six seasons of the show, the two female Sharks (Barbara Corcoran and Lori Greiner) made a larger percentage of their deals with women than the male Sharks.
+## Posing the question
+It's worth noting that the number of men and women appearing on the show is not equal: the ratio of all-male teams to all-female teams is roughly 70/30.
 
-Halle made the data she collected available [online](https://docs.google.com/spreadsheets/d/1Lr0gi_QJB_JU0lBMjJ7WiBRxA0loml1FlM-KlmKsaEY/edit#gid=1213351262). I also [scraped](https://github.com/johnwmillr/SharkTank/blob/master/scrapeSharkTankData.ipynb) the Sharks' attendance records from a [Wikipedia page](https://en.wikipedia.org/wiki/List_of_Shark_Tank_episodes) so that I could know which pitches each Shark was actually present for.
+![Gender representation on *SharkTank*](/assets/images/gender_ratios.png){: .center-image }
 
-## Posing a question
-<!-- Okay, cut to the chase. What's this post about? -->
-It's worth noting that the percentage of men and women appearing on the show is not 50/50---the ratio of all-male teams to all-female teams is closer to 70/30. I was curious to see how the Sharks' funding probabilities might change if I accounted for this imbalance.
+I was curious to see how each Shark's funding probabilities might change after accounting for this skewed ratio. As I thought through different ways to measure this effect, I kept asking myself the same question&mdash;*what percentage of pitches from either gender did each Shark make a deal with?*
 
-The question I kept asking myself was, "what percentage of offers from either gender did each Shark make a deal with?". In other words, if a Shark heard pitches from 100 men and 100 women, how many of either gender did they then make a deal with? Posing the question in this way allows us to account for an unequal number of male and female entrepreneurs appearing on the show.
+![Funding probability metric](/assets/images/metric3-01.png){: .center-image }
 
-By combining the deal data from Halle's analysis with the attendance records I scraped from Wikipedia, I was able to answer the question I posed above.
+I needed a bit more data to be able to answer my question. Luckily, there is a [Wikipedia page](https://en.wikipedia.org/wiki/List_of_Shark_Tank_episodes) that provides short descriptions of each Shark Tank episode. I used [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/) to [scrape](https://github.com/johnwmillr/SharkTank/blob/master/scrapeSharkTankData.ipynb) the attendance records for each of the main Sharks on the show. By combining Halle's deal data with the attendance records I collected, I was able to determine how often each Shark made deals with the male and female entrepreneurs they heard pitches from.
 
 [![Funding on *SharkTank* by gender](/assets/images/shark_tank_funding.png){: .center-image }](https://www.reddit.com/r/dataisbeautiful/comments/8wr8ko/funding_probabilities_on_shark_tank_grouped_by/)
 
-Each bar represents the percent of entrepreneurs of a given gender that the Shark made a deal with. For example, Mark Cuban made deals with 20.2% of the women and 17.1% of the men whose pitches he saw on the show.
+Each bar represents the percent of entrepreneurs of a given gender that the Shark made deals with. For example, Mark Cuban made deals with 20.2% of the women and 17.1% of the men he heard pitches from.
 
 ## Discussion
-It's important to consider what question this graph is actually answering. Can we conclude from this graph that Corcoran and Herjavec somehow discriminate against male and female entrepreneurs respectively? Of course not. It's impossible (irresponsible even!) to look at a single variable (gender, in this case) and attempt to make sweeping generalizations about the show. And this graph does not attempt to make a broad conclusion! It simply presents the data (accurately) and allows the viewer to draw their own conclusions.
+The main conclusion to draw from the graph is that certain Sharks do not make deals with men and women at equal rates. The next step is to ask what might be contributing to this imbalance. The wrong step is to jump to the conclusion that the Sharks are acting on sexist motivations.
 
-In my mind, the simple conclusion to draw from this graph is that there are gender imbalances in the deals certain Sharks make. The obvious next step is to ask questions about what might be contributing to this imbalance. The *wrong* step is to immediately conclude that the Sharks are sexist and avoiding deals with entrepreneurs of a gender different from their own.
+Clearly, there are many factors at play here. For one, Barbara Corcoran and Robert Herjavec - the Sharks with the largest funding biases - tend to invest in completely different industries (food/beverage and tech, respectively). Additionally, the data I collected do not contain information on which Sharks made offers that were rejected, meaning my graph does not account for potential biases on behalf of the entrepreneurs.
 
-As pointed out in [numerous comments](https://www.reddit.com/r/dataisbeautiful/comments/8wr8ko/funding_probabilities_on_shark_tank_grouped_by/e1y6wly/) on my Reddit post, there are many factors at play here. For one, Barbara Corcoran invests primarily in the food and beverage companies and Robert Herjavec in tech, two industries with quite different demographics. Additionally, the data I collected did not contain information on which Sharks made offers that were not accepted, meaning my graph does not account for the potential bias on behalf of the entrepreneurs, in terms of who they choose to accept a deal from.
+Season 10 of Shark Tank premiers this October. ABC's [promo](https://abc.go.com/shows/shark-tank/news/updates/shark-tank-season-10-premiere-date-time) for the show claims that "[The Sharks] will once again give people from all walks of life the chance to chase the American dream". I'm looking forward to the premiere as much as anyone else. But with this analysis in mind, I'll think a bit more about who gets to walk onto the show - and leave with a deal.
