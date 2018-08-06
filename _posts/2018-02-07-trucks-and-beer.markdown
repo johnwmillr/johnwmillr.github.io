@@ -4,6 +4,7 @@ date:   2018-02-07
 layout: post
 tag:
 - python
+- data science
 - music
 - lyrics
 category: blog
