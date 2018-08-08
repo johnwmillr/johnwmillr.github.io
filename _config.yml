@@ -1,12 +1,12 @@
 # main text of home
 name: John W. Miller
-bio: Your data won't speak for themselves - hire me to tell their story!
+bio: I for one welcome our new computer overlords.
 
 # Markdown renderer
 markdown: kramdown
 
 # twitter summary info
-description: Your data won't speak for themselves - hire me to tell their story!
+description: I for one welcome our new computer overlords.
 
 # if it's an external image, update below for true
 # better with square images
@@ -47,7 +47,7 @@ twitter: johnwmillr
 authors:
     john:
         name: John
-        bio: Your data won't speak for themselves - hire me to tell their story!
+        bio: I for one welcome our new computer overlords.
         external-image: false
         picture: assets/images/john02.png
         twitter: johnwmillr
