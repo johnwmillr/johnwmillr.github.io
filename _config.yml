@@ -1,6 +1,6 @@
 # main text of home
 name: John W. Miller
-bio: I for one welcome our new computer overlords.
+bio: Your data won't speak for themselves - hire me to tell their story!
 
 # Markdown renderer
 markdown: kramdown
@@ -11,10 +11,10 @@ description: Your data won't speak for themselves - hire me to tell their story!
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/pies.jpg
+picture: assets/images/john02.png
 
 # If you want to include your resume, set to true
-# and specify source (external or local).
+# and specify source (external orn local).
 resume: true
 resume-external: false
 resume-url: assets/pdfs/resume.pdf
@@ -47,9 +47,9 @@ twitter: johnwmillr
 authors:
     john:
         name: John
-        bio: I, for one, welcome our new computer overlords.
+        bio: Your data won't speak for themselves - hire me to tell their story!
         external-image: false
-        picture: assets/images/pies.jpg
+        picture: assets/images/john02.png
         twitter: johnwmillr
 
 # do you want a larger site? change the option below

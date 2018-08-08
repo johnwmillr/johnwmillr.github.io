@@ -17,8 +17,9 @@ This is a piece I originally wrote for the Dig3st data science blog on [Medium](
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ---
+## Introduction
 
-My brother and I are big fans of [Shark Tank](https://abc.go.com/shows/shark-tank). After watching a few episodes together on vacation recently, I started to wonder whether it’d be possible to identify any patterns in the way Sharks make deals on the show. For instance - *are male Sharks more likely to make deals with men than women?* Or, for that matter, *are male entrepreneurs more likely to make it on the show in the first place?* With a few of these questions in mind, I started looking for the data I’d need to come up with answers.
+My brother and I are big fans of [Shark Tank](https://abc.go.com/shows/shark-tank). After watching a few episodes together on vacation recently, I started to wonder whether it’d be possible to identify any patterns in the way Sharks make deals on the show. For instance---*are male Sharks more likely to make deals with men than women?* Or, for that matter, *are male entrepreneurs more likely to make it on the show in the first place?* With a few of these questions in mind, I started looking for the data I’d need to come up with answers.
 
 ## Collecting the data
 As I suspected, I wasn't the first to ask these sorts of questions about Shark Tank. In a post on Quora, [Halle Tecco](https://twitter.com/halletecco) described her own [detailed analysis](https://www.quora.com/What-have-you-learned-from-watching-the-television-program-Shark-Tank/answer/Halle-Tecco) of the show. Amongst other insights, Halle found that across the first six seasons of the show, the two female Sharks (Barbara Corcoran and Lori Greiner) made a larger percentage of their deals with women than their male counterparts.
