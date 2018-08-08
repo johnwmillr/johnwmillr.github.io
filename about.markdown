@@ -11,9 +11,10 @@ image: assets/images/john02.jpg
 
 </section>
 
-Hello! I'm a 26-year-old data scientist currently based in Chicago. I'm for hire — send me an [email](mailto:john.w.millr@gmail.com)!
+Hello! I'm a 26-year-old data scientist currently based in Chicago. I'm for hire—send me an [email](mailto:john.w.millr@gmail.com)!
 
-![Profile Image](/assets/images/john02.jpg)
+<!-- ![Profile Image](/assets/images/John_Defense.jpg) -->
+<img src="/assets/images/John_Defense.jpg" alt="Girl in a jacket" style="width:600px;">
 
 I'm interested in using data science techniques to chase fascinating but as-yet unexplored questions, such as, *are country artists who sing about trucks more likely to also [sing about beer](/trucks-and-beer/)?* or, *how does height vary between different [positions in soccer](/fifa-world-cup-data/)?* I've enjoyed a fair bit of success on the [/r/DataIsBeautiful](https://www.reddit.com/r/dataisbeautiful/search?sort=top&q=author%3A%22textureflow%22+title%3A%5BOC%5D&restrict_sr=on) subreddit while pursuing answers to questions like these.
 
