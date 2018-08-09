@@ -11,9 +11,9 @@ image: {{ site.picture }}
 
 </section>
 
-Hello! I'm a 26-year-old aspiring data scientist currently based in Chicago. I recently completed a masters degree in electrical and computer engineering and am exploring my options in data science and machine learning.
+Hi! I'm a 26-year-old aspiring data scientist currently based in Chicago. I recently completed a masters degree in electrical & computer engineering and am exploring my options for a career in data science and machine learning.
 
-<img src="/assets/images/John_Defense.jpg" alt="John_Defense" style="width:600px;">
+{% include figure.html url="/assets/images/John_Defense.jpg" caption="Answering a question during my masters thesis defense in May 2018." width="650px" %}
 
 I enjoy using data science techniques to pursue fascinating but as-yet unexplored questions, such as, *are country artists who sing about trucks more likely to also [sing about beer](/trucks-and-beer/)?* or, *are male Sharks more likely to [make deals](/shark-tank-analysis/) with men than women?* I've enjoyed a fair bit of success on the [/r/DataIsBeautiful](https://www.reddit.com/r/dataisbeautiful/search?sort=top&q=author%3A%22textureflow%22+title%3A%5BOC%5D&restrict_sr=on) subreddit while pursuing answers to questions like these. I also maintain an active [GitHub](http://github.com/johnwmillr) profile, where I've enjoyed collaborating with various contributors on a number of my personal projects.
 

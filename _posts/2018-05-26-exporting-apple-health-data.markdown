@@ -4,8 +4,8 @@ date: 2018-05-26
 layout: post
 tag:
 - python
+- data science
 - tutorial
-- apple
 category: blog
 author: john
 image: assets/images/step_counts_monthly.png
@@ -22,7 +22,7 @@ Apple makes it pretty easy to export raw data from the Health app. You'll find t
 
 {% include figure_link.html url="/assets/images/health_app_export_instructions.png" href="/assets/images/health_app_export_instructions.png" caption="Exporting data from the iOS Health app." width="100%" %}
 
-Choose a sharing option that'll be easiest for you to send the data to your computer. I shared the data into the Notes app which then synced with my laptop over iCloud. The data exports as a ZIP file, `export.zip`. The ZIP file contains two XML files: `export_cda.xml` and `export.xml`. 
+Choose a sharing option that'll be easiest for you to send the data to your computer. I shared the data into the Notes app which then synced with my laptop over iCloud. The data exports as a ZIP file, `export.zip`. The ZIP file contains two XML files: `export_cda.xml` and `export.xml`.
 
 {% include figure.html url="/assets/images/apple_health_xml_file.png" caption="A portion of the export.xml file output from Apple's Health app." width="90%" %}
 
@@ -48,7 +48,7 @@ With the XML items stored as a list, we can simply loop through and extract the 
 tmp_data = []
 item_type_identifier='HKQuantityTypeIdentifierStepCount' # Desired data type
 for i,item in enumerate(items):
-    if 'type' in item.attrib and item.attrib['type'] == item_type_identifier:        
+    if 'type' in item.attrib and item.attrib['type'] == item_type_identifier:
         # Attributes to extract from the current item
         tmp_data.append((item.attrib['creationDate'],
                          item.attrib['startDate'],
@@ -90,7 +90,7 @@ current_month = datetime.strptime(all_step_dates[0][:7], '%Y-%m')
 running_step_count = 0
 for n, date, step_count in zip(range(len(all_step_dates)), all_step_dates, all_step_counts):
     new_month = datetime.strptime(date[:7], '%Y-%m')
-    
+
     if new_month > current_month or n == len(all_step_dates)-1:
         # How many days are in the current month?
         if date==all_step_dates[-1]:
@@ -100,15 +100,15 @@ for n, date, step_count in zip(range(len(all_step_dates)), all_step_dates, all_s
 
         # Average step count for current month
         steps_per_month.append(running_step_count/days_in_month)
-        month_labels.append(current_month.strftime('%b-%Y'))        
-        
+        month_labels.append(current_month.strftime('%b-%Y'))
+
         # Reset the running step count and current month
         current_month = new_month
         running_step_count = step_count
     else:
-        running_step_count += step_count    
+        running_step_count += step_count
 
-# Convert to numpy arrays        
+# Convert to numpy arrays
 steps_per_month = np.array(steps_per_month)
 month_labels = np.array(month_labels)
 ```
