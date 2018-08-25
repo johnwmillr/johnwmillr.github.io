@@ -12,16 +12,16 @@ description: Using Unix to process 200k+ files
 
 I'm currently working on a data science project involving food recipes scraped from the Internet. One dataset floating around the web contains over 200,000 recipes scraped from [Allrecipes](http://allrecipes.com/). I found two versions of the dataset: one stored in a cleaned, JSON format, the other in raw HTML. In their least-compressed form (containing the raw HTML for each of the 200k+ recipes), the data take up roughly 40 gigabytes.
 
-What's odd about this dataset is that 60% of the 200k+ recipes are all identical. For whatever reason, there are over 120,000 copies of the [*Johnsonville® Three Cheese Italian Style Chicken Sausage Skillet Pizza*](https://www.allrecipes.com/recipe/219661/johnsonville-three-cheese-italian-style-chicken-sausage-skillet-pizza/) recipe.
+What's odd about this dataset is that 60% of the 200k+ recipes are all identical. For whatever reason, there are over 120,000 copies of the [*Johnsonville Three Cheese Italian Style Chicken Sausage Skillet Pizza*](https://www.allrecipes.com/recipe/219661/johnsonville-three-cheese-italian-style-chicken-sausage-skillet-pizza/) recipe.
 
-{% include figure.html url="https://images.media-allrecipes.com/userphotos/720x405/995905.jpg" caption="The Chicken Sausage Skillet Pizza, presented without comment." width="70%" %}
+{% include figure.html url="https://images.media-allrecipes.com/userphotos/720x405/995905.jpg" caption="The Chicken Sausage Skillet Pizza, presented without comment." width="90%" %}
 
 Why there are so many copies of this recipe (or, for that matter, why the dish was ever created in the first place) is beyond me. I was more concerned with how all the duplicate recipes would affect my analysis.
 
 ## The task at hand
 As part of my food recipes project, I'm interested in parsing out the ingredients from many different recipes for the same type of food (e.g. chocolate chip cookies) and comparing how combinations and amounts of ingredients vary between recipes. To properly compare the ingredients between different recipes, I need to know how many servings each recipe is supposed to make. For example, two different cookie recipes may both require a cup of sugar, but you'll end up with completely different cookies if the first recipe is for a batch of ten while the second makes three dozen.
 
-{% include figure.html url="/assets/images/lotsOfFiles.gif" caption="Files for days!" width="80%" %}
+{% include figure.html url="/assets/images/lotsOfFiles.gif" caption="Files for days!" width="100%" %}
 
 Unfortunately, the recipes in the cleaned JSON dataset did not contain serving size information. The raw HTML files did contain serving sizes, but I would have to iterate through each of the 200k+ files to extract the information. I knew my work would be considerably faster if I could throw out the duplicate *Johnsonville* recipes and reduce the size of my dataset by 60%.
 
@@ -31,9 +31,6 @@ My first instinct was to write a simple Python script to iterate through the HTM
 The code itself was easy enough to piece together. I quickly had a Jupyter notebook going that looped through the HTML files and deleted any that contained the *Johnsonville* recipe. The code also estimated its remaining time.
 
 ```python
-def calcTimeRemaining(elapsed, n, total):
-    return (total-n)/(n/elapsed)
-
 numFiles = len(htmlFiles)
 start = time.time()
 last = time.time() - start
@@ -55,6 +52,9 @@ for n,filename in enumerate(htmlFiles):
             t=numFiles,
             r=calcTimeRemaining(elapsed, n+1, numFiles),
             fpm=(n+1)/elapsed))
+
+def calcTimeRemaining(elapsed, n, total):
+    return (total-n)/(n/elapsed)
 ```
 
 After letting the Jupyter notebook run for a few minutes, I was shocked to see an estimated 12 hours remaining. There had to be a better way!
@@ -70,7 +70,7 @@ My moment of clarity came while listening to DataCamp's [*DataFramed*](https://w
 
 During Spencer's call to action for Unix tools (especially while cleaning data) it hit me -- I could use Unix to delete the *Johnsonville* recipes! After a quick Google search, I ended up on a Stack Overflow [post](https://stackoverflow.com/questions/4529134/delete-files-with-string-found-in-file-linux-cli) that recommended piping the output of `grep` into the `awk` command, creating an executable `.sh` file that would then delete the *Johnsonville* recipes.
 
-Because the directory I was working in contained so many files, I kept running into an `argument list too long` error. Unix has a limited buffer for the length of any given command, and so it was unable to string together the roughly 120,000 names of files containing the *Johnsonville* recipe.
+Because the directory I was working in contained so many files, I kept running into an "`argument list too long`" error. Unix has a limited buffer for the length of any given command, and so it was unable to string together the roughly 120,000 names of files containing the *Johnsonville* recipe.
 
 After playing with the commands in a test directory with fewer files and visiting a few more Stack Overflow forums, I ended up with a chain of commands that did the trick:
 ```shell
