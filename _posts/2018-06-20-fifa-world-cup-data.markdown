@@ -19,7 +19,7 @@ I've been trying to get more practice interfacing with APIs, so I was hoping to 
 
 I wrote a [Python package](https://pypi.org/project/sportradar/) that makes it easy to interface with the Sportradar APIs. The code is available on [GitHub](https://github.com/johnwmillr/SportradarAPIs). The easiest way to get started is to install the package using `pip`:
 
-```
+```shell
 $pip install sportradar
 ```
 After `pip` finishes the installation you can use the package to download World Cup data.
