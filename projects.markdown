@@ -3,7 +3,6 @@ layout: page
 title: Projects
 category: project
 headerImage: false
-image: assets/images/pies.jpg
 ---
 
 <h1 class="title">{{ page.title }}</h1>
@@ -16,7 +15,7 @@ You can find most of my work on either [GitHub](https://github.com/johnwmillr), 
 
 Please feel free to leave a comment below, I'd love to have your feedback!
 
----
+{% include project-description.html header="ProjectName" date="Summer 2018" img_link="www.google.com" img_src="https://scontent-ort2-2.xx.fbcdn.net/v/t31.0-8/1015834_366434323478799_1899116451_o.png?_nc_cat=0&oh=4c6fd31f802d6354406a9e24861c0e09&oe=5C0A020C" description="[Spoonacular](http://spoonacular.com/) is a food and recipe website that offers a freemium API with over fifty different endpoints. The API even includes endpoints for [random food jokes](https://twitter.com/johnwmillr/status/1027443472985452544) and [wine pairings](https://twitter.com/johnwmillr/status/1025989502957969408)! I wrote `spoonacular`, a Python [package](https://github.com/johnwmillr/SpoonacularAPI) that interfaces with the Spoonacular API and makes it easy to download food, recipe, and nutrition data from the website. I wrote unit tests for each of the endpoints and have continuous integration running on [Travis-CI](https://travis-ci.org/johnwmillr/SpoonacularAPI). The package is available for installation via `pip` and [PyPI](https://pypi.org/project/spoonacular/)."%}
 
 ## DataIsBeautiful
 [![dataisbeautiful](https://upload.wikimedia.org/wikipedia/en/thumb/8/82/Reddit_logo_and_wordmark.svg/800px-Reddit_logo_and_wordmark.svg.png){:class="img-responsive" height="20%" width="20%"}](https://www.reddit.com/r/dataisbeautiful/search?sort=top&q=author%3A%22textureflow%22+title%3A%5BOC%5D&restrict_sr=on)
