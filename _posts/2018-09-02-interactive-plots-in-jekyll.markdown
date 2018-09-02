@@ -1,6 +1,6 @@
 ---
-title:  "Interactive plots in Jekyll"
-date:   2018-03-25
+title:  "Adding interactive plots to a Jekyll blog"
+date:   2018-09-02
 layout: post
 tag:
 - python
