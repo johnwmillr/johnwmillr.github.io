@@ -35,7 +35,7 @@ I am a regular contributor to [/r/DataIsBeautiful](https://www.reddit.com/r/data
 
 [![Spoonacular Logo](https://scontent-ort2-2.xx.fbcdn.net/v/t31.0-8/1015834_366434323478799_1899116451_o.png?_nc_cat=0&oh=4c6fd31f802d6354406a9e24861c0e09&oe=5C0A020C){:class="img-responsive" height="30%" width="30%"}](https://github.com/johnwmillr/SpoonacularAPI)
 
-[Spoonacular](http://spoonacular.com/) is a food and recipe website that offers a freemium API with over fifty different endpoints. The API even includes endpoints for [random food jokes](https://twitter.com/johnwmillr/status/1027443472985452544) and [wine pairings](https://twitter.com/johnwmillr/status/1025989502957969408)! I wrote `spoonacular`, a Python [package](https://github.com/johnwmillr/SpoonacularAPI) that interfaces with the Spoonacular API and makes it easy to download food, recipe, and nutrition data from the website. I wrote unit tests for each of the endpoints and have continuous integration running on [Travis-CI](https://travis-ci.org/johnwmillr/SpoonacularAPI). The package is available for installation via `pip` and [PyPI](https://pypi.org/project/spoonacular/).
+[Spoonacular](http://spoonacular.com/) is a food and recipe website that offers a freemium API with over fifty different endpoints. I wrote [`spoonacular`](https://github.com/johnwmillr/SpoonacularAPI), a Python package that interfaces with the Spoonacular API and makes it easy to download food, recipe, and nutrition data from the website. The API even includes endpoints for random [food jokes](https://twitter.com/johnwmillr/status/1027443472985452544) and [wine pairings](https://twitter.com/johnwmillr/status/1025989502957969408)! I wrote unit tests for each of the endpoints and have continuous integration running on [Travis-CI](https://travis-ci.org/johnwmillr/SpoonacularAPI). The package is available for installation via [`pip`](https://pypi.org/project/spoonacular/).
 
 ---
 
@@ -46,7 +46,7 @@ I am a regular contributor to [/r/DataIsBeautiful](https://www.reddit.com/r/data
 
 [![Sportradar Logo](https://sportradar.us/wp-content/uploads/2015/12/logo-retina.png){:class="img-responsive" height="30%" width="30%"}](https://github.com/johnwmillr/SportradarAPIs)
 
-[Sportradar](http://sportradar.com/) is a company that provides extensive APIs for a number of professional sports including soccer, basketball, and multiple eSports leagues. I wrote a [`sportradar`](https://github.com/johnwmillr/SportradarAPIs), a Python package that simplifies the process of downloading data from Sportradar's APIs. A fun part of the project was writing a [script](https://github.com/johnwmillr/DocScraper/blob/master/sportradar/scrapeSportradarEndpoints.ipynb) to scrape the Sportradar documentation and automatically generate functional Python code and unit tests for each API endpoint. My [analysis](/fifa-world-cup-data/) of data from the 2018 FIFA World Cup made use of `sportradar` and provides a few example use cases. The project is available via `pip` and [PyPI](https://pypi.org/project/sportradar/).
+[Sportradar](http://sportradar.com/) is a company that provides extensive APIs for a number of professional sports including soccer, basketball, and multiple eSports leagues. I wrote a [`sportradar`](https://github.com/johnwmillr/SportradarAPIs), a Python package that simplifies the process of downloading data from Sportradar's APIs. A fun part of the project was writing a [script](https://github.com/johnwmillr/DocScraper/blob/master/sportradar/scrapeSportradarEndpoints.ipynb) to scrape the Sportradar documentation and automatically generate functional Python code and unit tests for each API endpoint. My [analysis](/fifa-world-cup-data/) of data from the 2018 FIFA World Cup made use of `sportradar` and provides a few example use cases. The project is available via [`pip`](https://pypi.org/project/sportradar/).
 
 ---
 
@@ -64,7 +64,7 @@ I am a regular contributor to [/r/DataIsBeautiful](https://www.reddit.com/r/data
 ## Fivecircle -- ***Fall 2017***
 [![Fivecircle](https://upload.wikimedia.org/wikipedia/commons/1/13/Zentao.png){:class="img-responsive" height="10%" width="10%"}](https://fivecircle.herokuapp.com/)
 
-[Fivecircle](https://fivecircle.herokuapp.com/) is a geo-based social media platform I built with a five-person team as part of a software engineering course I took in the fall of 2017. The web app lets users post geo-tagged photos and notes for other users to view. We built Fivecircle using Ruby on Rails while following an Agile methodology and maintaining best practices on our [GitHub repository](https://github.com/johnwmillr/Fivecircle). We made use of the Google Maps API for geocoding as well as the devise ruby gem for authentication. [Sign up for an account](https://fivecircle.herokuapp.com/users/sign_up) and start sharing posts!
+[Fivecircle](https://fivecircle.herokuapp.com/) is a geo-based social media platform I built with a five-person team as part of a software engineering course I took in the fall of 2017. The web app lets users post geo-tagged photos and notes for other users to view. We built Fivecircle using Ruby on Rails while following an Agile methodology and maintaining best practices on our GitHub [repository](https://github.com/johnwmillr/Fivecircle). We made use of the Google Maps API for geocoding as well as the devise ruby gem for authentication. [Sign up](https://fivecircle.herokuapp.com/users/sign_up) for an account and start sharing posts!
 
 ---
 
@@ -78,25 +78,25 @@ For the final project in my Advanced Digital Image Processing course, I chose to
 ## EMG audio amplifier -- ***Spring 2017***
 [![EMGaudio](https://cdn.instructables.com/FSY/V1BE/J47LCT82/FSYV1BEJ47LCT82.MEDIUM.jpg){:class="img-responsive" height="30%" width="30%"}](http://www.instructables.com/id/Build-a-Muscle-Audio-Amplifier-Electromyography)
 
-During the spring of 2017 I built an electromyography (EMG) audio amplifier. The two-channel device was built from analog integrated circuit components (op-amps, instrumentation amps, and audio amps), included band-pass filters, and could output audio through a standard 1/8" audio jack. Visit the link for images and schematics of the device as well as detailed instructions for building your own. After I published my project to the Instructables website, the HackADay blog [featured my work](https://hackaday.com/2017/06/24/listen-to-your-body) and Tweeted a link out to their 100K+ followers!
+During the spring of 2017 I built an electromyography (EMG) audio amplifier. The two-channel device was built from analog integrated circuit components (op-amps, instrumentation amps, and audio amps), included band-pass filters, and could output audio through a standard 1/8" audio jack. Visit the link for images and schematics of the device as well as detailed instructions for building your own. After I published my project to the Instructables website the HackADay blog [featured](https://hackaday.com/2017/06/24/listen-to-your-body) my work and Tweeted a link out to their 100K+ followers!
 
 ---
 
 ## Muscle-controlled MIDI device -- ***Winter 2017***
 [![MIDImuscle](https://cdn.instructables.com/F7A/0QZB/IYKFXBWB/F7A0QZBIYKFXBWB.MEDIUM.jpg){:class="img-responsive" height="30%" width="30%"}](http://www.instructables.com/id/Make-Muscle-MIDI-Music/)
 
-During the winter of 2017, I built an electromyography (EMG) amplifier which allowed users to trigger MIDI instrument sounds (e.g. a snare drum) by flexing their muscles. The device used muscle activity as a control signal for both volume and pitch of the MIDI notes. After the muscle activity was amplified and filtered via a custom-built analog circuit, an Arduino translated the EMG signals into MIDI signals which were then sent over Bluetooth to an iPhone running Garageband. I ended up winning a prize in the [Instructables Sensors 2017 contest](http://www.instructables.com/contest/sensors2017/).
+During the winter of 2017, I built an electromyography ([EMG](https://en.wikipedia.org/wiki/Electromyography)) amplifier which allowed users to trigger MIDI instrument sounds (e.g. a snare drum) by flexing their muscles. The device used muscle activity as a control signal for both volume and pitch of the MIDI notes. After the muscle activity was amplified and filtered via a custom-built analog circuit, an Arduino translated the EMG signals into MIDI signals which were then sent over Bluetooth to an iPhone running Garageband. I ended up winning second prize in the [Instructables Sensors 2017 contest](http://www.instructables.com/contest/sensors2017/).
 
 ---
 
 ## Halloween drum machine costume -- ***Fall 2016***
 [![MIDIcostume](https://cdn.instructables.com/F30/YA8B/J44FX9TH/F30YA8BJ44FX9TH.MEDIUM.jpg){:class="img-responsive" height="22%" width="22%"}](http://www.instructables.com/id/Functional-MIDI-Drum-Machine-Costume)
 
-For Halloween 2016 I designed and built a MIDI drum machine costume. The costume consisted of piezoelectric sensors worn on the chest which triggered MIDI drum machine noises played through an iPhone after the raw signals were processed on an Arduino. It was pretty fun.
+For Halloween 2016 I designed and built a fully functioning MIDI drum machine costume. The costume consisted of piezoelectric sensors worn on the chest which sent signals into an Arduino when tapped. I wrote code for the Arduino that translated the raw force signals into MIDI commands which were sent to an iPhone running GarageBand. The iPhone then played drum noises (triggered by the sensors on my chest) through a Bluetooth speaker. I wrote a description of the project along with a step-by-step tutorial for [Instructables](http://www.instructables.com/id/Functional-MIDI-Drum-Machine-Costume).
 
 ---
 
 ## Musician Maker -- ***Summer 2011***
 [![Guthman](https://www.goshen.edu/wp-content/uploads/sites/2/2012/02/Guthman2012.jpg){:class="img-responsive" height="22%" width="22%"}](https://www.goshen.edu/academics/2012/02/29/miller-and-buschert-finalists-in-guthman-competition/)
 
-During the summer of 2011 I worked on the "Musician Maker" project as part of Goshen College's [Maple Scholars Program](https://www.goshen.edu/academics/maple-scholars/). Musician Maker is an intuitive, computer-controlled system of novel instruments that allows non-musicians to improvise expressive music. During the winter of 2012 my advisor, John Buschert, and I competed and were selected as finalists in the [2012 Guthman New Musical Instrument Competition](https://www.youtube.com/watch?v=5YQF2KTMRPs) hosted at Georgia Tech. I wrote multi-threaded Python code to generate the artificial music and interface with the novel hardware instruments.
+During the summer of 2011 I worked on the "Musician Maker" project as part of Goshen College's [Maple Scholars Program](https://www.goshen.edu/academics/maple-scholars/). Musician Maker is an intuitive, computer-controlled system of novel instruments that allows non-musicians to improvise expressive music. During the winter of 2012 my advisor and physics professor, Dr. John Buschert, and I competed in and were selected as finalists for the [2012 Guthman New Musical Instrument Competition](https://www.youtube.com/watch?v=5YQF2KTMRPs) hosted at Georgia Tech. I wrote multi-threaded Python code that generated artificial music and interfaced with the novel hardware instruments.
