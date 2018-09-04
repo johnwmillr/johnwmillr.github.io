@@ -1,5 +1,5 @@
 ---
-title:  "Trucks and beer"
+title:  "Trucks and beer 🍺"
 date:   2018-02-07
 layout: post
 tag:

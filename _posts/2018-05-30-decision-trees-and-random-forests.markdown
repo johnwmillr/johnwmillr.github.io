@@ -1,5 +1,5 @@
 ---
-title: "Decision trees and random forests"
+title: "Decision trees and random forests 🌲"
 date: 2018-05-30
 layout: post
 tag:
@@ -24,7 +24,7 @@ Random forest classifiers are an ensemble learning method built from decision tr
 ## Classical decision trees
 Decision trees operate with a simple objective of partitioning a dataset into two categories using a sequence of binary "Yes" or "No" splits. Decision trees achieve this objective by sequentially identifying features on which to split the data into subsets that are more homogeneous than the current subset. For example, when diagnosing a fever, a decision tree may classify a patient as having or not having a fever by answering a series of Yes or No questions, such as "is the temperature greater than 100F?", "are the palms sweaty?", etc, and arriving at a classification of having or not having a fever. The process of training a decision tree determines which Yes or No questions to ask (i.e. which features to split on) and at what values to set each Yes/No threshold.
 
-There are a few parameters to select while training the binary tree: which features do we split on? How do we determine the threshold for splitting? When do we stop splitting the data (i.e. stop adding nodes to the tree)? The first two questions can be addressed through the use of an impurity metric. 
+There are a few parameters to select while training the binary tree: which features do we split on? How do we determine the threshold for splitting? When do we stop splitting the data (i.e. stop adding nodes to the tree)? The first two questions can be addressed through the use of an impurity metric.
 
 Impurity can be thought of as a measure of the heterogeneity of dataset; a set of data with an equal distribution of two classes would be highly impure. The [Gini impurity index](https://en.wikipedia.org/wiki/Decision_tree_learning#Gini_impurity), $$I(t)$$, is a common measure of impurity in random forests [2-4]:
 \begin{align}

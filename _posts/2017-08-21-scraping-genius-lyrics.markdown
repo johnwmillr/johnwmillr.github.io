@@ -80,7 +80,7 @@ dict_keys([u'meta', u'response'])
 The *response* key contains a *hits* key which is a list of all search results. From there it's easy to grab the song title, album, etc.
 ```python
 # List each key contained within a single search hit
->>> [key for key in json_obj['response']['hits'][0]['result']]
+>>> print(json_obj['response']['hits'][0]['result'].keys())
 [u'song_art_image_thumbnail_url',
  u'api_path',
  u'stats',
