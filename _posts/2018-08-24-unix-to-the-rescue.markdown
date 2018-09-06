@@ -5,6 +5,7 @@ layout: post
 tag:
 - python
 - data science
+- unix
 category: blog
 author: john
 description: Using Unix to process 200k+ files
@@ -95,13 +96,13 @@ A big thanks to Hugo and Spencer from the [*DataFramed*](https://www.datacamp.co
 <a name="complete-description"></a>
 ## Appendix
 ### Full description of the Unix tools [⇪](#full-unix-command)
-The Unix code I ended up using makes use of a couple of really helpful command-line tools:
+The Unix code I ended up with makes use of a couple of really helpful command-line tools:
 
 [`grep`](https://www.computerhope.com/unix/ugrep.htm)
 
- The `grep` tool uses [regular expressions](https://en.wikipedia.org/wiki/Regular_expression) to parse and print text within the command line. In the command above, I'm telling `grep` to search the current directory for any files containing the "Skillet Pizza" text and print the names of any files containing the specified text.
+ The `grep` tool uses [regular expressions](https://en.wikipedia.org/wiki/Regular_expression) to parse and print text within the command line. In the command above I'm telling `grep` to search the current directory for any files containing the "Skillet Pizza" text and to then print their file names.
 
- The `-rl` option tells `grep` to search recursively and print the matched file names, rather than the actual matched text. The `e` option is used to specify the regular expression to search for. The `.` tells `grep` to search within the current directory.
+ The `-rl` option tells `grep` to search recursively and print the matched file names, rather than the actual matched text. The `e` option is used to specify the regular expression to search with. The `.` tells `grep` to search within the current directory.
 
 [`pipe`](http://www.linfo.org/pipes.html) and [`redirect`](http://www.westwind.com/reference/os-x/commandline/pipes.html#redir-output)
 
@@ -111,7 +112,7 @@ The `|` character in-between the `grep` and `awk` commands is a *pipe* and is us
 
 The `awk` command is actually calling an entire programming language (named AWK) that is helpful for filtering text, especially data stored in a columnar format (e.g. `CSV`). Serendipitously, my friend [Micah](http://micahjon.com/) sent me a [helpful article](https://gregable.com/2010/09/why-you-should-know-just-little-awk.html) while I was working on this post that makes a case for learning AWK and provides a few useful examples.
 
-In my command above, I am using `awk` to generate a line of text, `rm -v FILENAME.html`, for each *Johnsonville* recipe identified by `grep`. The `$1` is a variable in `awk` that will take on the file names piped in from `grep`. The `rm` statement deletes the specified file, and `-v` makes the command verbose.
+I'm using `awk` to generate a line of text -- `rm -v FILENAME.html` -- for each *Johnsonville* recipe identified by `grep`. The `$1` is a variable in `awk` that will take on the file names piped in from `grep`. The `rm` statement deletes the specified file, and `-v` makes the command verbose.
 
 Outputting the `rm` commands to a file to be executed later (rather than maintaining a list of all the `rm` within the command line buffer) is what allowed me to get around the "`argument list too long`" error I was seeing before.
 
