@@ -17,7 +17,7 @@ picture: assets/images/john02.png
 # and specify source (external orn local).
 resume: true
 resume-external: false
-resume-url: assets/pdfs/resume.pdf
+resume-url: assets/pdfs/JohnWMiller_Resume.pdf
 
 url: http://johnwmillr.github.io
 
