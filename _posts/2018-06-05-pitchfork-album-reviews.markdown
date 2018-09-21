@@ -9,12 +9,8 @@ tag:
 category: blog
 author: john
 name: john
-image: assets/images/pitchfork_score_vs_lexdiv.png
+image: assets/images/lexdiv_album_reviews.png
 description: Comparing Pitchfork album reviews and song lyrics
----
-
-This post is very much a work in progress, but I wanted to start by sharing an interactive plot that I've enjoyed putting together.
-
 ---
 
 I've been scraping Pitchfork reviews using Michal Czaplinski's excellent [Python wrapper](https://github.com/michalczaplinski/pitchfork) for the [Pitchfork](https://pitchfork.com/) music website. I've searched through my collection of [rap, rock, and country lyrics](http://www.johnwmillr.com/interactive-plots-in-jekyll/) and scraped reviews for albums that were reviewed on Pitchfork.
@@ -30,4 +26,3 @@ I was surprised to find a small negative correlation between the album review sc
 Here's a prettier static version of the same plot:
 
 [![Album review lexical diversities](/assets/images/lexdiv_album_reviews.png){: .center-image }](https://www.reddit.com/r/dataisbeautiful/comments/9hmtcm/lexical_diversity_of_pitchfork_album_reviews/)
-
