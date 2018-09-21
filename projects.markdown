@@ -12,7 +12,7 @@ image: assets/images/pies.jpg
 
 </section>
 
-You can find most of my work on either [GitHub](https://github.com/johnwmillr), [Instructables](https://www.instructables.com/member/johnwmillr/), or [/r/DataIsBeautiful](https://www.reddit.com/r/dataisbeautiful/search?sort=top&q=author%3A%22textureflow%22+title%3A%5BOC%5D&restrict_sr=on).
+You can find most of my work on either [GitHub](https://github.com/johnwmillr), [Instructables](https://www.instructables.com/member/johnwmillr/), or [/r/DataIsBeautiful](https://www.reddit.com/r/dataisbeautiful/search?sort=top&q=author%3A%22textureflow%22+title%3A%5BOC%5D&restrict_sr=on). I've also written a number of data-related posts on my [blog](blog/).
 
 Please feel free to leave a comment below, I'd love to have your feedback!
 
@@ -23,7 +23,7 @@ Please feel free to leave a comment below, I'd love to have your feedback!
 
 I am a regular contributor to [/r/DataIsBeautiful](https://www.reddit.com/r/dataisbeautiful/search?sort=top&q=author%3A%22textureflow%22+title%3A%5BOC%5D&restrict_sr=on), a data visualization community on Reddit. A few of my posts have been quite popular on the site, collectively receiving more than a million views. You can take a look at the list of all of [my posts](https://www.reddit.com/r/dataisbeautiful/search?sort=top&q=author%3A%22textureflow%22+title%3A%5BOC%5D&restrict_sr=on) or check out one of the popular ones below:
  - [Words per song for rap, rock, and country music](https://www.reddit.com/r/dataisbeautiful/comments/8j1r7b/words_per_song_for_rap_rock_and_country_music_oc/)
- - [Funding probabilities on Shark Tank, grouped by gender](https://www.reddit.com/r/dataisbeautiful/comments/8wr8ko/funding_probabilities_on_shark_tank_grouped_by/)
+- [Funding probabilities on Shark Tank, grouped by gender](https://www.reddit.com/r/dataisbeautiful/comments/8wr8ko/funding_probabilities_on_shark_tank_grouped_by/)
  - [Distributions of height for the different positions in the 2018 FIFA World Cup](https://www.reddit.com/r/dataisbeautiful/comments/8sg3ok/distributions_of_height_for_the_different/)
 
 ---
@@ -35,7 +35,7 @@ I am a regular contributor to [/r/DataIsBeautiful](https://www.reddit.com/r/data
 
 [![Spoonacular Logo](https://scontent-ort2-2.xx.fbcdn.net/v/t31.0-8/1015834_366434323478799_1899116451_o.png?_nc_cat=0&oh=4c6fd31f802d6354406a9e24861c0e09&oe=5C0A020C){:class="img-responsive" height="30%" width="30%"}](https://github.com/johnwmillr/SpoonacularAPI)
 
-[Spoonacular](http://spoonacular.com/) is a food and recipe website that offers a freemium API with over fifty different endpoints. I wrote [`spoonacular`](https://github.com/johnwmillr/SpoonacularAPI), a Python package that interfaces with the Spoonacular API and makes it easy to download food, recipe, and nutrition data from the website. The API even includes endpoints for random [food jokes](https://twitter.com/johnwmillr/status/1027443472985452544) and [wine pairings](https://twitter.com/johnwmillr/status/1025989502957969408)! I wrote unit tests for each of the endpoints and have continuous integration running on [Travis-CI](https://travis-ci.org/johnwmillr/SpoonacularAPI). The package is available for installation via [`pip`](https://pypi.org/project/spoonacular/).
+[Spoonacular](http://spoonacular.com/) is a food and recipe website that offers a freemium API with over fifty different endpoints. The API even includes endpoints for random [food jokes](https://twitter.com/johnwmillr/status/1027443472985452544) and [wine pairings](https://twitter.com/johnwmillr/status/1025989502957969408)! I developed [`spoonacular`](https://github.com/johnwmillr/SpoonacularAPI), a Python package that interfaces with the Spoonacular API and makes it easy to download food, recipe, and nutrition data from the website. I wrote unit tests for each of the endpoints and have continuous integration running on [Travis-CI](https://travis-ci.org/johnwmillr/SpoonacularAPI). The package is available for installation via [`pip`](https://pypi.org/project/spoonacular/).
 
 ---
 
