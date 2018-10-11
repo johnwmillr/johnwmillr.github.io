@@ -39,34 +39,28 @@ labels = []
 for i in range(N):
     label = df.ix[[i], :].T
     label.columns = ['Row {0}'.format(i)]
-    # .to_html() is unicode; so make leading 'u' go away with str()
     labels.append(str(label.to_html()))
 
 points = ax.plot(df.x, df.y, 'o', color='b',
                  mec='k', ms=15, mew=1, alpha=.6)
 
-ax.set_xlabel('x')
-ax.set_ylabel('y')
-ax.set_title('HTML tooltips', size=20)
-
 tooltip = plugins.PointHTMLTooltip(points[0], labels,
                                    voffset=10, hoffset=10, css=css)
 plugins.connect(fig, tooltip)
-
 mpld3.show()
 ```
 
-Using the `mpld3.show()` function will display the graph within a Jupyter notebook. However, we're interested in exporting the plot for use in a Jekyll blog post, so we'll use the `mpld3.save_html()` function instead:
+Using the `mpld3.show()` function will display the graph within a Jupyter notebook. However, we're interested in exporting the plot for use in a Jekyll blog post, so we'll use the `mpld3.save_html()` function instead of the `show()` command:
 
 ```python
 filename = 'example_plot.html'
 mpld3.save_html(fig, filename, template_type='simple')
 ```
 
-The plot wouldn't render in my blog post unless I set the `template_type` variable to `'simple'`.
+For some reason, the plot wouldn't render in my blog post unless I set the `template_type` variable to `'simple'`.
 
 ### Adding the plot to a post
-After exporting the plot as an HTML file, add it to the `_includes/` directory within your Jekyll site. With the file in place, we just need to include the HTML within the Markdown file for a blog post:
+After exporting the plot as an HTML file, add it to the `_includes/` directory within your Jekyll site. After putting the file in place, we just need to include the HTML within the Markdown file for a blog post:
 
 ```html
 Here is some example text for an exciting blog post. Deep blockchain learning is the future, blah, blah, etc.

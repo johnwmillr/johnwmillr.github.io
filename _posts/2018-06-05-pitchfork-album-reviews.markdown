@@ -23,6 +23,6 @@ I was surprised to find a small negative correlation between the album review sc
 
 {% include mpld3_score_vs_lexdiv_reviews.html %}
 
-Here's a prettier static version of the same plot:
+Here's a prettier, static version of the same plot:
 
 [![Album review lexical diversities](/assets/images/lexdiv_album_reviews.png){: .center-image }](https://www.reddit.com/r/dataisbeautiful/comments/9hmtcm/lexical_diversity_of_pitchfork_album_reviews/)
