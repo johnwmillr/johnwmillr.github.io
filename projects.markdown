@@ -2,7 +2,6 @@
 layout: page
 title: Projects
 category: project
-headerImage: false
 image: assets/images/pies.jpg
 ---
 

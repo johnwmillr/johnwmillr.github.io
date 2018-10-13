@@ -1,7 +1,6 @@
 ---
 title: About
 layout: page
-headerImage: false
 image: {{ site.picture }}
 ---
 
