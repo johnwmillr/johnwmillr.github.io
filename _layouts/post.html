@@ -6,7 +6,7 @@ layout: page
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
-{% if post.image %}
+{% if post.image and page.headerImage %}
     <img class="title-image" src="{{ post.image }}" alt="{{ post.title }}">
 {% else %}
     <img class="title-image" src="{{ site.picture }}" alt="{{ page.title }}">
