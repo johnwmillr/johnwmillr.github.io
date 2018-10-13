@@ -9,7 +9,7 @@ layout: page
 {% if page.image and page.headerImage %}
     <img class="title-image" src="{{ page.image }}" alt="{{ page.title }}">
 {% else %}
-    <img class="title-image" src="{{ site.picure }}" alt="{{ page.title }}">
+    <img class="title-image" src="{{ site.url }}/{{ site.picture }}" alt="{{ page.title }}">
 {% endif %}
 
 {% include social-cards.html %}
