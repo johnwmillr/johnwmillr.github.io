@@ -53,7 +53,7 @@ Traditional bagging trains trees on distributions that are identically distribut
 
 As the trees comprising a random forest are trained using bagging, which selects a random subset of data for each tree, it is possible to identify samples that were not included in the training of a given tree. These samples are referred to as out-of-bag (OOB) and can be treated like an internal test set to evaluate the model [6]. The OOB error estimate is the mean prediction error of a sample $$x_i$$ calculated from the trees which did not include $$x_i$$ in their subset of training data [5,6].
 
-Random forests (and decision trees is general) lend themselves to straightforward calculation of feature importance. A common approach for calculating feature importance in random forests is to simply rank features based on their total reduction in the Gini impurity at each split node accumulated across each of the trees used to build the forest [6]. It is common practice to normalize the importance of all features to range from 0 to 1 or 0 to 100 [4].
+Random forests (and decision trees in general) lend themselves to straightforward calculation of feature importance. A common approach for calculating feature importance in random forests is to simply rank features based on their total reduction in the Gini impurity at each split node accumulated across each of the trees used to build the forest [6]. It is common practice to normalize the importance of all features to range from 0 to 1 or 0 to 100 [4].
 
 ## References
   1. L. Breiman, [*Classification and Regression Trees*](https://www.taylorfrancis.com/books/9781351460491), Wadsworth statistics/probability series. Wadsworth International Group, 1984.
