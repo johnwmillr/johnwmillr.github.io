@@ -32,7 +32,7 @@ I am a regular contributor to [/r/DataIsBeautiful](https://www.reddit.com/r/data
 [![PyPI version](https://badge.fury.io/py/spoonacular.svg)](https://pypi.org/project/spoonacular/)
 [![Python version](https://img.shields.io/badge/python-3.x-brightgreen.svg)](https://pypi.org/project/spoonacular/)
 
-[![Spoonacular Logo](https://scontent-ort2-2.xx.fbcdn.net/v/t31.0-8/1015834_366434323478799_1899116451_o.png?_nc_cat=0&oh=4c6fd31f802d6354406a9e24861c0e09&oe=5C0A020C){:class="img-responsive" height="30%" width="30%"}](https://github.com/johnwmillr/SpoonacularAPI)
+[![Spoonacular Logo](/assets/images/spoonacular.png){:class="img-responsive" height="30%" width="30%"}](https://github.com/johnwmillr/SpoonacularAPI)
 
 [Spoonacular](http://spoonacular.com/) is a food and recipe website that offers a freemium API with over fifty different endpoints. The API even includes endpoints for random [food jokes](https://twitter.com/johnwmillr/status/1027443472985452544) and [wine pairings](https://twitter.com/johnwmillr/status/1025989502957969408)! I developed [`spoonacular`](https://github.com/johnwmillr/SpoonacularAPI), a Python package that interfaces with the Spoonacular API and makes it easy to download food, recipe, and nutrition data from the website. I wrote unit tests for each of the endpoints and have continuous integration running on [Travis-CI](https://travis-ci.org/johnwmillr/SpoonacularAPI). The package is available for installation via [`pip`](https://pypi.org/project/spoonacular/).
 
