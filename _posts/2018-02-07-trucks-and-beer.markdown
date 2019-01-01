@@ -16,7 +16,7 @@ description: Analyzing country music lyrics
 
 To my complete surprise, this post was picked as a winner in the [2018 Pudding Cup](https://pudding.cool/process/pudding-awards-2018/)!
 
-If you aren't already familiar with The Pudding's incredible data storytelling work, go [check them out!](https://pudding.cool/)
+If you aren't already familiar with The Pudding's incredible data storytelling work, go [check them out](https://pudding.cool/).
 
 ---
 
