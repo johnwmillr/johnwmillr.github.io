@@ -11,9 +11,7 @@ image: assets/images/pies.jpg
 
 </section>
 
-You can find most of my work on either [GitHub](https://github.com/johnwmillr), [Instructables](https://www.instructables.com/member/johnwmillr/), or [/r/DataIsBeautiful](https://www.reddit.com/r/dataisbeautiful/search?sort=top&q=author%3A%22textureflow%22+title%3A%5BOC%5D&restrict_sr=on). I've also written a number of data-related posts on my [blog](blog/).
-
-Please feel free to leave a comment below, I'd love to have your feedback!
+You can find most of my work on either [GitHub](https://github.com/johnwmillr), [Instructables](https://www.instructables.com/member/johnwmillr/), or [/r/DataIsBeautiful](https://www.reddit.com/r/dataisbeautiful/search?sort=top&q=author%3A%22textureflow%22+title%3A%5BOC%5D&restrict_sr=on).
 
 ---
 
