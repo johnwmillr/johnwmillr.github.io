@@ -1,5 +1,5 @@
 ---
-title:  "Trucks and beer 🍺"
+title:  "Trucks and Beer 🍺"
 date:   2018-02-07
 layout: post
 tag:
@@ -14,13 +14,19 @@ image: assets/images/FreqPlot_beer_and_truck.png
 description: Analyzing country music lyrics
 ---
 
+To my complete surprise, this post was picked as a winner in the [2018 Pudding Cup](https://pudding.cool/process/pudding-awards-2018/)!
+
+If you aren't already familiar with The Pudding's incredible data storytelling work, go [check them out!](https://pudding.cool/)
+
+---
+
 Inspired by a post on [Big-ish Data](https://bigishdata.com/2016/10/25/talkin-bout-trucks-beer-and-love-in-country-songs-analyzing-genius-lyrics/), I've started working on a textual analysis of popular country music.
 
 More specifically, I scraped Ranker.com for a list of the top female and male country artists of the last 100 years and used my [python wrapper](https://github.com/johnwmillr/LyricsGenius) for the Genius API to download the lyrics to each song by every artist on the list. After my script ran for about six hours I was left with the lyrics to 12,446 songs by 83 artists stored in a 105 MB JSON file. As a bit of an outsider to the world of country music, I was curious whether some of the preconceived notions I had about the genre were true.
 
 Some pertinent questions:
   - Which artist mentions trucks in their songs most often?
-  - Does an artist's affinity for trucks predict any other features? Their gender for example? Or their favorite drink?
+  - Does an artist's affinity for trucks predict any other features? Their gender, for example? Or their favorite drink?
   - How has the genre's vocabulary changed over time?
   - Of all the artists, whose language is most diverse? Whose is most repetitive?
 
@@ -34,9 +40,9 @@ I'm interested in whether an artist's tendency to use certain terms correlate to
 
 It turns out that yes, they are.
 
-Each point on the two plots below represents a single artist. The values for each point were calculated as the percentage of times the given artist mentions a particular term across all of their songs. For example, Cole Swindell had 46 total songs and mentioned beer in 24 of them, arriving at a percentage of 52%.
+Each point on the two plots below represents a single artist. The values for each point were calculated as the percentage of times the given artist mentions a particular term across all of their songs. For example, I had 46 songs by Cole Swindell in my database, and he mentioned beer in 24 of them, arriving at a percentage of 52%.
 
-Think about that. [Cole Swindell](https://genius.com/artists/Cole-swindell) mentions beer in *more than half of his songs*. You can also count on him referencing trucks once every five songs. [Dustin Lynch](https://genius.com/artists/Dustin-lynch) turned out to be the artist that sang about trucks most frequently, with the word *truck* appearing in 23.8% of his songs.
+Think about that. [Cole Swindell](https://genius.com/artists/Cole-swindell) mentions beer in *more than half of his songs*. You can also count on him referencing trucks once every five songs. [Dustin Lynch](https://genius.com/artists/Dustin-lynch) turned out to be the artist that sang about trucks most often, with the word *truck* appearing in 23.8% of his songs.
 
 ![beer_and_trucks]({{site.url}}/assets/images/FreqPlot_beer_and_truck.png){: .center-image }
 
