@@ -14,12 +14,6 @@ image: assets/images/FreqPlot_beer_and_truck.png
 description: Analyzing country music lyrics
 ---
 
-To my complete surprise, this post was picked as a winner in the [2018 Pudding Cup](https://pudding.cool/process/pudding-awards-2018/)!
-
-If you aren't already familiar with The Pudding's incredible data storytelling work, go [check them out](https://pudding.cool/).
-
----
-
 Inspired by a post on [Big-ish Data](https://bigishdata.com/2016/10/25/talkin-bout-trucks-beer-and-love-in-country-songs-analyzing-genius-lyrics/), I've started working on a textual analysis of popular country music.
 
 More specifically, I scraped Ranker.com for a list of the top female and male country artists of the last 100 years and used my [python wrapper](https://github.com/johnwmillr/LyricsGenius) for the Genius API to download the lyrics to each song by every artist on the list. After my script ran for about six hours I was left with the lyrics to 12,446 songs by 83 artists stored in a 105 MB JSON file. As a bit of an outsider to the world of country music, I was curious whether some of the preconceived notions I had about the genre were true.
@@ -96,3 +90,9 @@ This one is pretty straightforward. Looks like we're all just livin' for the wee
 So, we've collected a bunch of country lyrics, and we've started to notice some interesting trends in the data. Can the trends we've identified provide any further insight into the genre? Might we be able to use the trends we've identified in the lyrics to make inferences about the artists? Could we, for example, given a set of song lyrics guess the gender of the artist who wrote them?
 
 To make these sorts of predictions and inferences from the lyrics, we'll need to identify useful features and train a classifier, both of which I'll go into detail on in my next post. Stay tuned!
+
+---
+
+To my complete surprise, this post was picked as a winner in the [2018 Pudding Cup](https://pudding.cool/process/pudding-awards-2018/)!
+
+If you aren't already familiar with The Pudding's incredible data storytelling work, go [check them out](https://pudding.cool/).
