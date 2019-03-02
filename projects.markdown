@@ -47,6 +47,13 @@ I am a regular contributor to [/r/DataIsBeautiful](https://www.reddit.com/r/data
 
 ---
 
+## Automated medical diagnostics for retinal diseases -- ***Spring 2018***
+[![Retinal layers](/assets/images/Fig_ILM.png){:class="img-responsive" height="23%" width="23%"}](https://ir.uiowa.edu/etd/6215/)
+
+As part of my masters program at the University of Iowa, I worked as a research assistant in Dr. Mona Garvin's image processing lab. My research in Dr. Garvin's lab focused on the development of automated diagnostic tools for diseases of the retina. Specifically, I trained machine learning classifiers to use the characteristic shapes of retinal layers to differentiate between two types of optic disc swelling, [papilledema](https://en.wikipedia.org/wiki/Papilledema) and [NAION](https://en.wikipedia.org/wiki/Anterior_ischemic_optic_neuropathy). My research in the Garvin Lab culminated with a poster presentation at [ARVO 2018](https://iovs.arvojournals.org/article.aspx?articleid=2693706) and the defense of [my thesis](https://ir.uiowa.edu/etd/6215/), *Differentiation between causes of optic disc swelling using retinal layer shape features*.
+
+---
+
 ## LyricsGenius -- ***Fall 2017***
 [![Build Status](https://travis-ci.org/johnwmillr/LyricsGenius.svg?branch=master)](https://travis-ci.org/johnwmillr/LyricsGenius)
 [![PyPI version](https://badge.fury.io/py/lyricsgenius.svg)](https://pypi.org/project/lyricsgenius/)
