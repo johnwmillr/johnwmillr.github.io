@@ -1,12 +1,12 @@
 # main text of home
 name: John W. Miller
-bio: I, for one, welcome our new computer overlords.<br/>Perpetually inquisitive data scientist.
+bio: I, for one, welcome our new computer overlords.<br/>Perpetually inquisitive Data Scientist.
 
 # Markdown renderer
 markdown: kramdown
 
 # twitter summary info
-description: Perpetually inquisitve data scientist.
+description: Perpetually inquisitve Data Scientist.
 
 # if it's an external image, update below for true
 # better with square images
@@ -47,7 +47,7 @@ twitter: johnwmillr
 authors:
     john:
         name: John
-        bio: Perpetually inquisitve data scientist.
+        bio: Perpetually inquisitve Data Scientist.
         external-image: false
         picture: assets/images/john02.png
         twitter: johnwmillr
