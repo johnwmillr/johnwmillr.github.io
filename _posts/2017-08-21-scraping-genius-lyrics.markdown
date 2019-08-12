@@ -17,12 +17,16 @@ description: Tutorial on scraping song lyrics from Genius.com
 
 It's actually not too difficult to start pulling data from the Genius website. Genius is hip enough to provide a free application programming interface (API) that makes it easy for nerds to programmatically access song and artist data from their website. What the Genius API *doesn't* provide, however, is a way to download the lyrics themselves. With a little help from [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/) though, it's possible to grab the song lyrics without too much extra work.
 
-If you'd like to follow along with the code described in this post, download my Python Jupyter notebook [here](/assets/code/scraping-genius-lyrics.ipynb). The culmination of this post is my LyricsGenius package, which is available on [GitHub](https://github.com/johnwmillr/LyricsGenius).
+If you'd like to follow along with the code described in this post, download my Python Jupyter notebook [here](/assets/code/scraping-genius-lyrics.ipynb). The culmination of this post is my LyricsGenius package, which is available on [GitHub](https://github.com/johnwmillr/LyricsGenius). The pacakge has evolved quite a bit from when I originally wrote this post, but it should still serve as a useful overview of the core functionality.
 
 ## tl;dr ##
 I wrote a [Python package](https://pypi.org/project/lyricsgenius/) that wraps the Genius.com API and makes it easy to download song lyrics.
 
-Use `pip` to install the package: ```$pip install lyricsgenius```.
+Use `pip` to install the package:
+
+```
+pip install lyricsgenius
+```
 
 Look at the [examples](https://github.com/johnwmillr/LyricsGenius#usage) on my GitHub page to get started.
 
