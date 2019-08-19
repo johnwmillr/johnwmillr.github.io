@@ -9,7 +9,7 @@ tag:
 category: blog
 author: john
 name: john
-image: /assets/images/FaceAverages/AverageFace_Apple.gif
+image: /assets/images/FaceAverages/Walmart.jpg
 description: "Faces of Fortune: The look of leadership at top US companies"
 ---
 
