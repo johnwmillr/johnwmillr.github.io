@@ -1,6 +1,6 @@
 ---
 title: "Faces of Fortune 💰"
-date: 2019-08-13
+date: 2019-08-18
 layout: post
 tag:
  - python
