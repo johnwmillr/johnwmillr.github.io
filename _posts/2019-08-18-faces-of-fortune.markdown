@@ -19,11 +19,13 @@ You've probably seen average faces before—they're not too [uncommon](https://w
 
 I'd been playing with average faces for the last few weeks with—initially—only [amusing results](https://twitter.com/johnwmillr/status/1155707694063337472?s=20). After updating code from a slightly outdated (but extremely useful) [tutorial](https://www.learnopencv.com/average-face-opencv-c-python-tutorial/) and wrapping it into my own [Python package](https://github.com/johnwmillr/Facer), I was eager to find an application worth writing about.
 
-{% include figure_link.html url="/assets/images/FaceAverages/Faces_RapRockCountry.png" href="/assets/images/FaceAverages/Faces_RapRockCountry.png" caption="Averages faces of female and male rap, rock, and country artists." width="60%" %}
+{% include figure_link.html url="/assets/images/FaceAverages/Faces_RapRockCountry.png" href="https://www.reddit.com/r/dataisbeautiful/comments/crxrud/the_average_faces_of_rap_rock_and_country/" caption="Averages faces of female and male rap, rock, and country artists." width="60%" %}
 
 After having [moderate success](https://www.reddit.com/r/dataisbeautiful/comments/crxrud/the_average_faces_of_rap_rock_and_country/) with averages of musicians' faces from different genres, my brother suggested I target a source where I could count on the composition of the photos being mostly consistent: Fortune 500 company executive leadership pages. So, the immediate goal of this post is simple: for each of the top 50 Fortune 500 companies, determine the average face of the company's executive leadership.
 
 # Methods
+
+My source code for this project is available [on GitHub](https://github.com/johnwmillr/FacesOfFortune).
 
 ## Downloading faces
 
@@ -35,7 +37,7 @@ Next I scraped images from each company's corporate leadership page. This turned
 
 Unfortunately, the fully automated scraping wasn't successful on about 15 of the top 50 websites. The most common issue was a corporate leadership page not including any images, only a list of names. For these websites, I ran Google image searches that included the individual and company's names and collected the first image to include a single face.
 
-## Face averaging
+## Averaging faces
 
 Once corporate leadership images were downloaded for each company, I used my [Facer](https://github.com/johnwmillr/Facer) package to create the average faces. Facer is largely just a reworking of preexisting code from [Satya Mallick](https://twitter.com/learnopencv). The majority of my work was updating the tutorial's code for Python 3 and the latest version of OpenCV. Also, for some reason, installing OpenCV broke my Mac's Python install and virtual environments :( So watch out!
 
@@ -61,4 +63,6 @@ The Fortune 500 list categorizes each company into an industry. After being a bi
 [![Industry faces]({{site.url}}/assets/images/FaceAverages/Industries.png){: .center-image }]({{site.url}}/assets/images/FaceAverages/Industries.png)
 
 # Discussion
-I hope this project inspires conversation. What questions does it bring to mind for you? Are these results interesting? Surprising? Useful? Important? What other areas could we apply this sort of work to? Let me know what you think!
+I hope this project inspires conversation. What questions does it bring to mind for you? Are these results interesting? Surprising? Useful? Important? What other areas could we apply this sort of work to?
+
+Let me know what you think!
