@@ -9,7 +9,7 @@ tag:
 category: blog
 author: john
 name: john
-image: /assets/images/FaceAverages/Walmart.jpg
+image: assets/images/FaceAverages/Walmart-1.jpg
 description: "Faces of Fortune: The look of leadership at top US companies"
 ---
 
@@ -19,7 +19,7 @@ You've probably seen average faces before—they're not too [uncommon](https://w
 
 I'd been playing with average faces for the last few weeks with—initially—only [amusing results](https://twitter.com/johnwmillr/status/1155707694063337472?s=20). After updating code from a slightly outdated (but extremely useful) [tutorial](https://www.learnopencv.com/average-face-opencv-c-python-tutorial/) and wrapping it into my own [Python package](https://github.com/johnwmillr/Facer), I was eager to find an application worth writing about.
 
-{% include figure_link.html url="/assets/images/FaceAverages/Faces_RapRockCountry.png" href="https://www.reddit.com/r/dataisbeautiful/comments/crxrud/the_average_faces_of_rap_rock_and_country/" caption="Averages faces of female and male rap, rock, and country artists." width="60%" %}
+{% include figure_link.html url="/assets/images/FaceAverages/Faces_RapRockCountry.png" href="https://www.reddit.com/r/dataisbeautiful/comments/crxrud/the_average_faces_of_rap_rock_and_country/" caption="Averages faces of female and male rap, rock, and country artists." width="80%" %}
 
 After having [moderate success](https://www.reddit.com/r/dataisbeautiful/comments/crxrud/the_average_faces_of_rap_rock_and_country/) with averages of musicians' faces from different genres, my brother suggested I target a source where I could count on the composition of the photos being mostly consistent: Fortune 500 company executive leadership pages. So, the immediate goal of this post is simple: for each of the top 50 Fortune 500 companies, determine the average face of the company's executive leadership.
 
