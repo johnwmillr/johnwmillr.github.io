@@ -1,5 +1,5 @@
 ---
-title:  "Adding interactive plots to a Jekyll blog"
+title:  "Adding interactive plots to a Jekyll blog 📈"
 date:   2018-09-02
 layout: post
 tag:
