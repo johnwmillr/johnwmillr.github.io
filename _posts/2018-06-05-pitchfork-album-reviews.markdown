@@ -1,5 +1,5 @@
 ---
-title:  "Pitchfork album reviews"
+title:  "Pitchfork album reviews 🎧"
 date:   2018-06-05
 layout: post
 tag:

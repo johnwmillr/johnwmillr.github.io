@@ -1,5 +1,5 @@
 ---
-title: "Unix to the rescue!"
+title: "Unix to the rescue! 💻"
 date: 2018-08-20
 layout: post
 tag:
