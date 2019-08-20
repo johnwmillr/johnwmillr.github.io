@@ -20,7 +20,8 @@ You can find most of my work on either [GitHub](https://github.com/johnwmillr), 
 
 I am a regular contributor to [/r/DataIsBeautiful](https://www.reddit.com/r/dataisbeautiful/search?sort=top&q=author%3A%22textureflow%22+title%3A%5BOC%5D&restrict_sr=on), a data visualization community on Reddit. A few of my posts have been quite popular on the site, collectively receiving more than a million views. You can take a look at the list of all of [my posts](https://www.reddit.com/r/dataisbeautiful/search?sort=top&q=author%3A%22textureflow%22+title%3A%5BOC%5D&restrict_sr=on) or check out one of the popular ones below:
  - [Words per song for rap, rock, and country music](https://www.reddit.com/r/dataisbeautiful/comments/8j1r7b/words_per_song_for_rap_rock_and_country_music_oc/)
-- [Funding probabilities on Shark Tank, grouped by gender](https://www.reddit.com/r/dataisbeautiful/comments/8wr8ko/funding_probabilities_on_shark_tank_grouped_by/)
+ - [The average faces of rap, rock, and country musicians](https://www.reddit.com/r/dataisbeautiful/comments/crxrud/the_average_faces_of_rap_rock_and_country/)
+ - [Funding probabilities on Shark Tank, grouped by gender](https://www.reddit.com/r/dataisbeautiful/comments/8wr8ko/funding_probabilities_on_shark_tank_grouped_by/)
  - [Distributions of height for the different positions in the 2018 FIFA World Cup](https://www.reddit.com/r/dataisbeautiful/comments/8sg3ok/distributions_of_height_for_the_different/)
 
 ---
