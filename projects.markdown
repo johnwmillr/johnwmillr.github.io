@@ -26,6 +26,14 @@ I am a regular contributor to [/r/DataIsBeautiful](https://www.reddit.com/r/data
 
 ---
 
+## Facer -- ***Summer 2019***
+
+[![Facer GIF](/assets/images/FaceAverages/AverageFace_Apple.gif){:class="img-responsive" height="30%" width="30%"}](https://github.com/johnwmillr/Facer)
+
+[Facer](https://github.com/johnwmillr/Facer) is a Python package I wrote that simplifies the process of creating [average faces](https://www.google.com/search?safe=active&q=average+face&tbm=isch&source=univ&sa=X&ved=2ahUKEwii_L76goHkAhUqwFQKHX83As4QsAR6BAgFEAE&biw=1440&bih=7). The package draws heavily from a preexisting tutorial written by [Satya Mallick](https://twitter.com/learnopencv). The majority of my work consisted of updating the tutorial's code to work with Python 3 and the latest version of OpenCV. I also added streamlined functions to go straight from a directory of images to an averaged face or animated GIF. I used Facer in a popular [Reddit post](https://www.reddit.com/r/dataisbeautiful/comments/crxrud/the_average_faces_of_rap_rock_and_country/), which in turn inspired other users' [posts](https://www.reddit.com/r/dataisbeautiful/comments/cx3pp6/oc_averaged_faces_of_members_of_the_116th_united/) on [Reddit](https://www.reddit.com/r/dataisbeautiful/comments/cxff61/oc_average_face_of_miss_daegu_2013_beauty_pageant/).
+
+---
+
 ## SpoonacularAPI -- ***Summer 2018***
 [![Build Status](https://travis-ci.org/johnwmillr/SpoonacularAPI.svg?branch=master)](https://travis-ci.org/johnwmillr/SpoonacularAPI)
 [![PyPI version](https://badge.fury.io/py/spoonacular.svg)](https://pypi.org/project/spoonacular/)
@@ -62,7 +70,7 @@ As part of my masters program at the University of Iowa, I worked as a research 
 
 [![GeniusLogo](https://t2.genius.com/unsafe/220x0/https%3A%2F%2Fimages.rapgenius.com%2F716fe1fbbf4817447e21dd2f9aca0354.999x1000x1.png){:class="img-responsive" height="20%" width="20%"}](https://github.com/johnwmillr/LyricsGenius)
 
-[LyricsGenius](https://github.com/johnwmillr/LyricsGenius) is a Python package I wrote that allows users to programmatically access lyrics, artist information, and song media from [Genius.com](https://genius.com/). Genius is a fun website that lets users upload song lyrics and collaborate on annotations and interpretations of artists' words. I wanted a simple way to download lots of song lyrics at once, so I thought I'd write a Python wrapper for the API Genius provides. The code is hosted on [GitHub](https://github.com/johnwmillr/GeniusAPI) and can be installed using [PyPI](https://pypi.org/project/lyricsgenius/). I used LyricsGenius for my analysis of [country song lyrics](http://www.johnwmillr.com/trucks-and-beer/).
+[LyricsGenius](https://github.com/johnwmillr/LyricsGenius) is a Python package I wrote that allows users to programmatically access lyrics, artist information, and song media from [Genius.com](https://genius.com/). Genius is a fun website that lets users upload song lyrics and collaborate on annotations and interpretations of artists' words. I wanted a simple way to download lots of song lyrics at once, so I thought I'd write a Python wrapper for the API Genius provides. The code is hosted on [GitHub](https://github.com/johnwmillr/GeniusAPI) and can be installed using [PyPI](https://pypi.org/project/lyricsgenius/). I used LyricsGenius for my analysis of [country song lyrics](/trucks-and-beer/).
 
 ---
 
