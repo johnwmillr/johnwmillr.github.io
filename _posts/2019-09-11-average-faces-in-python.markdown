@@ -1,6 +1,6 @@
 ---
 title: "Creating average faces in Python 🙂"
-date: 2019-09-01
+date: 2019-09-11
 layout: post
 tag:
  - python
