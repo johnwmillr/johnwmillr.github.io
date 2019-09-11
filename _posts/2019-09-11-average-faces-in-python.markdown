@@ -26,7 +26,7 @@ On Mac, use [`homebrew`](https://brew.sh) to install OpenCV.
 brew install opencv
 ```
 
-Installing OpenCV with `brew` did work for me, but it also broke my previous Python installation and all my virtual environments. So uhh, good luck with that. I don't have experience installing OpenCV on Windows, but you can try this [tutorial]().
+Installing OpenCV with `brew` did work for me, but it also broke my previous Python installation and all my virtual environments. So uhh, good luck with that. I don't have experience installing OpenCV on Windows, but you can try this [tutorial](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_setup/py_setup_in_windows/py_setup_in_windows.html).
 
 ## 2. Clone the project repository
 After installing OpenCV, we can clone the project repository from GitHub:
@@ -95,4 +95,6 @@ images = facer.load_images(path_to_images)
 gif, average_face = facer.create_animated_gif(images)
 ```
 
-Let me know if you have any questions! I'll be most responsive to new [issues]() or [pull requests]() on the GitHub repository.
+{% include figure_link.html url="/assets/images/FaceAverages/AverageFace_Apple.gif" href="/assets/images/FaceAverages/AverageFace_Apple.gif" caption="Combining faces of Apple's executive leadership." width="90%" %}
+
+Let me know if you have any questions! I'll be most responsive to new issues or pull requests on the [GitHub repository](https://github.com/johnwmillr/Facer).
