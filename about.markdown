@@ -10,7 +10,7 @@ image: {{ site.picture }}
 
 </section>
 
-Hi! I'm a data scientist living in Portland, Oregon. I've most recently worked for [DiscoverOrg](https://discoverorg.com), where I helped develop automated business sales intelligence tools.
+Hi! I live in Portland, Oregon and work as a data scientist at [ZoomInfo](https://www.zoominfo.com) (formerly DiscoverOrg), where I help develop automated business sales intelligence tools.
 
 {% include figure.html url="/assets/images/John_Defense.jpg" caption="Defending my master's thesis in May 2018." width="600px" %}
 
