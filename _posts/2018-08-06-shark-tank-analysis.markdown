@@ -1,5 +1,5 @@
 ---
-title: "Swimming in the Shark Tank… 🦈 Does gender matter?"
+title: "Swimming in the Shark Tank… Does gender matter? 🦈"
 date: 2018-08-06
 layout: post
 tag:
