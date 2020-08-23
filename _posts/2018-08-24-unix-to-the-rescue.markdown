@@ -104,7 +104,7 @@ The Unix code I ended up with makes use of a couple of really helpful command-li
 
  The `-rl` option tells `grep` to search recursively and print the matched file names, rather than the actual matched text. The `e` option is used to specify the regular expression to search with. The `.` tells `grep` to search within the current directory.
 
-[`pipe`](http://www.linfo.org/pipes.html) and [`redirect`](http://www.westwind.com/reference/os-x/commandline/pipes.html#redir-output)
+[`pipe`](http://www.linfo.org/pipes.html) and [`redirect`](https://bytebitebit.com/pipes/#redir-output)
 
 The `|` character in-between the `grep` and `awk` commands is a *pipe* and is used to send the output from one command into another. The `>` character redirects the output of a command to be stored as text in a file (and vice versa). In my example above, the output from `grep` (a list of filenames) is piped into the `awk` command whose output (a list of `rm` commands) is then redirected into the `deleteRecipes.sh` file. Be careful with `>` as it will overwrite any existing files with the same name. The `>>` operator is a safer alternative that appends to rather than overwrites existing files.
 
