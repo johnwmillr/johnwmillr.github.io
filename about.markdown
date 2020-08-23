@@ -18,4 +18,4 @@ I enjoy pursuing fascinating but as-yet unexplored questions, such as, *are coun
 
 I earned a masters degree in electrical and computer engineering from the [University of Iowa](https://ece.engineering.uiowa.edu/) in May 2018, where I helped develop automated diagnostics for diseases of the retina. Before heading to grad school, I served as a research assistant in the [Human Spinal Cord Research Lab](https://www.healthcare.uiowa.edu/labs/hscrl-neurosurgery/) in Iowa's Department of Neurosurgery. I previously graduated from [Goshen College](https://www.goshen.edu/), where I completed a B.A. in physics with a minor in English, and remained actively involved in music.
 
-I'd love to chat about data science, open source project ideas, or why *The Great British Baking Show* is the best TV being made today. Feel free to reach out via [Twitter](https://twitter.com/johnwmillr) or [email](mailto:johnwmillr@gmail.com).
+I'd love to chat about data science, open source project ideas, or why *The Great British Baking Show* is the best TV being made today. Feel free to reach out via [Twitter](https://twitter.com/johnwmillr) or [email](mailto:johnwmillr+web@gmail.com).
