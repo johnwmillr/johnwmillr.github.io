@@ -11,7 +11,7 @@ image: assets/images/pies.jpg
 
 </section>
 
-You can find most of my work on either [GitHub](https://github.com/johnwmillr), [Instructables](https://www.instructables.com/member/johnwmillr/), or [/r/DataIsBeautiful](https://www.reddit.com/r/dataisbeautiful/search?sort=top&q=author%3A%22textureflow%22+title%3A%5BOC%5D&restrict_sr=on).
+Most of my work is on [GitHub](https://github.com/johnwmillr), [Instructables](https://www.instructables.com/member/johnwmillr/), and [/r/DataIsBeautiful](https://www.reddit.com/r/dataisbeautiful/search?sort=top&q=author%3A%22textureflow%22+title%3A%5BOC%5D&restrict_sr=on).
 
 ---
 
@@ -89,21 +89,21 @@ For the final project in my Advanced Digital Image Processing course, I chose to
 ---
 
 ## EMG audio amplifier -- ***Spring 2017***
-[![EMGaudio](https://cdn.instructables.com/FSY/V1BE/J47LCT82/FSYV1BEJ47LCT82.MEDIUM.jpg){:class="img-responsive" height="30%" width="30%"}](http://www.instructables.com/id/Build-a-Muscle-Audio-Amplifier-Electromyography)
+[![EMGaudio](https://content.instructables.com/ORIG/FSY/V1BE/J47LCT82/FSYV1BEJ47LCT82.png?auto=webp&frame=1&width=982&height=1024&fit=bounds&md=158fe3c05468134ed9e32e87929b4372){:class="img-responsive" height="30%" width="30%"}](http://www.instructables.com/id/Build-a-Muscle-Audio-Amplifier-Electromyography)
 
 During the spring of 2017 I built an electromyography (EMG) audio amplifier. The two-channel device was built from analog integrated circuit components (op-amps, instrumentation amps, and audio amps), included band-pass filters, and could output audio through a standard 1/8" audio jack. Visit the link for images and schematics of the device as well as detailed instructions for building your own. After I published my project to the Instructables website the HackADay blog [featured](https://hackaday.com/2017/06/24/listen-to-your-body) my work and Tweeted a link out to their 100K+ followers!
 
 ---
 
 ## Muscle-controlled MIDI device -- ***Winter 2017***
-[![MIDImuscle](https://cdn.instructables.com/F7A/0QZB/IYKFXBWB/F7A0QZBIYKFXBWB.MEDIUM.jpg){:class="img-responsive" height="30%" width="30%"}](http://www.instructables.com/id/Make-Muscle-MIDI-Music/)
+[![MIDImuscle](https://content.instructables.com/ORIG/F7A/0QZB/IYKFXBWB/F7A0QZBIYKFXBWB.png?auto=webp&frame=1&width=1024&height=1024&fit=bounds&md=a401ea8cb83d38921cfb19d631938002){:class="img-responsive" height="30%" width="30%"}](http://www.instructables.com/id/Make-Muscle-MIDI-Music/)
 
 During the winter of 2017, I built an electromyography ([EMG](https://en.wikipedia.org/wiki/Electromyography)) amplifier which allowed users to trigger MIDI instrument sounds (e.g. a snare drum) by flexing their muscles. The device used muscle activity as a control signal for both volume and pitch of the MIDI notes. After the muscle activity was amplified and filtered via a custom-built analog circuit, an Arduino translated the EMG signals into MIDI signals which were then sent over Bluetooth to an iPhone running Garageband. I ended up winning second prize in the [Instructables Sensors 2017 contest](http://www.instructables.com/contest/sensors2017/).
 
 ---
 
 ## Halloween drum machine costume -- ***Fall 2016***
-[![MIDIcostume](https://cdn.instructables.com/F30/YA8B/J44FX9TH/F30YA8BJ44FX9TH.MEDIUM.jpg){:class="img-responsive" height="22%" width="22%"}](http://www.instructables.com/id/Functional-MIDI-Drum-Machine-Costume)
+[![MIDIcostume](https://content.instructables.com/ORIG/F30/YA8B/J44FX9TH/F30YA8BJ44FX9TH.png?auto=webp&frame=1&width=533&height=1024&fit=bounds&md=b53f642bdae67dac7fbe7ee5961a1d77){:class="img-responsive" height="22%" width="22%"}](http://www.instructables.com/id/Functional-MIDI-Drum-Machine-Costume)
 
 For Halloween 2016 I designed and built a fully functioning MIDI drum machine costume. The costume consisted of piezoelectric sensors worn on the chest which sent signals into an Arduino when tapped. I wrote code for the Arduino that translated the raw force signals into MIDI commands which were sent to an iPhone running GarageBand. The iPhone then played drum noises (triggered by the sensors on my chest) through a Bluetooth speaker. I wrote a description of the project along with a step-by-step tutorial for [Instructables](http://www.instructables.com/id/Functional-MIDI-Drum-Machine-Costume).
 
