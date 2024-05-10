@@ -6,7 +6,7 @@ bio: I, for one, welcome our new computer overlords.<br/>Perpetually inquisitive
 markdown: kramdown
 
 # twitter summary info
-description: Perpetually inquisitve Data Scientist.
+description: Perpetually inquisitive Data Scientist.
 
 # if it's an external image, update below for true
 # better with square images
@@ -24,7 +24,7 @@ url: https://johnwmillr.github.io
 permalink: /:title/
 
 # To enable google analytics, supply your token below
-analytics-google: 'UA-103816553-1'
+analytics-google: 'G-0D8N47NCGV'
 
 # if you don't want comments in your posts, leave categories empty
 disqus:
@@ -47,7 +47,7 @@ twitter: johnwmillr
 authors:
     john:
         name: John
-        bio: Perpetually inquisitve Data Scientist.
+        bio: Perpetually inquisitive Data Scientist.
         external-image: false
         picture: assets/images/john02.png
         twitter: johnwmillr
