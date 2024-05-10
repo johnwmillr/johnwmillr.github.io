@@ -24,7 +24,7 @@ url: https://johnwmillr.github.io
 permalink: /:title/
 
 # To enable google analytics, supply your token below
-analytics-google: 'G-0D8N47NCGV'
+analytics-google: 'UA-103816553-1'
 
 # if you don't want comments in your posts, leave categories empty
 disqus:
