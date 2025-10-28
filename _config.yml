@@ -36,7 +36,7 @@ github: johnwmillr
 linkedin: johnwmillr
 instructables: johnwmillr
 googlescholar: eGVw-FAAAAAJ&hl=en
-twitter: johnwmillr
+# twitter: johnwmillr
 # facebook:
 # youtube:
 # spotify:
@@ -50,7 +50,7 @@ authors:
         bio: Perpetually inquisitive Data Scientist.
         external-image: false
         picture: assets/images/john02.png
-        twitter: johnwmillr
+        # twitter: johnwmillr
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
