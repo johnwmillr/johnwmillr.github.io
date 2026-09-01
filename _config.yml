@@ -19,7 +19,7 @@ resume: true
 resume-external: false
 resume-url: assets/pdfs/JohnWMiller_Resume.pdf
 
-url: https://www.johnwmillr.com
+url: https://johnwmillr.com
 
 permalink: /:title/
 
