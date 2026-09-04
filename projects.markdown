@@ -50,7 +50,7 @@ I am a regular contributor to [/r/DataIsBeautiful](https://www.reddit.com/r/data
 [![PyPI version](https://badge.fury.io/py/sportradar.svg)](https://pypi.org/project/sportradar/)
 [![Python version](https://img.shields.io/badge/python-3.x-brightgreen.svg)](https://pypi.org/project/sportradar/)
 
-[![Sportradar Logo](https://sportradar.us/wp-content/uploads/2015/12/logo-retina.png){:class="img-responsive" height="30%" width="30%"}](https://github.com/johnwmillr/SportradarAPIs)
+[![World Cup player heights and weights](/assets/images/height_vs_weight_by_position.png){:class="img-responsive" height="45%" width="45%"}](https://github.com/johnwmillr/SportradarAPIs)
 
 [Sportradar](http://sportradar.com/) is a company that provides extensive APIs for a number of professional sports including soccer, basketball, and multiple eSports leagues. I wrote a [`sportradar`](https://github.com/johnwmillr/SportradarAPIs), a Python package that simplifies the process of downloading data from Sportradar's APIs. A fun part of the project was writing a [script](https://github.com/johnwmillr/DocScraper/blob/master/sportradar/scrapeSportradarEndpoints.ipynb) to scrape the Sportradar documentation and automatically generate functional Python code and unit tests for each API endpoint. My [analysis](/fifa-world-cup-data/) of data from the 2018 FIFA World Cup made use of `sportradar` and provides a few example use cases. The project is available via [`pip`](https://pypi.org/project/sportradar/).
 
