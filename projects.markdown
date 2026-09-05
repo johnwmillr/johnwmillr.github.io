@@ -110,6 +110,6 @@ For Halloween 2016 I designed and built a fully functioning MIDI drum machine co
 ---
 
 ## Musician Maker -- ***Summer 2011***
-[![Guthman](https://www.goshen.edu/wp-content/uploads/sites/2/2012/02/Guthman2012.jpg){:class="img-responsive" height="22%" width="22%"}](https://www.goshen.edu/academics/2012/02/29/miller-and-buschert-finalists-in-guthman-competition/)
+[![Musician Maker at the 2012 Guthman competition](https://i.ytimg.com/vi/5YQF2KTMRPs/hqdefault.jpg){:class="img-responsive" height="22%" width="22%"}](https://www.youtube.com/watch?v=5YQF2KTMRPs)
 
 During the summer of 2011 I worked on the "Musician Maker" project as part of Goshen College's [Maple Scholars Program](https://www.goshen.edu/academics/maple-scholars/). Musician Maker is an intuitive, computer-controlled system of novel instruments that allows non-musicians to improvise expressive music. During the winter of 2012 my advisor and physics professor, Dr. John Buschert, and I competed in and were selected as finalists for the [2012 Guthman New Musical Instrument Competition](https://www.youtube.com/watch?v=5YQF2KTMRPs) hosted at Georgia Tech. I wrote multi-threaded Python code that generated artificial music and interfaced with the novel hardware instruments.
