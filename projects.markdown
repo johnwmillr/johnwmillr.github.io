@@ -16,7 +16,7 @@ Most of my work is on [GitHub](https://github.com/johnwmillr), [Instructables](h
 ---
 
 ## DataIsBeautiful
-[![dataisbeautiful](https://s3.amazonaws.com/freebiesupply/large/2x/reddit-logo-png-transparent.png){:class="img-responsive" height="20%" width="20%"}](https://www.reddit.com/r/dataisbeautiful/search?sort=top&q=author%3A%22textureflow%22+title%3A%5BOC%5D&restrict_sr=on)
+[![dataisbeautiful](/assets/images/reddit_logo.png){:class="img-responsive" height="20%" width="20%"}](https://www.reddit.com/r/dataisbeautiful/search?sort=top&q=author%3A%22textureflow%22+title%3A%5BOC%5D&restrict_sr=on)
 
 I am a regular contributor to [/r/DataIsBeautiful](https://www.reddit.com/r/dataisbeautiful/search?sort=top&q=author%3A%22textureflow%22+title%3A%5BOC%5D&restrict_sr=on), a data visualization community on Reddit. A few of my posts have been quite popular on the site, collectively receiving more than a million views. You can take a look at the list of all of [my posts](https://www.reddit.com/r/dataisbeautiful/search?sort=top&q=author%3A%22textureflow%22+title%3A%5BOC%5D&restrict_sr=on) or check out one of the popular ones below:
  - [Words per song for rap, rock, and country music](https://www.reddit.com/r/dataisbeautiful/comments/8j1r7b/words_per_song_for_rap_rock_and_country_music_oc/)
@@ -50,7 +50,7 @@ I am a regular contributor to [/r/DataIsBeautiful](https://www.reddit.com/r/data
 [![PyPI version](https://badge.fury.io/py/sportradar.svg)](https://pypi.org/project/sportradar/)
 [![Python version](https://img.shields.io/badge/python-3.x-brightgreen.svg)](https://pypi.org/project/sportradar/)
 
-[![Sportradar Logo](https://sportradar.us/wp-content/uploads/2015/12/logo-retina.png){:class="img-responsive" height="30%" width="30%"}](https://github.com/johnwmillr/SportradarAPIs)
+[![World Cup player heights and weights](/assets/images/height_vs_weight_by_position.png){:class="img-responsive" height="45%" width="45%"}](https://github.com/johnwmillr/SportradarAPIs)
 
 [Sportradar](http://sportradar.com/) is a company that provides extensive APIs for a number of professional sports including soccer, basketball, and multiple eSports leagues. I wrote a [`sportradar`](https://github.com/johnwmillr/SportradarAPIs), a Python package that simplifies the process of downloading data from Sportradar's APIs. A fun part of the project was writing a [script](https://github.com/johnwmillr/DocScraper/blob/master/sportradar/scrapeSportradarEndpoints.ipynb) to scrape the Sportradar documentation and automatically generate functional Python code and unit tests for each API endpoint. My [analysis](/fifa-world-cup-data/) of data from the 2018 FIFA World Cup made use of `sportradar` and provides a few example use cases. The project is available via [`pip`](https://pypi.org/project/sportradar/).
 
@@ -89,7 +89,7 @@ For the final project in my Advanced Digital Image Processing course, I chose to
 ---
 
 ## EMG audio amplifier -- ***Spring 2017***
-[![EMGaudio](https://content.instructables.com/ORIG/FSY/V1BE/J47LCT82/FSYV1BEJ47LCT82.png?auto=webp&frame=1&width=982&height=1024&fit=bounds&md=158fe3c05468134ed9e32e87929b4372){:class="img-responsive" height="30%" width="30%"}](http://www.instructables.com/id/Build-a-Muscle-Audio-Amplifier-Electromyography)
+[![EMGaudio](/assets/images/EMG_Cover-01.png){:class="img-responsive" height="30%" width="30%"}](http://www.instructables.com/id/Build-a-Muscle-Audio-Amplifier-Electromyography)
 
 During the spring of 2017 I built an electromyography (EMG) audio amplifier. The two-channel device was built from analog integrated circuit components (op-amps, instrumentation amps, and audio amps), included band-pass filters, and could output audio through a standard 1/8" audio jack. Visit the link for images and schematics of the device as well as detailed instructions for building your own. After I published my project to the Instructables website the HackADay blog [featured](https://hackaday.com/2017/06/24/listen-to-your-body) my work and Tweeted a link out to their 100K+ followers!
 
