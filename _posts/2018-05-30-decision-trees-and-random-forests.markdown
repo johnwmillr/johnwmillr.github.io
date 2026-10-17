@@ -8,6 +8,7 @@ tag:
 category: blog
 author: john
 description: Theory behind decision trees and random forests
+mathjax: true
 ---
 
 I recently finished a masters in electrical and computer engineering at the University of Iowa. For my masters thesis I trained random forest classifiers to distinguish between two types of optic disc swelling, [papilledema](https://en.wikipedia.org/wiki/Papilledema) and nonarteritic anterior ischemic optic neuropathy ([NAION](http://eyewiki.aao.org/Non-Arteritic_Anterior_Ischemic_Optic_Neuropathy_(NAION))), using shape information extracted from optical coherence tomography ([OCT](https://en.wikipedia.org/wiki/Optical_coherence_tomography)) images of the retina.
