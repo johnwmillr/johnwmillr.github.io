@@ -57,7 +57,7 @@ I also found it funny that as *love* gets mentioned less frequently, it's becomi
 
 ## Country music is getting more repetitive
 
-After reading Kaylin Walker's excellent post "[50 Years of Pop Music](http://kaylinwalker.com/50-years-of-pop-music/)", I decided to look at how vocabulary sizes have changed over time. Similar to what Kaylin found when looking at Bilboard hits from the last 50 years, it appears that, while the correlation is weak, the average total word count for country songs has increased with time. The average unique word count has also increased with time but only slightly.
+After reading Kaylin Walker's excellent post "[50 Years of Pop Music](https://www.kaylinpavlik.com/50-years-of-pop-music/)", I decided to look at how vocabulary sizes have changed over time. Similar to what Kaylin found when looking at Bilboard hits from the last 50 years, it appears that, while the correlation is weak, the average total word count for country songs has increased with time. The average unique word count has also increased with time but only slightly.
 
 [![vocabulary_size]({{site.url}}/assets/images/TimePlot_words_per_song.png){: .center-image }]({{site.url}}/assets/images/TimePlot_words_per_song.png)
 

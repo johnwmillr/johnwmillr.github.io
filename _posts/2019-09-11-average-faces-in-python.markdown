@@ -26,7 +26,7 @@ On Mac, use [`homebrew`](https://brew.sh) to install OpenCV.
 brew install opencv
 ```
 
-Installing OpenCV with `brew` did work for me, but it also broke my previous Python installation and all my virtual environments. So uhh, good luck with that. I don't have experience installing OpenCV on Windows, but you can try this [tutorial](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_setup/py_setup_in_windows/py_setup_in_windows.html).
+Installing OpenCV with `brew` did work for me, but it also broke my previous Python installation and all my virtual environments. So uhh, good luck with that. I don't have experience installing OpenCV on Windows, but you can try this [tutorial](https://docs.opencv.org/4.x/d5/de5/tutorial_py_setup_in_windows.html).
 
 ## 2. Clone the project repository
 After installing OpenCV, we can clone the project repository from GitHub:

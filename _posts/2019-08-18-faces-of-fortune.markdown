@@ -29,7 +29,7 @@ My source code for this project is available [on GitHub](https://github.com/john
 
 ## Downloading faces
 
-I began by scraping the names of the top 100 companies on the [Fortune 500 list](https://fortune.com/fortune500/list). I used Selenium (an automated browsing tool) to load with the Fortune website and scrape the company names. Selenium is better suited than [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) for handling pages that use JavaScript, a feature I knew would more robustly handle individual company websites.
+I began by scraping the names of the top 100 companies on the [Fortune 500 list](https://fortune.com/ranking/fortune500/). I used Selenium (an automated browsing tool) to load with the Fortune website and scrape the company names. Selenium is better suited than [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) for handling pages that use JavaScript, a feature I knew would more robustly handle individual company websites.
 
 After collecting the [top 100 companies](https://github.com/johnwmillr/FacesOfFortune/blob/master/data/Fortune100.csv), I automated a Google search for each company: "*company name* corporate leadership page." For each searched, I saved the URL for the first hit from the same domain as the company website.
 

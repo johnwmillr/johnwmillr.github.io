@@ -62,7 +62,7 @@ And now we have the data we need! Definitely take a look at Sportradar's API [do
 
 ---
 # Visualizations
-Below are some of the plots I've made using the World Cup data. For each of the [box-whisker plots](https://pandas.pydata.org/pandas-docs/version/0.22.0/generated/pandas.DataFrame.boxplot.html), the middle line indicates the median of the team's height distribution. The edges of the boxes extend to the first and third quartiles of the data. The whiskers extend to show the range of the data, excluding any extreme outliers. You can find the code I wrote to generate these plots on [GitHub](https://github.com/johnwmillr/WorldCup2018).
+Below are some of the plots I've made using the World Cup data. For each of the [box-whisker plots](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.boxplot.html), the middle line indicates the median of the team's height distribution. The edges of the boxes extend to the first and third quartiles of the data. The whiskers extend to show the range of the data, excluding any extreme outliers. You can find the code I wrote to generate these plots on [GitHub](https://github.com/johnwmillr/WorldCup2018).
 
 ### Distributions of player height sorted by country
 {% include figure_link.html url="/assets/images/nations_by_height.png" href="https://www.reddit.com/r/dataisbeautiful/comments/8s7cso/distributions_of_height_for_each_team_in_the_2018/" caption="Box-whisker plots of player height for each team in the 2018 FIFA World Cup. Box colors correspond to the base color of the team's home jersey." width="100%" %}
