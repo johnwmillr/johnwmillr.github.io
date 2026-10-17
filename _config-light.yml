@@ -1,0 +1,3 @@
+# For local testing of the light theme, run:
+# bundle exec jekyll serve --config _config.yml,_config-dev.yml,_config-light.yml
+dark-theme: false
