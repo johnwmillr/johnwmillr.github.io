@@ -17,7 +17,7 @@ description: "Faces of Fortune: The look of leadership at top US companies"
 
 You've probably seen average faces before—they're not too [uncommon](https://www.google.com/search?safe=active&q=average+face&tbm=isch&source=univ&sa=X&ved=2ahUKEwii_L76goHkAhUqwFQKHX83As4QsAR6BAgFEAE&biw=1440&bih=766). The concept is simple: take a collection of pictures of faces and blend them together to create a single "average face" that is representative of the whole group. The actual blending process involves some complicated math, but it essentially boils down to aligning the faces to make sure the nose, eyes, mouth, etc. all line up.
 
-I'd been playing with average faces for the last few weeks with—initially—only [amusing results](https://twitter.com/johnwmillr/status/1155707694063337472?s=20). After updating code from a slightly outdated (but extremely useful) [tutorial](https://www.learnopencv.com/average-face-opencv-c-python-tutorial/) and wrapping it into my own [Python package](https://github.com/johnwmillr/Facer), I was eager to find an application worth writing about.
+I'd been playing with average faces for the last few weeks with—initially—only amusing results. After updating code from a slightly outdated (but extremely useful) [tutorial](https://www.learnopencv.com/average-face-opencv-c-python-tutorial/) and wrapping it into my own [Python package](https://github.com/johnwmillr/Facer), I was eager to find an application worth writing about.
 
 {% include figure_link.html url="/assets/images/FaceAverages/Faces_RapRockCountry.png" href="https://www.reddit.com/r/dataisbeautiful/comments/crxrud/the_average_faces_of_rap_rock_and_country/" caption="Averages faces of female and male rap, rock, and country artists." width="80%" %}
 
