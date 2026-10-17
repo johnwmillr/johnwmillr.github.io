@@ -5,11 +5,14 @@ Based on [Kopplin's](https://github.com/sergiokopplin) excellent [Indigo theme](
 ## Local development
 
 ```sh
-# Light theme
+# Follows your OS appearance setting (dark-theme: auto)
 bundle exec jekyll serve --config _config.yml,_config-dev.yml
 
-# Dark theme
+# Force the light or dark theme
+bundle exec jekyll serve --config _config.yml,_config-dev.yml,_config-light.yml
 bundle exec jekyll serve --config _config.yml,_config-dev.yml,_config-dark.yml
 ```
 
-Set `dark-theme: true` in `_config.yml` to publish the dark theme.
+In auto mode, you can also flip themes without changing your OS setting via
+Chrome DevTools > Rendering > "Emulate CSS media feature prefers-color-scheme".
+The `dark-theme` setting in `_config.yml` accepts `auto`, `true`, or `false`.

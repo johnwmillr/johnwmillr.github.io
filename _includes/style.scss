@@ -1,9 +1,9 @@
 
 @import "base/variables";
-{% if site.dark-theme %}@import "base/variables-dark";{% endif %}
+{% if include.dark == true %}@import "base/variables-dark";{% endif %}
 @import "base/normalize";
 @import "base/syntax";
-{% if site.dark-theme %}@import "base/syntax-dark";{% endif %}
+{% if include.dark == true %}@import "base/syntax-dark";{% endif %}
 @import "base/general";
 @import "base/helpers";
 
