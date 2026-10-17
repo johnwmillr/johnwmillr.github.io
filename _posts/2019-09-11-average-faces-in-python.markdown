@@ -10,7 +10,7 @@ tag:
 category: blog
 author: john
 name: john
-image: assets/images/FaceAverages/Walmart-1.jpg
+image: assets/posts/faces-of-fortune/Walmart-1.jpg
 description: "Simple tutorial for creating face averages in Python"
 ---
 
@@ -95,6 +95,6 @@ images = facer.load_images(path_to_images)
 gif, average_face = facer.create_animated_gif(images)
 ```
 
-{% include figure_link.html url="/assets/images/FaceAverages/AverageFace_Apple.gif" href="/assets/images/FaceAverages/AverageFace_Apple.gif" caption="Combining faces of Apple's executive leadership." width="90%" %}
+{% include figure_link.html url="/assets/posts/faces-of-fortune/AverageFace_Apple.gif" href="/assets/posts/faces-of-fortune/AverageFace_Apple.gif" caption="Combining faces of Apple's executive leadership." width="90%" %}
 
 Let me know if you have any questions! I'll be most responsive to new issues or pull requests on the [GitHub repository](https://github.com/johnwmillr/Facer).

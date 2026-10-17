@@ -7,7 +7,7 @@ tag:
 - data science
 category: blog
 author: john
-image: assets/images/sharktank_main_graph.png
+image: assets/posts/shark-tank-analysis/sharktank_main_graph.png
 description: There are gender imbalances in the deals made on Shark Tank, but that doesn’t mean the Sharks are sexist.
 ---
 
@@ -30,15 +30,15 @@ Halle made the data she collected available [online](https://docs.google.com/spr
 ## Posing the question
 It’s worth noting that the number of men and women appearing on the show is not equal: the ratio of all-male teams to all-female teams is roughly 70/30.
 
-![Gender representation on *SharkTank*](/assets/images/sharktank_gender_ratios.png){: .center-image }
+![Gender representation on *SharkTank*](/assets/posts/shark-tank-analysis/sharktank_gender_ratios.png){: .center-image }
 
 I was curious to see how each Shark’s funding probabilities might look after accounting for this skewed ratio. As I thought through different ways to measure this effect, I kept asking myself the same question — *what percentage of pitches from either gender did each Shark make a deal with?*
 
-![Funding probability metric](/assets/images/sharktank_metric.png){: .center-image }
+![Funding probability metric](/assets/posts/shark-tank-analysis/sharktank_metric.png){: .center-image }
 
 I needed a bit more data to be able to answer my question. Luckily, there is a [Wikipedia page](https://en.wikipedia.org/wiki/List_of_Shark_Tank_episodes) that provides short descriptions of each Shark Tank episode. I used [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/) to [scrape](https://github.com/johnwmillr/SharkTank/blob/master/scrapeSharkTankData.ipynb) the attendance records for each of the main Sharks on the show. By combining Halle’s deal data with the attendance records I collected, I was able to determine how often each Shark made deals with the male and female entrepreneurs they heard pitches from.
 
-[![Funding on *SharkTank* by gender](/assets/images/sharktank_main_graph.png){: .center-image }](https://www.reddit.com/r/dataisbeautiful/comments/8wr8ko/funding_probabilities_on_shark_tank_grouped_by/)
+[![Funding on *SharkTank* by gender](/assets/posts/shark-tank-analysis/sharktank_main_graph.png){: .center-image }](https://www.reddit.com/r/dataisbeautiful/comments/8wr8ko/funding_probabilities_on_shark_tank_grouped_by/)
 
 Each bar represents the percent of entrepreneurs of a given gender that the Shark made deals with. For example, Mark Cuban made deals with 20.2% of the women and 17.1% of the men he heard pitches from.
 
