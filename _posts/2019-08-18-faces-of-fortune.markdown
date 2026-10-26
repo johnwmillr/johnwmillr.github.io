@@ -9,7 +9,7 @@ tag:
 category: blog
 author: john
 name: john
-image: assets/images/FaceAverages/Walmart-1.jpg
+image: assets/posts/faces-of-fortune/Walmart-1.jpg
 description: "Faces of Fortune: The look of leadership at top US companies"
 ---
 
@@ -19,7 +19,7 @@ You've probably seen average faces before—they're not too [uncommon](https://w
 
 I'd been playing with average faces for the last few weeks with—initially—only amusing results. After updating code from a slightly outdated (but extremely useful) [tutorial](https://www.learnopencv.com/average-face-opencv-c-python-tutorial/) and wrapping it into my own [Python package](https://github.com/johnwmillr/Facer), I was eager to find an application worth writing about.
 
-{% include figure_link.html url="/assets/images/FaceAverages/Faces_RapRockCountry.png" href="https://www.reddit.com/r/dataisbeautiful/comments/crxrud/the_average_faces_of_rap_rock_and_country/" caption="Averages faces of female and male rap, rock, and country artists." width="80%" %}
+{% include figure_link.html url="/assets/posts/faces-of-fortune/Faces_RapRockCountry.png" href="https://www.reddit.com/r/dataisbeautiful/comments/crxrud/the_average_faces_of_rap_rock_and_country/" caption="Averages faces of female and male rap, rock, and country artists." width="80%" %}
 
 After having [moderate success](https://www.reddit.com/r/dataisbeautiful/comments/crxrud/the_average_faces_of_rap_rock_and_country/) with averages of musicians' faces from different genres, my brother suggested I target a source where I could count on the composition of the photos being mostly consistent: Fortune 500 company executive leadership pages. So, the immediate goal of this post is simple: for each of the top 50 Fortune 500 companies, determine the average face of the company's executive leadership.
 
@@ -48,19 +48,19 @@ Point Facer at a directory of images and it:
   3. Warps each face's landmarks to a standard central location (i.e. make sure each face is facing forward, toward the camera)
   4. Averages the overlapping faces together into a single image
 
-{% include figure_link.html url="/assets/images/FaceAverages/AverageFace_Apple.gif" href="/assets/images/FaceAverages/AverageFace_Apple.gif" caption="Combining faces of Apple's executive leadership." width="90%" %}
+{% include figure_link.html url="/assets/posts/faces-of-fortune/AverageFace_Apple.gif" href="/assets/posts/faces-of-fortune/AverageFace_Apple.gif" caption="Combining faces of Apple's executive leadership." width="90%" %}
 
 # Fortune 500 (Top 50)
 Well—as we might have guessed—the results are as unsurprising as they are uninspiring. I was expecting fifty images of mostly white men, but I didn't expect *just how similar* each of those images was going to appear. Apart from a handful of standouts (e.g. Target, Bank of America, Alphabet), I honestly thought I had made a mistake with my averaging code; how could I end up with so many *nearly identical* faces? Alas, the code's not the issue. Even when looking through company pages such as [General Motors](https://www.gm.com/our-company/leadership.html) where there are a few noticeable women or people of color, their appearance is quickly blended out by the overwhelmingly white male majority.
 
 Take some time and look through the average faces for the top 50 companies. My favorite might be #25, Bank of America, a dead ringer for Mrs. Doubtfire.
 
-[![Top 50 Companies]({{site.url}}/assets/images/FaceAverages/Top50.jpg){: .center-image }]({{site.url}}/assets/images/FaceAverages/Top50.jpg)
+[![Top 50 Companies]({{site.url}}/assets/posts/faces-of-fortune/Top50.jpg){: .center-image }]({{site.url}}/assets/posts/faces-of-fortune/Top50.jpg)
 
 # Grouping by industry
 The Fortune 500 list categorizes each company into an industry. After being a bit underwhelmed at the lack of *any* diversity when comparing each face in the top 50, I was curious whether we might see any trends when grouping the faces by industry. Would the average face of Finance appear older than the average face of Tech?
 
-[![Industry faces]({{site.url}}/assets/images/FaceAverages/Industries.png){: .center-image }]({{site.url}}/assets/images/FaceAverages/Industries.png)
+[![Industry faces]({{site.url}}/assets/posts/faces-of-fortune/Industries.png){: .center-image }]({{site.url}}/assets/posts/faces-of-fortune/Industries.png)
 
 # Discussion
 I hope this project inspires conversation. What questions does it bring to mind for you? Are these results interesting? Surprising? Useful? Important? What other areas could we apply this sort of work to?

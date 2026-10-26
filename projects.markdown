@@ -28,7 +28,7 @@ I am a regular contributor to [/r/DataIsBeautiful](https://www.reddit.com/r/data
 
 ## Facer -- ***Summer 2019***
 
-[![Facer GIF](/assets/images/FaceAverages/AverageFace_Apple.gif){:class="img-responsive" height="30%" width="30%"}](https://github.com/johnwmillr/Facer)
+[![Facer GIF](/assets/posts/faces-of-fortune/AverageFace_Apple.gif){:class="img-responsive" height="30%" width="30%"}](https://github.com/johnwmillr/Facer)
 
 [Facer](https://github.com/johnwmillr/Facer) is a Python package I wrote that simplifies the process of creating [average face images](https://www.google.com/search?safe=active&q=average+face&tbm=isch&source=univ&sa=X&ved=2ahUKEwii_L76goHkAhUqwFQKHX83As4QsAR6BAgFEAE&biw=1440&bih=7). The package draws heavily from a preexisting tutorial written by [Satya Mallick](https://twitter.com/learnopencv). The majority of my work consisted of updating the tutorial's code to work with Python 3 and the latest version of OpenCV. I also added streamlined functions to go straight from a directory of images to an averaged face or animated GIF. I used Facer in a popular [Reddit post](https://www.reddit.com/r/dataisbeautiful/comments/crxrud/the_average_faces_of_rap_rock_and_country/), which in turn inspired other users' [posts](https://www.reddit.com/r/dataisbeautiful/comments/cx3pp6/oc_averaged_faces_of_members_of_the_116th_united/) on [Reddit](https://www.reddit.com/r/dataisbeautiful/comments/cxff61/oc_average_face_of_miss_daegu_2013_beauty_pageant/).
 
@@ -50,7 +50,7 @@ I am a regular contributor to [/r/DataIsBeautiful](https://www.reddit.com/r/data
 [![PyPI version](https://badge.fury.io/py/sportradar.svg)](https://pypi.org/project/sportradar/)
 [![Python version](https://img.shields.io/badge/python-3.x-brightgreen.svg)](https://pypi.org/project/sportradar/)
 
-[![World Cup player heights and weights](/assets/images/height_vs_weight_by_position.png){:class="img-responsive" height="45%" width="45%"}](https://github.com/johnwmillr/SportradarAPIs)
+[![World Cup player heights and weights](/assets/posts/fifa-world-cup-data/height_vs_weight_by_position.png){:class="img-responsive" height="45%" width="45%"}](https://github.com/johnwmillr/SportradarAPIs)
 
 [Sportradar](http://sportradar.com/) is a company that provides extensive APIs for a number of professional sports including soccer, basketball, and multiple eSports leagues. I wrote a [`sportradar`](https://github.com/johnwmillr/SportradarAPIs), a Python package that simplifies the process of downloading data from Sportradar's APIs. A fun part of the project was writing a [script](https://github.com/johnwmillr/DocScraper/blob/master/sportradar/scrapeSportradarEndpoints.ipynb) to scrape the Sportradar documentation and automatically generate functional Python code and unit tests for each API endpoint. My [analysis](/fifa-world-cup-data/) of data from the 2018 FIFA World Cup made use of `sportradar` and provides a few example use cases. The project is available via [`pip`](https://pypi.org/project/sportradar/).
 
@@ -89,7 +89,7 @@ For the final project in my Advanced Digital Image Processing course, I chose to
 ---
 
 ## EMG audio amplifier -- ***Spring 2017***
-[![EMGaudio](/assets/images/EMG_Cover-01.png){:class="img-responsive" height="30%" width="30%"}](http://www.instructables.com/id/Build-a-Muscle-Audio-Amplifier-Electromyography)
+[![EMGaudio](/assets/posts/emg-audio-amplifier/EMG_Cover-01.png){:class="img-responsive" height="30%" width="30%"}](http://www.instructables.com/id/Build-a-Muscle-Audio-Amplifier-Electromyography)
 
 During the spring of 2017 I built an electromyography (EMG) audio amplifier. The two-channel device was built from analog integrated circuit components (op-amps, instrumentation amps, and audio amps), included band-pass filters, and could output audio through a standard 1/8" audio jack. Visit the link for images and schematics of the device as well as detailed instructions for building your own. After I published my project to the Instructables website the HackADay blog [featured](https://hackaday.com/2017/06/24/listen-to-your-body) my work and Tweeted a link out to their 100K+ followers!
 

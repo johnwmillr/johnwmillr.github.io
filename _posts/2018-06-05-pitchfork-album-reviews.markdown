@@ -9,7 +9,7 @@ tag:
 category: blog
 author: john
 name: john
-image: assets/images/lexdiv_album_reviews.png
+image: assets/posts/pitchfork-album-reviews/lexdiv_album_reviews.png
 description: Comparing Pitchfork album reviews and song lyrics
 ---
 
@@ -25,4 +25,4 @@ I was surprised to find a small negative correlation between the album review sc
 
 Here's a prettier, static version of the same plot:
 
-[![Album review lexical diversities](/assets/images/lexdiv_album_reviews.png){: .center-image }](https://www.reddit.com/r/dataisbeautiful/comments/9hmtcm/lexical_diversity_of_pitchfork_album_reviews/)
+[![Album review lexical diversities](/assets/posts/pitchfork-album-reviews/lexdiv_album_reviews.png){: .center-image }](https://www.reddit.com/r/dataisbeautiful/comments/9hmtcm/lexical_diversity_of_pitchfork_album_reviews/)

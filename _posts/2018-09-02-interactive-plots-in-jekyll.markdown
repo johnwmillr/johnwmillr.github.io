@@ -10,7 +10,7 @@ tag:
 category: blog
 author: john
 name: john
-image: assets/images/Plot_like_love.png
+image: assets/posts/interactive-plots-in-jekyll/Plot_like_love.png
 description: Interactive plots from Python in a Jekyll blog
 ---
 I've been trying for awhile to get interactive plots going on my Jekyll blog. It turns out you can export plots from `matplotlib` in Python to HTML using a handy library called [`mpld3`](https://mpld3.github.io/).

@@ -8,7 +8,7 @@ tag:
 - API
 category: blog
 author: john
-image: assets/images/height_by_position.png
+image: assets/posts/fifa-world-cup-data/height_by_position.png
 description: Visualizations of player data from the 2018 FIFA World Cup
 ---
 
@@ -65,7 +65,7 @@ And now we have the data we need! Definitely take a look at Sportradar's API [do
 Below are some of the plots I've made using the World Cup data. For each of the [box-whisker plots](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.boxplot.html), the middle line indicates the median of the team's height distribution. The edges of the boxes extend to the first and third quartiles of the data. The whiskers extend to show the range of the data, excluding any extreme outliers. You can find the code I wrote to generate these plots on [GitHub](https://github.com/johnwmillr/WorldCup2018).
 
 ### Distributions of player height sorted by country
-{% include figure_link.html url="/assets/images/nations_by_height.png" href="https://www.reddit.com/r/dataisbeautiful/comments/8s7cso/distributions_of_height_for_each_team_in_the_2018/" caption="Box-whisker plots of player height for each team in the 2018 FIFA World Cup. Box colors correspond to the base color of the team's home jersey." width="100%" %}
+{% include figure_link.html url="/assets/posts/fifa-world-cup-data/nations_by_height.png" href="https://www.reddit.com/r/dataisbeautiful/comments/8s7cso/distributions_of_height_for_each_team_in_the_2018/" caption="Box-whisker plots of player height for each team in the 2018 FIFA World Cup. Box colors correspond to the base color of the team's home jersey." width="100%" %}
 
 ### Distributions of player height sorted by position
 This is an interactive plot. Move your mouse over the scatter plot points to see details on each player.
@@ -75,7 +75,7 @@ This is an interactive plot. Move your mouse over the scatter plot points to see
 This plot did [quite well](https://www.reddit.com/r/dataisbeautiful/comments/8sg3ok/distributions_of_height_for_the_different/) on /r/dataisbeautiful, although people were pretty [upset](https://www.reddit.com/r/dataisbeautiful/comments/8sg3ok/distributions_of_height_for_the_different/e0zlvx7/) I didn't use metric units.
 
 ### Player heights and goals scored
-{% include figure_link.html url="/assets/images/height_by_position_goals_no_title.png" href="https://www.reddit.com/r/dataisbeautiful/comments/8z7gzy/player_heights_and_number_of_goals_scored_in_the/" caption="Player heights and number of goals scored in the 2018 FIFA World Cup" width="100%" %}
+{% include figure_link.html url="/assets/posts/fifa-world-cup-data/height_by_position_goals_no_title.png" href="https://www.reddit.com/r/dataisbeautiful/comments/8z7gzy/player_heights_and_number_of_goals_scored_in_the/" caption="Player heights and number of goals scored in the 2018 FIFA World Cup" width="100%" %}
 
 ### Height vs. weight by player position
-{% include figure_link.html url="/assets/images/height_vs_weight_by_position.png" href="/assets/images/height_vs_weight_by_position.png" caption="Height and weight values for each player in the 2018 FIFA World Cup (n=735)." width="100%" %}
+{% include figure_link.html url="/assets/posts/fifa-world-cup-data/height_vs_weight_by_position.png" href="/assets/posts/fifa-world-cup-data/height_vs_weight_by_position.png" caption="Height and weight values for each player in the 2018 FIFA World Cup (n=735)." width="100%" %}

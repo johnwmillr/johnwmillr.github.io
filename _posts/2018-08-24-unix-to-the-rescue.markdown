@@ -22,7 +22,7 @@ Why there are so many copies of this recipe -- or, for that matter, why the dish
 ## The task at hand
 As part of my food recipes project, I'm interested in finding different versions of recipes for the same type of food (e.g. chocolate chip cookies) and comparing how the combinations of ingredients vary between recipes. To properly compare different recipes I need to know how many servings each is supposed to make. For example, two different cookie recipes may both require a cup of sugar, but you'll end up with completely different cookies if the first recipe is for a batch of ten while the second makes three dozen.
 
-{% include figure.html url="/assets/images/lotsOfFiles.gif" caption="Files for days!" width="100%" %}
+{% include figure.html url="/assets/posts/unix-to-the-rescue/lotsOfFiles.gif" caption="Files for days!" width="100%" %}
 
 Unfortunately, the recipes in the pre-cleaned JSON dataset did not contain serving size information. The raw HTML files did contain serving sizes, but I would have to iterate through each of the 200k+ files to extract the information. I knew my work would be considerably faster if I could throw out the duplicate *Johnsonville* recipes and reduce the size of my dataset by 60%.
 
