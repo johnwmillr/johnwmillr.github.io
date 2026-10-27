@@ -1,7 +1,7 @@
 ---
 title: About
 layout: page
-image: {{ site.picture }}
+image: assets/images/john02.png
 ---
 
 <h1 class="title">{{ page.title }}</h1>
